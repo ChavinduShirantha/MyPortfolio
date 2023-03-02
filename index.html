@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio | Chavindu</title>
-    <base href="http://chavindu.infinityfreeapp.com/">
+    <base href="localhost">
     <meta name="keywords" content="Chavindu,Shirantha,Chavindu Shirantha">
     <meta name="description"
           content="Chavindu Shirantha.I am a Software Engineering Student at IJSE.I am a web developer.">
@@ -20,11 +20,11 @@
     <h1>My Portfolio</h1>
     <nav>
         <menu>
-            <li>Home</li>
-            <li>About</li>
-            <li>Certificates</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Certificates</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Contact</a></li>
         </menu>
     </nav>
 </header>
@@ -33,7 +33,7 @@
     <section>
         <article>
             <h4>Hello I'm</h4>
-            <h3>Chavindu Shirantha</h3>
+            <h2>Chavindu Shirantha</h2>
             <h4>I'm a Software Engineering Student</h4>
         </article>
         <aside></aside>
@@ -49,14 +49,16 @@
         <h3>About Me</h3>
         <article></article>
         <aside>
-            <p>My name is Chavindu Shirantha. I’m 21
-                years old. I live in Ambalangoda and I am
-                currently studying for my Software
-                Engineering Diploma at IJSE,
-                Galle. I'm passionate about learning and
-                consistantly advancing my knowladge and
-                skills. I'm a disciplined,diligent,and
+            <p>My name is Chavindu Shirantha. I’m 21<br>
+                years old. I live in Ambalangoda and I am<br>
+                currently studying for my Software<br>
+                Engineering Diploma at <abbr title="Institute of Software Engineering">IJSE</abbr> ,<br>
+                Galle. I'm passionate about learning and<br>
+                consistantly advancing my knowladge and<br>
+                skills. I'm a disciplined,diligent,and<br>
                 responsible person.</p>
+            <button>Get My Resume</button>
+            <p><a href="Layerd.pdf" download="cv.pdf">Get My Resume</a></p>
         </aside>
     </section>
 
@@ -71,7 +73,22 @@
 
     <section>
         <h3>Education</h3>
-        <aside></aside>
+        <aside>
+            <ul>
+                <li>Jan 2022 - Present<br>
+                    Graduate Diploma in Software Engineering<br>
+                    IJSE Institute - Galle,Sri Lanka
+                </li>
+                <li>Oct 2020<br>
+                    G.C.E. Advance Level<br>
+                    G/P.De.S.Kularathne M.V. - Ambalngoda,Sri Lanka
+                </li>
+                <li>Dec 2017<br>
+                    G.C.E. Ordinary Level<br>
+                    G/P.De.S.Kularathne M.V. - Ambalngoda,Sri Lanka
+                </li>
+            </ul>
+        </aside>
         <article></article>
     </section>
 
@@ -91,34 +108,42 @@
         <aside>
             <h4>Institute Management System</h4>
             <article>
-                <p>Build a standalone application for an
-                    institute to manage students and
-                    teachers details.This system help to
-                    coordinate scheduling and
-                    communications between exams and
+                <p>Build a standalone application for an<br>
+                    institute to manage students and<br>
+                    teachers details.This system help to<br>
+                    coordinate scheduling and<br>
+                    communications between exams and<br>
                     lectures to students</p>
             </article>
         </aside>
     </section>
 
-    <footer>
-        <h4>Contact Me</h4>
-        <h3>👋 Let's Chat</h3>
-        <h5>Address:</h5>
-        <address>274/1,Madampagama,
-                Usmudulawa,
-                Kuleegoda,
-                Sri Lanka,
-                80328.</address>
-        <h5>📞Phone Number:</h5>
-        <address>0704230389</address>
-        <h5>📧Email:</h5>
-        <address>chavindushirantha@gmail.com</address>
-        <aside>
-            <h3>Name</h3>
-            <h3>Email</h3>
-            <h3>Message</h3>
-        </aside>
+    <footer id="contact">
+        <section>
+            <h4>Contact Me</h4>
+            <p>How can I help you? I'll be glad to answer your questions</p>
+            <h3>👋 Let's Chat</h3>
+            <h5>Address:</h5>
+            <address>274/1,Madampagama,<br>
+                Usmudulawa,<br>
+                Kuleegoda,<br>
+                Sri Lanka,<br>
+                80328.
+            </address>
+            <h5>Phone Number:</h5>
+            <address><a href="tel:+94704230389">0704230389</a></address>
+            <h5>Email:</h5>
+            <address><a href="mailto:chavindushirantha@gmail.com">chavindushirantha@gmail.com</a></address>
+            <aside>
+                <button type="submit" class="form-submit">SUBMIT</button>
+            </aside>
+            <hr>
+        </section>
+        <section>
+            <h3>Chavindu Shirantha</h3>
+            <p>Thank You</p>
+            <p>Copyright © 2023 All Rights Reserved.</p>
+        </section>
     </footer>
 
 </main>
