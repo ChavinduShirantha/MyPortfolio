@@ -236,10 +236,21 @@
             <h5>Email:</h5>
             <address><a href="mailto:chavindushirantha@gmail.com">chavindushirantha@gmail.com</a></address>
             <aside>
-                <h5>Name:</h5>
-                <h5>Email:</h5>
-                <h5>Message:</h5>
-                <button>SUBMIT</button>
+                <form action="messages" method="post">
+                    <fieldset>
+                        <label for="txtName">Name :</label>
+                        <input name="Name" id="txtName" type="text" placeholder="Ex: Chavindu Shirantha"><br><br>
+
+                        <label for="txtEmail">Email :</label>
+                        <input name="email" id="txtEmail" type="email" placeholder="Ex: abc@gmail.com"><br><br>
+
+                        <label for="txtMessage">Message :</label>
+                        <textarea name="message" id="txtMessage" rows="5"></textarea><br>
+
+                        <button>SUBMIT</button>
+
+                    </fieldset>
+                </form>
             </aside>
             <img src="assests/img/designRight.png" alt="This is a design pattern" height="150" width="">
             <hr>
