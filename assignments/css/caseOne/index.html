@@ -4,43 +4,299 @@
     <meta charset="UTF-8">
     <title>CSS Assignment One</title>
     <link rel="stylesheet" href="assets/normalize.css">
-    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        section {
+            position: relative;
+            height: 100vh;
+            width: 98.93vw;
+        }
+
+        section > section:first-child {
+            height: 50%;
+            width: 50%;
+            position: relative;
+            background-color: red;
+        }
+
+        section > section:nth-child(2) {
+            height: 50%;
+            width: 50%;
+            position: relative;
+            background-color: orange;
+        }
+
+        section > section:nth-child(3) {
+            height: 50%;
+            width: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: green;
+        }
+
+        section > section:nth-child(4) {
+            height: 50%;
+            width: 50%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: deeppink;
+        }
+
+        section > section:nth-child(5) {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+        }
+
+        section > section:nth-child(5) > div {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+        }
+
+        section > section:nth-child(6) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: auto;
+            background-color: white;
+            width: 150px;
+            height: 150px;
+            border-bottom-right-radius: 100%;
+        }
+
+        section > section:nth-child(7) {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: auto;
+            background-color: white;
+            width: 150px;
+            height: 150px;
+            border-bottom-left-radius: 100%;
+        }
+
+        section > section:nth-child(8) {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+            width: 150px;
+            height: 150px;
+            border-top-right-radius: 100%;
+        }
+
+        section > section:nth-child(9) {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+            width: 150px;
+            height: 150px;
+            border-top-left-radius: 100%;
+        }
+
+        section > section:nth-child(10) {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            background-color: white;
+            width: 300px;
+            height: 150px;
+            border-top-left-radius: 150px;
+            border-top-right-radius: 150px;
+        }
+
+        section > section:nth-child(11) {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            margin: auto;
+            background-color: white;
+            width: 300px;
+            height: 150px;
+            border-bottom-left-radius: 150px;
+            border-bottom-right-radius: 150px;
+        }
+
+        section > section:nth-child(1) > div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+        }
+
+        section > section:nth-child(2) > div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+        }
+
+        section > section:nth-child(3) > div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+        }
+
+        section > section:nth-child(4) > div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+        }
+        section > section:nth-child(1) > div>div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        section > section:nth-child(2) > div>div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        section > section:nth-child(3) > div>div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        section > section:nth-child(4) > div>div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
 </head>
 <body>
-<main>
+<section>
     <section>
-        <section>
-            <div>
-                <div></div>
-            </div>
+        <div>
             <div></div>
-            <div></div>
-        </section>
-        <section>
-            <div>
-                <div></div>
-            </div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <div>
-                <div></div>
-            </div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <div>
-                <div></div>
-            </div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <div></div>
-        </section>
+        </div>
     </section>
-</main>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div></div>
+    </section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+</section>
+<section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div></div>
+    </section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+</section>
 </body>
 </html>
