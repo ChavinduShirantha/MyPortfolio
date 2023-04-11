@@ -1,15 +1,16 @@
 
-main{
+main {
     position: relative;
 }
 
-main>section:nth-child(1){
+main > section:nth-child(1) {
     position: relative;
-    background: url("/assets/img/background.png") ;
+    background: url("/assets/img/background.png");
     width: 98.93vw;
     height: 100vh;
 }
-main>section:nth-child(1)>aside>img:nth-child(1){
+
+main > section:nth-child(1) > aside > img:nth-child(1) {
     position: absolute;
     height: 450px;
     border-radius: 44%;
@@ -20,7 +21,7 @@ main>section:nth-child(1)>aside>img:nth-child(1){
     z-index: 1;
 }
 
-main>section:nth-child(1)>aside>img:nth-child(2){
+main > section:nth-child(1) > aside > img:nth-child(2) {
     position: absolute;
     height: 600px;
     right: 25px;
@@ -29,9 +30,66 @@ main>section:nth-child(1)>aside>img:nth-child(2){
     margin: auto;
 }
 
-main>section:nth-child(2){
+main > section:nth-child(2) {
     position: relative;
-    background: #F9F9F9 ;
+    background: rgba(249, 249, 249, 0.8);
     width: 98.93vw;
     height: 100vh;
 }
+
+main > section:nth-child(2) > h3 {
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+main > section:nth-child(2) > article > img {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 50px;
+    margin: auto;
+    width: 600px;
+}
+
+main > section:nth-child(2) > aside > p {
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    text-align: center;
+    margin: auto;
+    font-family: Cambria;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+main > section:nth-child(2) > aside > ul {
+    list-style-type: none;
+    position: absolute;
+    top: 350px;
+    right: 250px;
+    text-align: left;
+    margin: auto;
+    font-size: 24px;
+}
+
+main > section:nth-child(2) > aside > ul > li:before {
+    content: ">";
+    color: #00B2FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main > section:nth-child(2) > aside >a>button {
+    position: absolute;
+    bottom: 120px;
+    right: 350px;
+    background: #458FFF;
+    border: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+
