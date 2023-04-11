@@ -81,7 +81,7 @@ main > section:nth-child(2) > aside > ul > li:before {
     font-weight: bold;
 }
 
-main > section:nth-child(2) > aside >a>button {
+main > section:nth-child(2) > aside >a>button{
     position: absolute;
     bottom: 120px;
     right: 350px;
@@ -90,6 +90,7 @@ main > section:nth-child(2) > aside >a>button {
     color: white;
     font-size: 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
