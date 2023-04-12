@@ -1,22 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap');
+
+header{
+    position: relative;
+}
+header>h1{
+    position: absolute;
+    z-index: 1;
+    font-family: 'Inika', serif;
+    left: 20px;
+    color: white;
+}
+header>nav{
+    position: absolute;
+    z-index: 1;
+}
+header>nav>menu{
+    position: relative;
+    left: 800px;
+}
+header>nav>menu>li{
+    display: inline-block;
+}
 
 main {
     position: relative;
+    height: 100vh;
+    width: 98.93vw;
 }
 
 main > section:nth-child(1) {
     position: relative;
-    background: url("/assets/img/background.png");
+    background: linear-gradient(to right, #0094FF, white);
     width: 98.93vw;
     height: 100vh;
+    margin-bottom: -42px;
+}
+
+main > section:nth-child(1) > div {
+    position: absolute;
+    width: 195px;
+    height: 1215px;
+    top: 0px;
+    left: 166px;
+    bottom: 40px;
+    background: rgba(78, 167, 249, 0.56);
+    margin: auto;
+    transform: rotate(45deg);
 }
 
 main > section:nth-child(1) > aside > img:nth-child(1) {
     position: absolute;
     height: 450px;
-    border-radius: 44%;
-    right: 140px;
     top: 0px;
     bottom: 0px;
+    right: 140px;
+    border-radius: 150px;
     margin: auto;
     z-index: 1;
 }
@@ -24,11 +65,76 @@ main > section:nth-child(1) > aside > img:nth-child(1) {
 main > section:nth-child(1) > aside > img:nth-child(2) {
     position: absolute;
     height: 600px;
-    right: 25px;
-    top: 0px;
+    top: 20px;
     bottom: 0px;
+    right: 25px;
     margin: auto;
 }
+
+main > section:nth-child(1) > article {
+    position: absolute;
+    left: 120px;
+    top: 220px;
+}
+
+main > section:nth-child(1) > article > h4:first-child {
+    position: relative;
+    font-family: "Nunito";
+    font-weight: bolder;
+    font-size: 42px;
+    left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main > section:nth-child(1) > article > h2 {
+    position: relative;
+    font-family: "Gowun Batang";
+    font-weight: bold;
+    font-size: 56px;
+    left: 0px;
+    top: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main > section:nth-child(1) > article > h4:last-child {
+    position: relative;
+    font-family: "Nanum Gothic";
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    left: 0px;
+    top: 24px;
+}
+
+
+main > section:nth-child(1) > nav {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    margin: auto;
+}
+main > section:nth-child(1) > nav > div:first-child {
+    display: inline;
+}
+
+main > section:nth-child(1) > nav > div:nth-child(2) {
+    display: inline;
+    margin-left: 30px;
+}
+
+main > section:nth-child(1) > nav > div:nth-child(3) {
+    display: inline;
+    margin-left: 30px;
+}
+
+main > section:nth-child(1) > nav > div:last-child {
+    display: inline;
+    margin-left: 30px;
+}
+
 
 main > section:nth-child(2) {
     position: relative;
@@ -38,19 +144,28 @@ main > section:nth-child(2) {
 }
 
 main > section:nth-child(2) > h3 {
-    font-family: Cambria;
-    font-weight: bold;
-    font-size: 36px;
     text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+main > section:nth-child(2) > article {
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+
 }
 
 main > section:nth-child(2) > article > img {
     position: absolute;
+    width: 500px;
+    margin: auto;
     top: 0px;
     bottom: 0px;
-    left: 50px;
-    margin: auto;
-    width: 600px;
+    left: 100px;
 }
 
 main > section:nth-child(2) > aside > p {
@@ -69,8 +184,8 @@ main > section:nth-child(2) > aside > ul {
     position: absolute;
     top: 350px;
     right: 250px;
+    border: none;
     text-align: left;
-    margin: auto;
     font-size: 24px;
 }
 
@@ -81,7 +196,8 @@ main > section:nth-child(2) > aside > ul > li:before {
     font-weight: bold;
 }
 
-main > section:nth-child(2) > aside >a>button{
+
+main > section:nth-child(2) > aside > a > button {
     position: absolute;
     bottom: 120px;
     right: 350px;
