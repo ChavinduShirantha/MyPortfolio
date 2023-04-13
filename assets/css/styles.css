@@ -10,7 +10,7 @@ header>h1{
     position: absolute;
     z-index: 1;
     font-family: 'Inika', serif;
-    left: 20px;
+    left: 80px;
     color: white;
 }
 header>nav{
@@ -35,10 +35,9 @@ main {
 
 main > section:nth-child(1) {
     position: relative;
-    background: linear-gradient(to right, #0094FF, white);
+    background: linear-gradient(to right, #0075FF, rgba(149, 198, 255, 0.23));
     width: 98.93vw;
     height: 100vh;
-    margin-bottom: -42px;
 }
 
 main > section:nth-child(1) > div {
@@ -152,9 +151,13 @@ main > section:nth-child(2) {
 }
 
 main > section:nth-child(2) > h3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
     text-align: center;
     font-family: 'Gowun Batang', serif;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 42px;
 }
 
@@ -207,7 +210,7 @@ main > section:nth-child(2) > aside > ul > li:before {
 
 main > section:nth-child(2) > aside > a > button {
     position: absolute;
-    bottom: 120px;
+    bottom: 100px;
     right: 350px;
     background: #458FFF;
     border: none;
@@ -215,6 +218,133 @@ main > section:nth-child(2) > aside > a > button {
     font-size: 30px;
     border-radius: 10px;
     cursor: pointer;
+    height: 60px;
+    width: 250px;
 }
 
+main > section:nth-child(3){
+    position: relative;
+    background: rgba(163, 200, 255, 0.8);
+    width: 98.93vw;
+    height: 100vh;
+}
 
+main > section:nth-child(3)>img:first-child{
+    position: relative;
+    height: 150px;
+}
+
+main > section:nth-child(3)>img:last-child{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 150px;
+}
+
+main > section:nth-child(3)>h3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+main > section:nth-child(3)>p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main > section:nth-child(4){
+    position: relative;
+    background: rgba(249, 249, 249, 0.8);
+    width: 98.93vw;
+    height: 100vh;
+}
+
+main > section:nth-child(4)>img:first-child{
+    position: relative;
+    height: 150px;
+}
+
+main > section:nth-child(4)>img:last-child{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 150px;
+}
+
+main > section:nth-child(4)>h3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+main > section:nth-child(4)>div>div:first-child{
+    position: absolute;
+    left: 190px;
+    top: 100px;
+    margin: auto;
+    border: #0038FD solid 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+main > section:nth-child(4)>div>div:nth-child(2){
+    position: absolute;
+    left: 212px;
+    top: 145px;
+    margin: auto;
+    background: #0038FD;
+    width: 5px;
+    height: 160px;
+}
+
+main > section:nth-child(4)>div>div:nth-child(3){
+    position: absolute;
+    left: 190px;
+    top: 300px;
+    margin: auto;
+    border: #0038FD solid 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+main > section:nth-child(4)>div>div:nth-child(4){
+    position: absolute;
+    left: 212px;
+    top: 345px;
+    margin: auto;
+    background: #0038FD;
+    width: 5px;
+    height: 160px;
+}
+
+main > section:nth-child(4)>div>div:last-child{
+    position: absolute;
+    left: 190px;
+    top: 500px;
+    margin: auto;
+    border: #0038FD solid 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
