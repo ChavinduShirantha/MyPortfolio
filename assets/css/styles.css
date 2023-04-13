@@ -22,7 +22,9 @@ header>nav>menu{
     left: 800px;
 }
 header>nav>menu>li{
-    display: inline-block;
+
+}
+header>nav>menu>li>a{
 }
 
 main {
@@ -108,7 +110,13 @@ main > section:nth-child(1) > article > h4:last-child {
     left: 0px;
     top: 24px;
 }
-
+main > section:nth-child(1) > article > h4:last-child>span {
+    position: relative;
+    font-family: "Nanum Gothic";
+    font-size: 42px;
+    font-weight: bold;
+    color: #3515B7;
+}
 
 main > section:nth-child(1) > nav {
     position: absolute;
