@@ -257,7 +257,7 @@ main > section:nth-child(3)>p{
     position: absolute;
     left: 0;
     right: 0;
-    top: 50px;
+    top: 60px;
     margin: auto;
     text-align: center;
     font-family: 'Gowun Batang', serif;
@@ -298,7 +298,7 @@ main > section:nth-child(4)>h3{
 
 main > section:nth-child(4)>div>div:first-child{
     position: absolute;
-    left: 190px;
+    left: 300px;
     top: 100px;
     margin: auto;
     border: #0038FD solid 5px;
@@ -309,7 +309,7 @@ main > section:nth-child(4)>div>div:first-child{
 
 main > section:nth-child(4)>div>div:nth-child(2){
     position: absolute;
-    left: 212px;
+    left: 322px;
     top: 145px;
     margin: auto;
     background: #0038FD;
@@ -319,7 +319,7 @@ main > section:nth-child(4)>div>div:nth-child(2){
 
 main > section:nth-child(4)>div>div:nth-child(3){
     position: absolute;
-    left: 190px;
+    left: 300px;
     top: 300px;
     margin: auto;
     border: #0038FD solid 5px;
@@ -330,7 +330,7 @@ main > section:nth-child(4)>div>div:nth-child(3){
 
 main > section:nth-child(4)>div>div:nth-child(4){
     position: absolute;
-    left: 212px;
+    left: 322px;
     top: 345px;
     margin: auto;
     background: #0038FD;
@@ -340,11 +340,83 @@ main > section:nth-child(4)>div>div:nth-child(4){
 
 main > section:nth-child(4)>div>div:last-child{
     position: absolute;
-    left: 190px;
+    left: 300px;
     top: 500px;
     margin: auto;
     border: #0038FD solid 5px;
     width: 40px;
     height: 40px;
     border-radius: 100%;
+}
+
+main > section:nth-child(4)>article>img:nth-child(1){
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    margin: auto;
+    width: 170px;
+}
+main > section:nth-child(4)>article>img:nth-child(2){
+    position: absolute;
+    left: 520px;
+    top: 290px;
+    margin: auto;
+    height: 70px;
+}
+
+main > section:nth-child(4)>article>img:nth-child(3){
+    position: absolute;
+    left: 520px;
+    top: 490px;
+    margin: auto;
+    height: 70px;
+}
+
+main > section:nth-child(4) > aside > ul {
+    list-style-type: none;
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    border: none;
+    text-align: left;
+    font-size: 24px;
+}
+
+main > section:nth-child(4) > aside > ul >li:first-child{
+    list-style-type: none;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    border: none;
+    text-align: left;
+    font-size: 24px;
+    width: 420px;
+    line-height: 36px;
+    color: #0038FF;
+}
+
+main > section:nth-child(4) > aside > ul >li:nth-child(2){
+    list-style-type: none;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    border: none;
+    text-align: left;
+    font-size: 24px;
+    width: 550px;
+    line-height: 36px;
+    color: #0038FF;
+}
+
+main > section:nth-child(4) > aside > ul >li:last-child{
+    list-style-type: none;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    border: none;
+    text-align: left;
+    font-size: 24px;
+    width: 550px;
+    line-height: 36px;
+    color: #0038FF;
 }
