@@ -420,3 +420,48 @@ main > section:nth-child(4) > aside > ul >li:last-child{
     line-height: 36px;
     color: #0038FF;
 }
+
+main > section:nth-child(5){
+    position: relative;
+    background: rgba(249, 249, 249, 0.8);
+    width: 98.93vw;
+    height: 100vh;
+}
+
+main > section:nth-child(5)>img:first-child{
+    position: relative;
+    height: 150px;
+}
+
+main > section:nth-child(5)>img:last-child{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 150px;
+}
+
+main > section:nth-child(5)>article>h3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+main > section:nth-child(5)>article>p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    color: #A45757;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
