@@ -3,28 +3,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap');
 
-header{
+header {
     position: relative;
 }
-header>h1{
+
+header > h1 {
     position: absolute;
     z-index: 1;
     font-family: 'Inika', serif;
     left: 80px;
     color: white;
 }
-header>nav{
+
+header > nav {
     position: absolute;
     z-index: 1;
 }
-header>nav>menu{
+
+header > nav > menu {
     position: relative;
     left: 800px;
 }
-header>nav>menu>li{
+
+header > nav > menu > li {
 
 }
-header>nav>menu>li>a{
+
+header > nav > menu > li > a {
 }
 
 main {
@@ -109,7 +114,8 @@ main > section:nth-child(1) > article > h4:last-child {
     left: 0px;
     top: 24px;
 }
-main > section:nth-child(1) > article > h4:last-child>span {
+
+main > section:nth-child(1) > article > h4:last-child > span {
     position: relative;
     font-family: "Nanum Gothic";
     font-size: 42px;
@@ -123,6 +129,7 @@ main > section:nth-child(1) > nav {
     left: 200px;
     margin: auto;
 }
+
 main > section:nth-child(1) > nav > div:first-child {
     display: inline;
 }
@@ -222,26 +229,26 @@ main > section:nth-child(2) > aside > a > button {
     width: 250px;
 }
 
-main > section:nth-child(3){
+main > section:nth-child(3) {
     position: relative;
     background: rgba(163, 200, 255, 0.8);
     width: 98.93vw;
     height: 100vh;
 }
 
-main > section:nth-child(3)>img:first-child{
+main > section:nth-child(3) > img:first-child {
     position: relative;
     height: 150px;
 }
 
-main > section:nth-child(3)>img:last-child{
+main > section:nth-child(3) > img:last-child {
     position: absolute;
     bottom: 0px;
     right: 0px;
     height: 150px;
 }
 
-main > section:nth-child(3)>h3{
+main > section:nth-child(3) > h3 {
     position: absolute;
     left: 0;
     right: 0;
@@ -253,7 +260,7 @@ main > section:nth-child(3)>h3{
     font-size: 42px;
 }
 
-main > section:nth-child(3)>p{
+main > section:nth-child(3) > p {
     position: absolute;
     left: 0;
     right: 0;
@@ -265,7 +272,7 @@ main > section:nth-child(3)>p{
     font-size: 30px;
 }
 
-main > section:nth-child(3)>article>img:nth-child(1){
+main > section:nth-child(3) > article > img:nth-child(1) {
     position: absolute;
     left: 0;
     right: 0;
@@ -275,7 +282,7 @@ main > section:nth-child(3)>article>img:nth-child(1){
     margin: auto;
 }
 
-main > section:nth-child(3)>article>img:nth-child(2){
+main > section:nth-child(3) > article > img:nth-child(2) {
     position: absolute;
     left: 0;
     right: 0;
@@ -285,7 +292,7 @@ main > section:nth-child(3)>article>img:nth-child(2){
     margin: auto;
 }
 
-main > section:nth-child(3)>article>img:nth-child(3){
+main > section:nth-child(3) > article > img:nth-child(3) {
     position: absolute;
     left: 0;
     right: 0;
@@ -295,26 +302,26 @@ main > section:nth-child(3)>article>img:nth-child(3){
     margin: auto;
 }
 
-main > section:nth-child(4){
+main > section:nth-child(4) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
     width: 98.93vw;
     height: 100vh;
 }
 
-main > section:nth-child(4)>img:first-child{
+main > section:nth-child(4) > img:first-child {
     position: relative;
     height: 150px;
 }
 
-main > section:nth-child(4)>img:last-child{
+main > section:nth-child(4) > img:last-child {
     position: absolute;
     bottom: 0px;
     right: 0px;
     height: 150px;
 }
 
-main > section:nth-child(4)>h3{
+main > section:nth-child(4) > h3 {
     position: absolute;
     left: 0;
     right: 0;
@@ -326,7 +333,7 @@ main > section:nth-child(4)>h3{
     font-size: 42px;
 }
 
-main > section:nth-child(4)>div>div:first-child{
+main > section:nth-child(4) > div > div:first-child {
     position: absolute;
     left: 350px;
     top: 120px;
@@ -337,7 +344,7 @@ main > section:nth-child(4)>div>div:first-child{
     border-radius: 100%;
 }
 
-main > section:nth-child(4)>div>div:nth-child(2){
+main > section:nth-child(4) > div > div:nth-child(2) {
     position: absolute;
     left: 372px;
     top: 165px;
@@ -347,7 +354,7 @@ main > section:nth-child(4)>div>div:nth-child(2){
     height: 160px;
 }
 
-main > section:nth-child(4)>div>div:nth-child(3){
+main > section:nth-child(4) > div > div:nth-child(3) {
     position: absolute;
     left: 350px;
     top: 320px;
@@ -358,7 +365,7 @@ main > section:nth-child(4)>div>div:nth-child(3){
     border-radius: 100%;
 }
 
-main > section:nth-child(4)>div>div:nth-child(4){
+main > section:nth-child(4) > div > div:nth-child(4) {
     position: absolute;
     left: 372px;
     top: 365px;
@@ -368,7 +375,7 @@ main > section:nth-child(4)>div>div:nth-child(4){
     height: 160px;
 }
 
-main > section:nth-child(4)>div>div:last-child{
+main > section:nth-child(4) > div > div:last-child {
     position: absolute;
     left: 350px;
     top: 520px;
@@ -379,14 +386,15 @@ main > section:nth-child(4)>div>div:last-child{
     border-radius: 100%;
 }
 
-main > section:nth-child(4)>article>img:nth-child(1){
+main > section:nth-child(4) > article > img:nth-child(1) {
     position: absolute;
     left: 470px;
     top: 120px;
     margin: auto;
     width: 170px;
 }
-main > section:nth-child(4)>article>img:nth-child(2){
+
+main > section:nth-child(4) > article > img:nth-child(2) {
     position: absolute;
     left: 520px;
     top: 310px;
@@ -394,7 +402,7 @@ main > section:nth-child(4)>article>img:nth-child(2){
     height: 70px;
 }
 
-main > section:nth-child(4)>article>img:nth-child(3){
+main > section:nth-child(4) > article > img:nth-child(3) {
     position: absolute;
     left: 520px;
     top: 510px;
@@ -412,7 +420,7 @@ main > section:nth-child(4) > aside > ul {
     font-size: 24px;
 }
 
-main > section:nth-child(4) > aside > ul >li:first-child{
+main > section:nth-child(4) > aside > ul > li:first-child {
     list-style-type: none;
     position: absolute;
     top: 0px;
@@ -425,7 +433,7 @@ main > section:nth-child(4) > aside > ul >li:first-child{
     color: #0038FF;
 }
 
-main > section:nth-child(4) > aside > ul >li:nth-child(2){
+main > section:nth-child(4) > aside > ul > li:nth-child(2) {
     list-style-type: none;
     position: absolute;
     top: 200px;
@@ -438,7 +446,7 @@ main > section:nth-child(4) > aside > ul >li:nth-child(2){
     color: #0038FF;
 }
 
-main > section:nth-child(4) > aside > ul >li:last-child{
+main > section:nth-child(4) > aside > ul > li:last-child {
     list-style-type: none;
     position: absolute;
     top: 400px;
@@ -451,26 +459,26 @@ main > section:nth-child(4) > aside > ul >li:last-child{
     color: #0038FF;
 }
 
-main > section:nth-child(5){
+main > section:nth-child(5) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
     width: 98.93vw;
     height: 100vh;
 }
 
-main > section:nth-child(5)>img:first-child{
+main > section:nth-child(5) > img:first-child {
     position: relative;
     height: 150px;
 }
 
-main > section:nth-child(5)>img:last-child{
+main > section:nth-child(5) > img:last-child {
     position: absolute;
     bottom: 0px;
     right: 0px;
     height: 150px;
 }
 
-main > section:nth-child(5)>article>h3{
+main > section:nth-child(5) > article > h3 {
     position: absolute;
     left: 0;
     right: 0;
@@ -482,7 +490,7 @@ main > section:nth-child(5)>article>h3{
     font-size: 42px;
 }
 
-main > section:nth-child(5)>article>p{
+main > section:nth-child(5) > article > p {
     position: absolute;
     left: 0;
     right: 0;
@@ -494,7 +502,8 @@ main > section:nth-child(5)>article>p{
     font-weight: bold;
     font-size: 24px;
 }
-main > section:nth-child(5)>article> div:first-child{
+
+main > section:nth-child(5) > article > div:first-child {
     position: absolute;
     left: 300px;
     top: 200px;
@@ -505,7 +514,7 @@ main > section:nth-child(5)>article> div:first-child{
     margin: auto;
 }
 
-main > section:nth-child(5)>article> div:first-child>img{
+main > section:nth-child(5) > article > div:first-child > img {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -513,7 +522,8 @@ main > section:nth-child(5)>article> div:first-child>img{
     height: 80px;
     margin: auto;
 }
-main > section:nth-child(5)>article> div:first-child>h4{
+
+main > section:nth-child(5) > article > div:first-child > h4 {
     position: absolute;
     top: 130px;
     left: 0;
@@ -526,7 +536,7 @@ main > section:nth-child(5)>article> div:first-child>h4{
     margin: auto;
 }
 
-main > section:nth-child(5)>article> div:first-child>p{
+main > section:nth-child(5) > article > div:first-child > p {
     position: absolute;
     top: 200px;
     left: 0;
@@ -539,7 +549,7 @@ main > section:nth-child(5)>article> div:first-child>p{
     margin: auto;
 }
 
-main > section:nth-child(5)>article> div:last-child{
+main > section:nth-child(5) > article > div:last-child {
     position: absolute;
     right: 300px;
     top: 200px;
@@ -550,7 +560,7 @@ main > section:nth-child(5)>article> div:last-child{
     margin: auto;
 }
 
-main > section:nth-child(5)>article> div:last-child>aside>img{
+main > section:nth-child(5) > article > div:last-child > aside > img {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -559,7 +569,7 @@ main > section:nth-child(5)>article> div:last-child>aside>img{
     margin: auto;
 }
 
-main > section:nth-child(5)>article> div:last-child>aside>h4{
+main > section:nth-child(5) > article > div:last-child > aside > h4 {
     position: absolute;
     top: 130px;
     left: 0;
@@ -573,7 +583,7 @@ main > section:nth-child(5)>article> div:last-child>aside>h4{
 }
 
 
-main > section:nth-child(5)>article> div:last-child>aside>p{
+main > section:nth-child(5) > article > div:last-child > aside > p {
     position: absolute;
     top: 200px;
     left: 0;
@@ -586,26 +596,26 @@ main > section:nth-child(5)>article> div:last-child>aside>p{
     margin: auto;
 }
 
-main > section:nth-child(6){
+main > section:nth-child(6) {
     position: relative;
     background: rgb(163, 200, 255);
     width: 98.93vw;
     height: 100vh;
 }
 
-main > section:nth-child(6)>img:first-child{
+main > section:nth-child(6) > img:first-child {
     position: relative;
     height: 150px;
 }
 
-main > section:nth-child(6)>img:last-child{
+main > section:nth-child(6) > img:last-child {
     position: absolute;
     bottom: 0px;
     right: 0px;
     height: 150px;
 }
 
-main > section:nth-child(6)>h3{
+main > section:nth-child(6) > h3 {
     position: absolute;
     left: 0;
     right: 0;
@@ -617,7 +627,7 @@ main > section:nth-child(6)>h3{
     font-size: 42px;
 }
 
-main > section:nth-child(6)>article>img:nth-child(1){
+main > section:nth-child(6) > article > img:nth-child(1) {
     position: absolute;
     left: 0;
     right: 0;
@@ -627,7 +637,7 @@ main > section:nth-child(6)>article>img:nth-child(1){
     margin: auto;
 }
 
-main > section:nth-child(6)>article>img:nth-child(2){
+main > section:nth-child(6) > article > img:nth-child(2) {
     position: absolute;
     left: 0;
     right: 0;
@@ -637,7 +647,7 @@ main > section:nth-child(6)>article>img:nth-child(2){
     margin: auto;
 }
 
-main > section:nth-child(6)>article>img:nth-child(3){
+main > section:nth-child(6) > article > img:nth-child(3) {
     position: absolute;
     left: 0;
     right: 0;
@@ -645,4 +655,75 @@ main > section:nth-child(6)>article>img:nth-child(3){
     bottom: 0;
     height: 600px;
     margin: auto;
+}
+
+
+main > footer > section:nth-child(2) {
+    position: relative;
+    background: rgb(113, 113, 113);
+    width: 98.93vw;
+    height: 30vh;
+}
+
+main > footer > section:nth-child(2) >article> h3 {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main > footer > section:nth-child(2) >article> p {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main > footer > section:nth-child(2) > nav {
+    position: absolute;
+    top: 80px;
+    left: 620px;
+    margin: auto;
+}
+
+main > footer > section:nth-child(2) > nav > div:first-child {
+    display: inline;
+}
+
+main > footer > section:nth-child(2) > nav > div:nth-child(2) {
+    display: inline;
+    margin-left: 30px;
+}
+
+main > footer > section:nth-child(2) > nav > div:nth-child(3) {
+    display: inline;
+    margin-left: 30px;
+}
+
+main > footer > section:nth-child(2) > nav > div:last-child {
+    display: inline;
+    margin-left: 30px;
+}
+
+main > footer > section:nth-child(2) > p {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 20px;
 }
