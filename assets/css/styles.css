@@ -464,4 +464,94 @@ main > section:nth-child(5)>article>p{
     font-weight: bold;
     font-size: 24px;
 }
+main > section:nth-child(5)>article> div:first-child{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    height: 400px;
+    width: 350px;
+    background: #C2C2C2;
+    border-radius: 20px;
+    margin: auto;
+}
 
+main > section:nth-child(5)>article> div:first-child>img{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 20px;
+    height: 80px;
+    margin: auto;
+}
+main > section:nth-child(5)>article> div:first-child>h4{
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: auto;
+}
+
+main > section:nth-child(5)>article> div:first-child>p{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin: auto;
+}
+
+main > section:nth-child(5)>article> div:last-child{
+    position: absolute;
+    right: 300px;
+    top: 200px;
+    height: 400px;
+    width: 350px;
+    background: #C2C2C2;
+    border-radius: 20px;
+    margin: auto;
+}
+
+main > section:nth-child(5)>article> div:last-child>aside>img{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 20px;
+    height: 80px;
+    margin: auto;
+}
+
+main > section:nth-child(5)>article> div:last-child>aside>h4{
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: auto;
+}
+
+
+main > section:nth-child(5)>article> div:last-child>aside>p{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin: auto;
+}
