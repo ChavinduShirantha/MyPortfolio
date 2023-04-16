@@ -658,6 +658,122 @@ main > section:nth-child(6) > article > img:nth-child(3) {
 }
 
 
+main > section:nth-child(7) {
+    position: relative;
+    background: rgba(249, 249, 249, 0.8);
+    width: 98.93vw;
+    height: 100vh;
+}
+
+main > section:nth-child(7) > h3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+main > section:nth-child(7) > article > img {
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 500px;
+}
+
+main > section:nth-child(7) > aside>h4 {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main > section:nth-child(7) > aside>article>p {
+    position: absolute;
+    right: 100px;
+    top: 175px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main > section:nth-child(7) > aside>ul {
+    list-style-type: none;
+    position: absolute;
+    top: 320px;
+    right: 450px;
+    border: none;
+    text-align: left;
+    font-size: 24px;
+}
+
+main > section:nth-child(7) > aside>ul>li:first-child {
+    list-style-type: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background: #D3BEFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+main > section:nth-child(7) > aside>ul>li:nth-child(2) {
+    list-style-type: none;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    background: #D3BEFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+main > section:nth-child(7) > aside>ul>li:last-child {
+    list-style-type: none;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    background: #D3BEFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+main > section:nth-child(7) > aside > a > button {
+    position: absolute;
+    bottom: 200px;
+    right: 160px;
+    background: #458FFF;
+    border: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+}
+
 main > footer > section:nth-child(2) {
     position: relative;
     background: rgb(113, 113, 113);
@@ -665,7 +781,7 @@ main > footer > section:nth-child(2) {
     height: 30vh;
 }
 
-main > footer > section:nth-child(2) >article> h3 {
+main > footer > section:nth-child(2) > article > h3 {
     position: relative;
     left: 0;
     right: 0;
@@ -678,7 +794,7 @@ main > footer > section:nth-child(2) >article> h3 {
     font-size: 30px;
 }
 
-main > footer > section:nth-child(2) >article> p {
+main > footer > section:nth-child(2) > article > p {
     position: relative;
     left: 0;
     right: 0;
