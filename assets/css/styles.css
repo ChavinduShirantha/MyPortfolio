@@ -774,6 +774,53 @@ main > section:nth-child(7) > aside > a > button {
     width: 250px;
 }
 
+main > section:nth-child(8) {
+    position: relative;
+    background: rgb(163, 200, 255);
+    width: 98.93vw;
+    height: 100vh;
+}
+
+main > section:nth-child(8) > img:first-child {
+    position: relative;
+    height: 150px;
+}
+
+main > section:nth-child(8) > img:last-child {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 150px;
+}
+
+main > section:nth-child(8) > article>a:first-child>img {
+    position: absolute;
+    top: 75px;
+    left: 120px;
+    height: 400px;
+}
+
+main > section:nth-child(8) > article>a:nth-child(2)>img {
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+    height: 300px;
+}
+
+main > section:nth-child(8) > article>a:nth-child(3)>img {
+    position: absolute;
+    bottom: 25px;
+    left: 250px;
+    height: 250px;
+}
+
+main > section:nth-child(8) > article>a:last-child>img {
+    position: absolute;
+    top: 75px;
+    right: 75px;
+    height: 300px;
+}
+
 main > footer > section:nth-child(2) {
     position: relative;
     background: rgb(113, 113, 113);
