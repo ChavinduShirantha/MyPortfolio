@@ -821,6 +821,37 @@ main > section:nth-child(8) > article>a:last-child>img {
     height: 300px;
 }
 
+main > section:nth-child(9) {
+    position: relative;
+    background: rgba(249, 249, 249, 0.8);
+    width: 98.93vw;
+    height: 100vh;
+}
+
+main > section:nth-child(9) > img:first-child {
+    position: relative;
+    height: 150px;
+}
+
+main > section:nth-child(9) > img:last-child {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 150px;
+}
+
+main > section:nth-child(9) > h3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
 main > footer > section:nth-child(2) {
     position: relative;
     background: rgb(113, 113, 113);
