@@ -49,7 +49,7 @@ main > section:nth-child(1) > div {
     position: absolute;
     width: 195px;
     height: 1215px;
-    top: 0px;
+    top: 0;
     left: 166px;
     bottom: 40px;
     background: rgba(78, 167, 249, 0.56);
@@ -60,8 +60,8 @@ main > section:nth-child(1) > div {
 main > section:nth-child(1) > aside > img:nth-child(1) {
     position: absolute;
     height: 450px;
-    top: 0px;
-    bottom: 0px;
+    top: 0;
+    bottom: 0;
     right: 140px;
     border-radius: 150px;
     margin: auto;
@@ -72,7 +72,7 @@ main > section:nth-child(1) > aside > img:nth-child(2) {
     position: absolute;
     height: 600px;
     top: 20px;
-    bottom: 0px;
+    bottom: 0;
     right: 25px;
     margin: auto;
 }
@@ -85,39 +85,39 @@ main > section:nth-child(1) > article {
 
 main > section:nth-child(1) > article > h4:first-child {
     position: relative;
-    font-family: "Nunito";
+    font-family: 'Nunito', sans-serif;
     font-weight: bolder;
     font-size: 42px;
-    left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 main > section:nth-child(1) > article > h2 {
     position: relative;
-    font-family: "Gowun Batang";
+    font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 56px;
-    left: 0px;
+    left: 0;
     top: 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 main > section:nth-child(1) > article > h4:last-child {
     position: relative;
-    font-family: "Nanum Gothic";
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 42px;
     font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    left: 0;
     top: 24px;
 }
 
 main > section:nth-child(1) > article > h4:last-child > span {
     position: relative;
-    font-family: "Nanum Gothic";
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 42px;
     font-weight: bold;
     color: #3515B7;
@@ -171,9 +171,9 @@ main > section:nth-child(2) > h3 {
 main > section:nth-child(2) > article {
     position: absolute;
     margin: auto;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
 
 }
 
@@ -181,8 +181,8 @@ main > section:nth-child(2) > article > img {
     position: absolute;
     width: 500px;
     margin: auto;
-    top: 0px;
-    bottom: 0px;
+    top: 0;
+    bottom: 0;
     left: 100px;
 }
 
@@ -192,7 +192,7 @@ main > section:nth-child(2) > aside > p {
     right: 80px;
     text-align: center;
     margin: auto;
-    font-family: Cambria;
+    font-family:'Cambria', serif;
     font-weight: normal;
     font-size: 30px;
 }
@@ -243,8 +243,8 @@ main > section:nth-child(3) > img:first-child {
 
 main > section:nth-child(3) > img:last-child {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     height: 150px;
 }
 
@@ -316,8 +316,8 @@ main > section:nth-child(4) > img:first-child {
 
 main > section:nth-child(4) > img:last-child {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     height: 150px;
 }
 
@@ -423,7 +423,7 @@ main > section:nth-child(4) > aside > ul {
 main > section:nth-child(4) > aside > ul > li:first-child {
     list-style-type: none;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 40px;
     border: none;
     text-align: left;
@@ -473,8 +473,8 @@ main > section:nth-child(5) > img:first-child {
 
 main > section:nth-child(5) > img:last-child {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     height: 150px;
 }
 
@@ -516,8 +516,8 @@ main > section:nth-child(5) > article > div:first-child {
 
 main > section:nth-child(5) > article > div:first-child > img {
     position: absolute;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     top: 20px;
     height: 80px;
     margin: auto;
@@ -533,7 +533,6 @@ main > section:nth-child(5) > article > div:first-child > h4 {
     font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 36px;
-    margin: auto;
 }
 
 main > section:nth-child(5) > article > div:first-child > p {
@@ -546,7 +545,6 @@ main > section:nth-child(5) > article > div:first-child > p {
     font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 24px;
-    margin: auto;
 }
 
 main > section:nth-child(5) > article > div:last-child {
@@ -562,8 +560,8 @@ main > section:nth-child(5) > article > div:last-child {
 
 main > section:nth-child(5) > article > div:last-child > aside > img {
     position: absolute;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     top: 20px;
     height: 80px;
     margin: auto;
@@ -579,7 +577,6 @@ main > section:nth-child(5) > article > div:last-child > aside > h4 {
     font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 36px;
-    margin: auto;
 }
 
 
@@ -593,7 +590,6 @@ main > section:nth-child(5) > article > div:last-child > aside > p {
     font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 24px;
-    margin: auto;
 }
 
 main > section:nth-child(6) {
@@ -610,8 +606,8 @@ main > section:nth-child(6) > img:first-child {
 
 main > section:nth-child(6) > img:last-child {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     height: 150px;
 }
 
@@ -722,7 +718,7 @@ main > section:nth-child(7) > aside>ul>li:first-child {
     list-style-type: none;
     position: absolute;
     top: 50px;
-    left: 0px;
+    left: 0;
     background: #D3BEFF;
     border-radius: 20px;
     height: 40px;
@@ -788,8 +784,8 @@ main > section:nth-child(8) > img:first-child {
 
 main > section:nth-child(8) > img:last-child {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     height: 150px;
 }
 
@@ -835,8 +831,8 @@ main > section:nth-child(9) > img:first-child {
 
 main > section:nth-child(9) > img:last-child {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     height: 150px;
 }
 
