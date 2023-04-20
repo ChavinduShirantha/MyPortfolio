@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Assignment Two</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/fontAwesome/css/all.css">
+    <style>
+        header {
+            background: white;
+            box-shadow: 1px 2px 3px 2px black;
+            position: relative;
+        }
+
+        header > img {
+            width: 200px;
+            margin: 20px;
+        }
+
+        header > nav > ul {
+            position: absolute;
+            top: 15px;
+            right: 50px;
+        }
+
+        header > nav > ul > li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        header > nav > ul > li > i {
+            color: #00B2FF;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        header > nav > ul > li > a {
+            text-decoration: none;
+            color: #00B2FF;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: gray;
+            height: 100px;
+        }
+
+        footer > p {
+            color: white;
+            text-align: center;
+            padding-top: 40px;
+            margin-top: 0;
+        }
+
+        body > main {
+            position: relative;
+        }
+
+        body > main > nav {
+            position: absolute;
+            background: purple;
+            width: 300px;
+            top: 0;
+            bottom: 0;
+        }
+
+        body > main > nav > ul {
+            list-style-type: none;
+        }
+
+        body > main > nav > ul > li > i {
+            color: white;
+            margin-right: 10px;
+            margin-top: 30px;
+        }
+
+        body > main > nav > ul > li > a {
+            text-decoration: none;
+            color: white;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        body > main > section {
+            margin-left: 300px;
+            padding: 10px;
+        }
+
+        body > main > section > section {
+            border: 1px solid black;
+            height: 300px;
+            position: relative;
+        }
+
+        body > main > section > section > div {
+            border: 1px solid black;
+            height: 100%;
+            width: calc(100% / 3);
+            position: absolute;
+        }
+
+        body > main > section > section > div:first-child {
+            left: 0;
+        }
+
+        body > main > section > section > div:nth-child(2) {
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        body > main > section > section > div:last-child {
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="assets/img/ijse-logo.gif" alt="logo">
+    <nav>
+        <ul>
+            <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+            <li><i class="fa-solid fa-globe"></i><a href="#">Services</a></li>
+            <li><i class="fa-solid fa-address-book"></i><a href="#">Contacts</a></li>
+            <li><i class="fa-solid fa-circle-info"></i><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <nav>
+        <ul>
+            <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+            <li><i class="fa-solid fa-globe"></i><a href="#">Services</a></li>
+            <li><i class="fa-solid fa-address-book"></i><a href="#">Contacts</a></li>
+            <li><i class="fa-solid fa-circle-info"></i><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <section>
+            <div>
+                <img src="assets/img/sc.gif" alt="" height="250px">
+            </div>
+            <div>
+                <img src="assets/img/sc.gif" alt="" height="250px">
+            </div>
+            <div>
+                <img src="assets/img/sc.gif" alt="" height="250px">
+            </div>
+        </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad distinctio iste nisi quisquam? Accusamus animi
+            blanditiis deleniti distinctio explicabo id laudantium molestias nihil numquam, officia, optio perspiciatis
+            sapiente, similique vitae.</p>
+        <p>Aliquam animi autem eum magnam odit, quasi sed tempora! Aperiam asperiores aspernatur assumenda atque, autem
+            eaque earum eos hic molestiae nam neque nulla quasi quisquam sunt veniam vero voluptas voluptatum?</p>
+        <p>Blanditiis corporis deleniti explicabo impedit laboriosam perferendis placeat quidem suscipit! Architecto
+            aspernatur, at beatae cum doloremque doloribus labore laborum numquam odio perspiciatis possimus praesentium
+            sed soluta temporibus vel veniam voluptatum.</p>
+        <p>Dolorum illo ipsam iste nostrum nulla? Ad aperiam consequuntur in ipsa neque nulla pariatur, qui sapiente
+            totam? Assumenda, autem dolores, explicabo illo nostrum perferendis provident quaerat qui repellendus,
+            tempore voluptatibus?</p>
+        <p>Accusamus asperiores at consequuntur cupiditate, distinctio doloribus eos exercitationem impedit placeat quae
+            quam recusandae repellendus sint vel velit. Sapiente, vero vitae. Accusantium assumenda corporis dicta et
+            fugiat mollitia sint ut?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ea eveniet hic iste modi omnis pariatur,
+            qui quisquam sint? Atque fugit harum, incidunt iste provident sapiente sequi voluptates? Qui, ullam.</p>
+        <p>Ab, adipisci aliquam at blanditiis debitis deserunt dolorem eius maxime, nam natus nisi quaerat quibusdam
+            quos recusandae repudiandae soluta vitae? Animi corporis earum fugit magnam magni nisi porro quasi
+            tempore?</p>
+        <p>Animi at, blanditiis consequatur consequuntur cupiditate eaque excepturi facere fugit hic id labore libero
+            maxime modi natus neque nihil nostrum numquam omnis porro quas quibusdam ratione rem sapiente sed vero!</p>
+        <p>Asperiores, odit totam! Ad asperiores, delectus distinctio dolores ducimus, earum iure laudantium magni,
+            maiores nemo numquam optio perspiciatis quasi quo quos rem repellat! Fugit omnis praesentium quae
+            repellendus saepe velit!</p>
+        <p>Ab alias aspernatur at delectus deserunt dicta dolor doloremque dolorum ducimus et eum excepturi, incidunt
+            inventore ipsum laborum magni maiores molestiae reprehenderit, tempore voluptate! Ad consequuntur dicta
+            doloribus sit voluptatem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam consequuntur, dolor ex excepturi
+            expedita fuga fugit, maxime mollitia non quia quidem vitae voluptatem. Culpa deserunt exercitationem iure
+            odio quidem!</p>
+        <p>Ab amet assumenda blanditiis, consectetur debitis dolore earum explicabo facere ipsam itaque labore laborum
+            modi nobis nulla odio possimus quae reiciendis repellat reprehenderit sequi tenetur, ullam vel velit veniam
+            voluptatum.</p>
+        <p>Assumenda consequatur ex iste iure modi molestias provident, temporibus voluptas? Consectetur doloremque
+            eligendi, et harum hic, id placeat porro praesentium quam, quas quia repellendus soluta sunt tenetur unde
+            vel voluptas?</p>
+        <p>Ab aspernatur aut blanditiis consequatur, culpa delectus deleniti dolorem dolores eligendi est et, ex fugiat
+            illo itaque laudantium minima molestias nihil numquam omnis praesentium quis rem temporibus tenetur! Sed,
+            voluptatem.</p>
+        <p>Aperiam autem beatae blanditiis corporis doloribus, enim et facere facilis impedit mollitia necessitatibus
+            perferendis praesentium quibusdam quo suscipit tempora temporibus veniam veritatis voluptatibus voluptatum!
+            Dignissimos doloribus eius quo sapiente voluptas.</p>
+
+
+    </section>
+
+    <section>
+        <section>
+            <div>
+                <img src="assets/img/sc.gif" alt="" height="250px">
+            </div>
+            <div>
+                <img src="assets/img/sc.gif" alt="" height="250px">
+            </div>
+            <div>
+                <img src="assets/img/sc.gif" alt="" height="250px">
+            </div>
+        </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad distinctio iste nisi quisquam? Accusamus animi
+            blanditiis deleniti distinctio explicabo id laudantium molestias nihil numquam, officia, optio perspiciatis
+            sapiente, similique vitae.</p>
+        <p>Aliquam animi autem eum magnam odit, quasi sed tempora! Aperiam asperiores aspernatur assumenda atque, autem
+            eaque earum eos hic molestiae nam neque nulla quasi quisquam sunt veniam vero voluptas voluptatum?</p>
+        <p>Blanditiis corporis deleniti explicabo impedit laboriosam perferendis placeat quidem suscipit! Architecto
+            aspernatur, at beatae cum doloremque doloribus labore laborum numquam odio perspiciatis possimus praesentium
+            sed soluta temporibus vel veniam voluptatum.</p>
+        <p>Dolorum illo ipsam iste nostrum nulla? Ad aperiam consequuntur in ipsa neque nulla pariatur, qui sapiente
+            totam? Assumenda, autem dolores, explicabo illo nostrum perferendis provident quaerat qui repellendus,
+            tempore voluptatibus?</p>
+        <p>Accusamus asperiores at consequuntur cupiditate, distinctio doloribus eos exercitationem impedit placeat quae
+            quam recusandae repellendus sint vel velit. Sapiente, vero vitae. Accusantium assumenda corporis dicta et
+            fugiat mollitia sint ut?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ea eveniet hic iste modi omnis pariatur,
+            qui quisquam sint? Atque fugit harum, incidunt iste provident sapiente sequi voluptates? Qui, ullam.</p>
+        <p>Ab, adipisci aliquam at blanditiis debitis deserunt dolorem eius maxime, nam natus nisi quaerat quibusdam
+            quos recusandae repudiandae soluta vitae? Animi corporis earum fugit magnam magni nisi porro quasi
+            tempore?</p>
+        <p>Animi at, blanditiis consequatur consequuntur cupiditate eaque excepturi facere fugit hic id labore libero
+            maxime modi natus neque nihil nostrum numquam omnis porro quas quibusdam ratione rem sapiente sed vero!</p>
+        <p>Asperiores, odit totam! Ad asperiores, delectus distinctio dolores ducimus, earum iure laudantium magni,
+            maiores nemo numquam optio perspiciatis quasi quo quos rem repellat! Fugit omnis praesentium quae
+            repellendus saepe velit!</p>
+        <p>Ab alias aspernatur at delectus deserunt dicta dolor doloremque dolorum ducimus et eum excepturi, incidunt
+            inventore ipsum laborum magni maiores molestiae reprehenderit, tempore voluptate! Ad consequuntur dicta
+            doloribus sit voluptatem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam consequuntur, dolor ex excepturi
+            expedita fuga fugit, maxime mollitia non quia quidem vitae voluptatem. Culpa deserunt exercitationem iure
+            odio quidem!</p>
+        <p>Ab amet assumenda blanditiis, consectetur debitis dolore earum explicabo facere ipsam itaque labore laborum
+            modi nobis nulla odio possimus quae reiciendis repellat reprehenderit sequi tenetur, ullam vel velit veniam
+            voluptatum.</p>
+        <p>Assumenda consequatur ex iste iure modi molestias provident, temporibus voluptas? Consectetur doloremque
+            eligendi, et harum hic, id placeat porro praesentium quam, quas quia repellendus soluta sunt tenetur unde
+            vel voluptas?</p>
+        <p>Ab aspernatur aut blanditiis consequatur, culpa delectus deleniti dolorem dolores eligendi est et, ex fugiat
+            illo itaque laudantium minima molestias nihil numquam omnis praesentium quis rem temporibus tenetur! Sed,
+            voluptatem.</p>
+        <p>Aperiam autem beatae blanditiis corporis doloribus, enim et facere facilis impedit mollitia necessitatibus
+            perferendis praesentium quibusdam quo suscipit tempora temporibus veniam veritatis voluptatibus voluptatum!
+            Dignissimos doloribus eius quo sapiente voluptas.</p>
+
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Developed by IJSE</p>
+</footer>
+
+</body>
+</html>
