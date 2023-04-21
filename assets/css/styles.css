@@ -22,20 +22,29 @@ header > nav {
 
 header > nav > menu {
     position: relative;
-    left: 800px;
+    left: 900px;
 }
+/*header > nav > menu {
+    position: absolute;
+    top: 15px;
+    right: 500px;
+}*/
 
 header > nav > menu > li {
-
+    display: inline-block;
+    margin: 20px;
 }
 
 header > nav > menu > li > a {
+    text-decoration: none;
+    color: #6C6C6C;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
 }
 
 main {
     position: relative;
-    height: 100vh;
-    width: 98.93vw;
 }
 
 main > section:nth-child(1) {
