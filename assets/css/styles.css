@@ -24,11 +24,6 @@ header > nav > menu {
     position: relative;
     left: 900px;
 }
-/*header > nav > menu {
-    position: absolute;
-    top: 15px;
-    right: 500px;
-}*/
 
 header > nav > menu > li {
     display: inline-block;
@@ -868,7 +863,7 @@ main > footer > section:nth-child(2) > article > h3 {
     position: relative;
     left: 0;
     right: 0;
-    top: 0;
+    top: 10px;
     margin: auto;
     text-align: center;
     color: white;
@@ -879,6 +874,7 @@ main > footer > section:nth-child(2) > article > h3 {
 
 main > footer > section:nth-child(2) > article > p {
     position: relative;
+    top: 20px;
     left: 0;
     right: 0;
     margin: auto;
@@ -891,7 +887,7 @@ main > footer > section:nth-child(2) > article > p {
 
 main > footer > section:nth-child(2) > nav {
     position: absolute;
-    top: 80px;
+    top: 90px;
     left: 620px;
     margin: auto;
 }
@@ -919,10 +915,35 @@ main > footer > section:nth-child(2) > p {
     position: relative;
     left: 0;
     right: 0;
+    top: 120px;
     margin: auto;
     text-align: center;
     color: white;
     font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 20px;
+}
+
+main > footer > section:nth-child(2) > aside>nav{
+    position: absolute;
+    z-index: 1;
+}
+
+main > footer > section:nth-child(2) > aside>nav > menu {
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+
+main > footer > section:nth-child(2) > aside>nav> menu > li {
+    display: inline-block;
+    margin: 20px;
+}
+
+main > footer > section:nth-child(2) > aside>nav> menu > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
 }
