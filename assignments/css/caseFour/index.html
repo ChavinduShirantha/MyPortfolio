@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Assignment Four</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        body > section {
+            position: relative;
+            height: 100vh;
+        }
+        body > section > div {
+            position: sticky;
+            height: 50px;
+            top: 0;
+            z-index: 1;
+        }
+        body > section > div > h1 {
+            margin: auto;
+            padding: 10px 10px 10px 25px;
+            color: white;
+            font-family: 'Cambria', serif;
+        }
+        body > section > h1 {
+            position: relative;
+            margin-top: 40vh;
+            text-align: center;
+            font-size: 120px;
+        }
+        body > section:nth-child(1) {
+            background: #FFFFFF;
+        }
+        body > section:nth-child(1)>div {
+            background: #ff0000;
+        }
+        body > section:nth-child(2) {
+            background: #5691e7;
+        }
+        body > section:nth-child(2)>div {
+            background: #002065;
+        }
+        body > section:nth-child(3) {
+            background: #545151;
+        }
+        body > section:nth-child(3)>div {
+            background: #1a1a1a;
+        }
+        body > section:nth-child(4) {
+            background: #e73c3c;
+        }
+        body > section:nth-child(4)>div {
+            background: #600101;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <h1>Card 1</h1>
+    </div>
+    <h1>Hello</h1>
+</section>
+
+<section>
+    <div>
+        <h1>Card 2</h1>
+    </div>
+    <h1>How</h1>
+</section>
+
+<section>
+    <div>
+        <h1>Card 3</h1>
+    </div>
+    <h1>Are</h1>
+</section>
+
+<section>
+    <div>
+        <h1>Card 4</h1>
+    </div>
+    <h1>You..?</h1>
+</section>
+
+</body>
+</html>
