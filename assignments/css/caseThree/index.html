@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Assignment Three</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        body {
+            position: relative;
+            height: 300vh;
+        }
+        body>section>div:nth-child(1){
+            position: fixed;
+            border-radius: 100%;
+            border: 20px solid #c5958c;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            z-index: 1;
+        }
+        body>section>div:nth-child(2){
+            position: fixed;
+            border-radius: 100%;
+            border: 20px solid red;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 260px;
+            height: 260px;
+            z-index: 1;
+        }
+        body>section>section>div{
+            color: white;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        body>section>section>div:nth-child(1){
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            background-color: #85386e;
+            border-radius: 100%;
+            top: 33vh;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>section>section>div:nth-child(1)>p{
+            margin-top: 115px;
+        }
+        body > section > section > div:nth-child(2) {
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            background-color: #239bc2;
+            border-radius: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>section>section>div:nth-child(2)>p{
+            margin-top: 110px;
+        }
+        body > section > section > div:nth-child(3) {
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            background-color: #ff5c4b;
+            border-radius: 100%;
+            bottom: 33vh;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>section>section>div:nth-child(3)>p{
+            margin-top: 58px;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <section>
+        <div><p>Hello</p></div>
+        <div><p>Welcome To</p></div>
+        <div><p>Institute <br> of <br>Software<br> Engineering</p></div>
+    </section>
+</section>
+</body>
+</html>
