@@ -242,6 +242,9 @@ main > section:nth-child(2) > aside > ul > li:before {
     font-weight: bold;
 }
 
+main > section:nth-child(2) > aside > ul > li{
+    margin-bottom: 25px;
+}
 
 main > section:nth-child(2) > aside > a > button {
     position: absolute;
@@ -798,6 +801,10 @@ main > section:nth-child(7) > aside > a > button {
     width: 250px;
 }
 
+main > section:nth-child(7) > aside > a > button > img {
+    height: 30px;
+}
+
 main > section:nth-child(8) {
     position: relative;
     background: rgb(163, 200, 255);
@@ -1093,15 +1100,16 @@ main > footer > section:nth-child(2) > article > p {
 main > footer > section:nth-child(2) > nav {
     position: absolute;
     top: 90px;
-    left: 620px;
+    left: 590px;
     margin: auto;
 }
 
-main > footer > section:nth-child(2) > nav > div:first-child {
+main > footer > section:nth-child(2) > nav > div {
     display: inline;
+    margin-left: 30px;
 }
 
-main > footer > section:nth-child(2) > nav > div:nth-child(2) {
+/*main > footer > section:nth-child(2) > nav > div:nth-child(2) {
     display: inline;
     margin-left: 30px;
 }
@@ -1114,6 +1122,22 @@ main > footer > section:nth-child(2) > nav > div:nth-child(3) {
 main > footer > section:nth-child(2) > nav > div:last-child {
     display: inline;
     margin-left: 30px;
+}*/
+
+main > footer > section:nth-child(2) > nav > div:nth-child(1) > a > img {
+    height: 45px;
+}
+
+main > footer > section:nth-child(2) > nav > div:nth-child(2) > a > img {
+    height: 45px;
+}
+
+main > footer > section:nth-child(2) > nav > div:nth-child(3) > a > img {
+    height: 45px;
+}
+
+main > footer > section:nth-child(2) > nav > div:nth-child(4) > a > img {
+    height: 45px;
 }
 
 main > footer > section:nth-child(2) > p {
