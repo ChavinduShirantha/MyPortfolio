@@ -188,6 +188,7 @@ main > section:nth-child(2) > article > img {
     top: 0;
     bottom: 0;
     left: 100px;
+    border-radius: 20px;
 }
 
 main > section:nth-child(2) > aside > p {
@@ -852,6 +853,92 @@ main > section:nth-child(9) > h3 {
     font-size: 42px;
 }
 
+main>section:nth-child(9)>div>div:first-child{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+main>section:nth-child(9)>div>div:first-child>img:first-child{
+    position: absolute;
+    width: 250px;
+    border-radius: 20px;
+}
+main>section:nth-child(9)>div>div:first-child>img:last-child{
+    position: absolute;
+    width: 250px;
+    top: 300px;
+    border-radius: 20px;
+}
+main>section:nth-child(9)>div>div:nth-child(2){
+    position: absolute;
+    left: 540px;
+    top: 100px;
+}
+main>section:nth-child(9)>div>div:nth-child(2)>img{
+    position: absolute;
+    width: 450px;
+    border-radius: 20px;
+}
+main>section:nth-child(9)>div>div:last-child{
+    position: absolute;
+    top: 100px;
+    right: 400px;
+}
+main>section:nth-child(9)>div>div:last-child>img:first-child{
+    position: absolute;
+    width: 200px;
+    border-radius: 20px;
+}
+main>section:nth-child(9)>div>div:last-child>img:last-child{
+    position: absolute;
+    width: 200px;
+    top: 340px;
+    border-radius: 20px;
+}
+
+main > footer > section:nth-child(1) {
+    position: relative;
+    background: rgb(163, 200, 255);
+    width: 98.93vw;
+    height: 100vh;
+}
+
+main > footer > section:nth-child(1) > img:first-child {
+    position: relative;
+    height: 150px;
+}
+
+main > footer > section:nth-child(1) > img:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+}
+
+main > footer > section:nth-child(1) > h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+main > footer > section:nth-child(1) > p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
 main > footer > section:nth-child(2) {
     position: relative;
     background: rgb(113, 113, 113);
@@ -946,4 +1033,11 @@ main > footer > section:nth-child(2) > aside>nav> menu > li > a {
     font-size: 20px;
     font-weight: bold;
     z-index: 1;
+}
+main>div>a>img{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    right:5px;
+    bottom: 5px;
 }
