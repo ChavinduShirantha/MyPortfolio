@@ -140,10 +140,12 @@ main > section:nth-child(1) > nav {
     margin: auto;
 }
 
-main > section:nth-child(1) > nav > div:first-child {
+main > section:nth-child(1) > nav > div {
     display: inline;
+    margin-left: 30px;
 }
 
+/*
 main > section:nth-child(1) > nav > div:nth-child(2) {
     display: inline;
     margin-left: 30px;
@@ -157,8 +159,23 @@ main > section:nth-child(1) > nav > div:nth-child(3) {
 main > section:nth-child(1) > nav > div:last-child {
     display: inline;
     margin-left: 30px;
+}*/
+
+main > section:nth-child(1) > nav > div:nth-child(1) > a > img {
+    height: 60px;
 }
 
+main > section:nth-child(1) > nav > div:nth-child(2) > a > img {
+    height: 60px;
+}
+
+main > section:nth-child(1) > nav > div:nth-child(3) > a > img {
+    height: 60px;
+}
+
+main > section:nth-child(1) > nav > div:nth-child(4) > a > img {
+    height: 60px;
+}
 
 main > section:nth-child(2) {
     position: relative;
@@ -203,7 +220,7 @@ main > section:nth-child(2) > aside > p {
     right: 80px;
     text-align: center;
     margin: auto;
-    font-family:'Cambria', serif;
+    font-family: 'Cambria', serif;
     font-weight: normal;
     font-size: 30px;
 }
@@ -693,7 +710,7 @@ main > section:nth-child(7) > article > img {
     height: 500px;
 }
 
-main > section:nth-child(7) > aside>h4 {
+main > section:nth-child(7) > aside > h4 {
     position: absolute;
     right: 100px;
     top: 100px;
@@ -704,7 +721,7 @@ main > section:nth-child(7) > aside>h4 {
     font-size: 30px;
 }
 
-main > section:nth-child(7) > aside>article>p {
+main > section:nth-child(7) > aside > article > p {
     position: absolute;
     right: 100px;
     top: 175px;
@@ -715,7 +732,7 @@ main > section:nth-child(7) > aside>article>p {
     font-size: 24px;
 }
 
-main > section:nth-child(7) > aside>ul {
+main > section:nth-child(7) > aside > ul {
     list-style-type: none;
     position: absolute;
     top: 320px;
@@ -725,7 +742,7 @@ main > section:nth-child(7) > aside>ul {
     font-size: 24px;
 }
 
-main > section:nth-child(7) > aside>ul>li:first-child {
+main > section:nth-child(7) > aside > ul > li:first-child {
     list-style-type: none;
     position: absolute;
     top: 50px;
@@ -739,7 +756,7 @@ main > section:nth-child(7) > aside>ul>li:first-child {
     font-size: 24px;
 }
 
-main > section:nth-child(7) > aside>ul>li:nth-child(2) {
+main > section:nth-child(7) > aside > ul > li:nth-child(2) {
     list-style-type: none;
     position: absolute;
     top: 50px;
@@ -753,7 +770,7 @@ main > section:nth-child(7) > aside>ul>li:nth-child(2) {
     font-size: 24px;
 }
 
-main > section:nth-child(7) > aside>ul>li:last-child {
+main > section:nth-child(7) > aside > ul > li:last-child {
     list-style-type: none;
     position: absolute;
     top: 50px;
@@ -800,28 +817,28 @@ main > section:nth-child(8) > img:last-child {
     height: 150px;
 }
 
-main > section:nth-child(8) > article>a:first-child>img {
+main > section:nth-child(8) > article > a:first-child > img {
     position: absolute;
     top: 75px;
     left: 120px;
     height: 400px;
 }
 
-main > section:nth-child(8) > article>a:nth-child(2)>img {
+main > section:nth-child(8) > article > a:nth-child(2) > img {
     position: absolute;
     bottom: 50px;
     right: 200px;
     height: 300px;
 }
 
-main > section:nth-child(8) > article>a:nth-child(3)>img {
+main > section:nth-child(8) > article > a:nth-child(3) > img {
     position: absolute;
     bottom: 25px;
     left: 250px;
     height: 250px;
 }
 
-main > section:nth-child(8) > article>a:last-child>img {
+main > section:nth-child(8) > article > a:last-child > img {
     position: absolute;
     top: 75px;
     right: 75px;
@@ -859,43 +876,50 @@ main > section:nth-child(9) > h3 {
     font-size: 42px;
 }
 
-main>section:nth-child(9)>div>div:first-child{
+main > section:nth-child(9) > div > div:first-child {
     position: absolute;
     left: 150px;
     top: 100px;
 }
-main>section:nth-child(9)>div>div:first-child>img:first-child{
+
+main > section:nth-child(9) > div > div:first-child > img:first-child {
     position: absolute;
     width: 250px;
     border-radius: 20px;
 }
-main>section:nth-child(9)>div>div:first-child>img:last-child{
+
+main > section:nth-child(9) > div > div:first-child > img:last-child {
     position: absolute;
     width: 250px;
     top: 300px;
     border-radius: 20px;
 }
-main>section:nth-child(9)>div>div:nth-child(2){
+
+main > section:nth-child(9) > div > div:nth-child(2) {
     position: absolute;
     left: 540px;
     top: 100px;
 }
-main>section:nth-child(9)>div>div:nth-child(2)>img{
+
+main > section:nth-child(9) > div > div:nth-child(2) > img {
     position: absolute;
     width: 450px;
     border-radius: 20px;
 }
-main>section:nth-child(9)>div>div:last-child{
+
+main > section:nth-child(9) > div > div:last-child {
     position: absolute;
     top: 100px;
     right: 400px;
 }
-main>section:nth-child(9)>div>div:last-child>img:first-child{
+
+main > section:nth-child(9) > div > div:last-child > img:first-child {
     position: absolute;
     width: 200px;
     border-radius: 20px;
 }
-main>section:nth-child(9)>div>div:last-child>img:last-child{
+
+main > section:nth-child(9) > div > div:last-child > img:last-child {
     position: absolute;
     width: 200px;
     top: 340px;
@@ -956,7 +980,7 @@ main > footer > section:nth-child(1) > div {
     border-radius: 20px;
 }
 
-main > footer > section:nth-child(1) > div >h3{
+main > footer > section:nth-child(1) > div > h3 {
     position: absolute;
     left: 0;
     right: 0;
@@ -968,7 +992,7 @@ main > footer > section:nth-child(1) > div >h3{
     font-size: 36px;
 }
 
-main > footer > section:nth-child(1) > div >h5:nth-child(2){
+main > footer > section:nth-child(1) > div > h5:nth-child(2) {
     position: absolute;
     left: 40px;
     top: 110px;
@@ -979,7 +1003,7 @@ main > footer > section:nth-child(1) > div >h5:nth-child(2){
     font-size: 24px;
 }
 
-main > footer > section:nth-child(1) > div >address:nth-child(3){
+main > footer > section:nth-child(1) > div > address:nth-child(3) {
     position: absolute;
     left: 40px;
     top: 160px;
@@ -989,7 +1013,7 @@ main > footer > section:nth-child(1) > div >address:nth-child(3){
     font-size: 20px;
 }
 
-main > footer > section:nth-child(1) > div >h5:nth-child(4){
+main > footer > section:nth-child(1) > div > h5:nth-child(4) {
     position: absolute;
     left: 40px;
     top: 300px;
@@ -1000,7 +1024,7 @@ main > footer > section:nth-child(1) > div >h5:nth-child(4){
     font-size: 24px;
 }
 
-main > footer > section:nth-child(1) > div >address:nth-child(5)>a{
+main > footer > section:nth-child(1) > div > address:nth-child(5) > a {
     position: absolute;
     text-decoration: none;
     left: 40px;
@@ -1011,7 +1035,7 @@ main > footer > section:nth-child(1) > div >address:nth-child(5)>a{
     font-size: 20px;
 }
 
-main > footer > section:nth-child(1) > div >h5:nth-child(6){
+main > footer > section:nth-child(1) > div > h5:nth-child(6) {
     position: absolute;
     left: 40px;
     top: 390px;
@@ -1022,7 +1046,7 @@ main > footer > section:nth-child(1) > div >h5:nth-child(6){
     font-size: 24px;
 }
 
-main > footer > section:nth-child(1) > div >address:nth-child(7)>a{
+main > footer > section:nth-child(1) > div > address:nth-child(7) > a {
     position: absolute;
     text-decoration: none;
     left: 40px;
@@ -1105,33 +1129,34 @@ main > footer > section:nth-child(2) > p {
     font-size: 20px;
 }
 
-main > footer > section:nth-child(2) > aside>nav{
+main > footer > section:nth-child(2) > aside > nav {
     position: absolute;
     z-index: 1;
 }
 
-main > footer > section:nth-child(2) > aside>nav > menu {
+main > footer > section:nth-child(2) > aside > nav > menu {
     position: relative;
     left: 450px;
     top: 50px;
 }
 
-main > footer > section:nth-child(2) > aside>nav> menu > li {
+main > footer > section:nth-child(2) > aside > nav > menu > li {
     display: inline-block;
     margin: 20px;
 }
 
-main > footer > section:nth-child(2) > aside>nav> menu > li > a {
+main > footer > section:nth-child(2) > aside > nav > menu > li > a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-weight: bold;
     z-index: 1;
 }
-main>div>a>img{
+
+main > div > a > img {
     position: fixed;
     width: 100px;
     height: 100px;
-    right:5px;
+    right: 5px;
     bottom: 5px;
 }
