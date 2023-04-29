@@ -887,7 +887,7 @@ main > section:nth-child(9) >div{
     top: 200px;
     left: 220px;
     position: relative;
-    height: 440px;
+    height: 500px;
     width: 1000px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -899,7 +899,6 @@ main > section:nth-child(9) >div{
 main > section:nth-child(9) >div>a>div>img{
     box-shadow: 4px 4px 6px 0px black;
     width: 350px;
-    margin-bottom: 10px;
 }
 
 main > section:nth-child(9) > p:nth-child(4) {
@@ -938,7 +937,7 @@ main > section:nth-child(9) > p:nth-child(6) {
 main > section:nth-child(9) > p:nth-child(7) {
     position: absolute;
     left: 360px;
-    top: 390px;
+    top: 420px;
     margin: auto;
     text-align: center;
     font-family: 'Gowun Batang', serif;
@@ -949,7 +948,7 @@ main > section:nth-child(9) > p:nth-child(7) {
 main > section:nth-child(9) > p:nth-child(8) {
     position: absolute;
     left: 730px;
-    top: 390px;
+    top: 420px;
     margin: auto;
     text-align: center;
     font-family: 'Gowun Batang', serif;
@@ -960,7 +959,7 @@ main > section:nth-child(9) > p:nth-child(8) {
 main > section:nth-child(9) > p:nth-child(9) {
     position: absolute;
     left: 1100px;
-    top: 390px;
+    top: 420px;
     margin: auto;
     text-align: center;
     font-family: 'Gowun Batang', serif;
