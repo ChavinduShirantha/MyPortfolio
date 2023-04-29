@@ -854,21 +854,9 @@ main > section:nth-child(8) > article > a:last-child > img {
 
 main > section:nth-child(9) {
     position: relative;
-    background: rgba(249, 249, 249, 0.8);
+    background: rgb(163, 200, 255);
     width: 98.93vw;
     height: 100vh;
-}
-
-main > section:nth-child(9) > img:first-child {
-    position: relative;
-    height: 150px;
-}
-
-main > section:nth-child(9) > img:last-child {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 150px;
 }
 
 main > section:nth-child(9) > h3 {
@@ -883,50 +871,178 @@ main > section:nth-child(9) > h3 {
     font-size: 42px;
 }
 
-main > section:nth-child(9) > div > div:first-child {
+main > section:nth-child(9) > p:nth-child(2) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main > section:nth-child(9) >div{
+    top: 200px;
+    left: 220px;
+    position: relative;
+    height: 440px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+
+main > section:nth-child(9) >div>a>div>img{
+    box-shadow: 4px 4px 6px 0px black;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+main > section:nth-child(9) > p:nth-child(4) {
+    position: absolute;
+    left: 360px;
+    top: 160px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main > section:nth-child(9) > p:nth-child(5) {
+    position: absolute;
+    left: 730px;
+    top: 160px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main > section:nth-child(9) > p:nth-child(6) {
+    position: absolute;
+    left: 1100px;
+    top: 160px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main > section:nth-child(9) > p:nth-child(7) {
+    position: absolute;
+    left: 360px;
+    top: 390px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main > section:nth-child(9) > p:nth-child(8) {
+    position: absolute;
+    left: 730px;
+    top: 390px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main > section:nth-child(9) > p:nth-child(9) {
+    position: absolute;
+    left: 1100px;
+    top: 390px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main > section:nth-child(10) {
+    position: relative;
+    background: rgba(249, 249, 249, 0.8);
+    width: 98.93vw;
+    height: 100vh;
+}
+
+main > section:nth-child(10) > img:first-child {
+    position: relative;
+    height: 150px;
+}
+
+main > section:nth-child(10) > img:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+}
+
+main > section:nth-child(10) > h3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+main > section:nth-child(10) > div > div:first-child {
     position: absolute;
     left: 150px;
     top: 100px;
 }
 
-main > section:nth-child(9) > div > div:first-child > img:first-child {
+main > section:nth-child(10) > div > div:first-child > img:first-child {
     position: absolute;
     width: 250px;
     border-radius: 20px;
 }
 
-main > section:nth-child(9) > div > div:first-child > img:last-child {
+main > section:nth-child(10) > div > div:first-child > img:last-child {
     position: absolute;
     width: 250px;
     top: 300px;
     border-radius: 20px;
 }
 
-main > section:nth-child(9) > div > div:nth-child(2) {
+main > section:nth-child(10) > div > div:nth-child(2) {
     position: absolute;
     left: 540px;
     top: 100px;
 }
 
-main > section:nth-child(9) > div > div:nth-child(2) > img {
+main > section:nth-child(10) > div > div:nth-child(2) > img {
     position: absolute;
     width: 450px;
     border-radius: 20px;
 }
 
-main > section:nth-child(9) > div > div:last-child {
+main > section:nth-child(10) > div > div:last-child {
     position: absolute;
     top: 100px;
     right: 400px;
 }
 
-main > section:nth-child(9) > div > div:last-child > img:first-child {
+main > section:nth-child(10) > div > div:last-child > img:first-child {
     position: absolute;
     width: 200px;
     border-radius: 20px;
 }
 
-main > section:nth-child(9) > div > div:last-child > img:last-child {
+main > section:nth-child(10) > div > div:last-child > img:last-child {
     position: absolute;
     width: 200px;
     top: 340px;
