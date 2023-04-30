@@ -253,6 +253,7 @@ main > section:nth-child(2) > aside > a > button {
     background: #458FFF;
     border: none;
     color: white;
+    box-shadow: 10px 10px 10px 0 black;
     font-size: 30px;
     border-radius: 10px;
     cursor: pointer;
@@ -541,6 +542,7 @@ main > section:nth-child(5) > article > div:first-child {
     height: 400px;
     width: 350px;
     background: #C2C2C2;
+    box-shadow: 10px 10px 10px 0 black;
     border-radius: 20px;
     margin: auto;
 }
@@ -585,6 +587,7 @@ main > section:nth-child(5) > article > div:last-child {
     height: 400px;
     width: 350px;
     background: #C2C2C2;
+    box-shadow: 10px 10px 10px 0 black;
     border-radius: 20px;
     margin: auto;
 }
@@ -794,6 +797,7 @@ main > section:nth-child(7) > aside > a > button {
     background: #458FFF;
     border: none;
     color: white;
+    box-shadow: 10px 10px 10px 0 black;
     font-size: 30px;
     border-radius: 10px;
     cursor: pointer;
@@ -897,7 +901,7 @@ main > section:nth-child(9) >div{
 }
 
 main > section:nth-child(9) >div>a>div>img{
-    box-shadow: 4px 4px 6px 0px black;
+    box-shadow: 10px 10px 10px 0 black;
     width: 350px;
 }
 
@@ -1177,6 +1181,84 @@ main > footer > section:nth-child(1) > div > address:nth-child(7) > a {
     text-align: left;
     font-family: 'Gowun Batang', serif;
     font-size: 20px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset{
+    border: none;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>input {
+    width: 39vw;
+    height: 44px;
+    background: #F7F8FA;
+    box-shadow: 10px 10px 10px 0 black;
+    border-radius: 43px;
+    border: none;
+    padding: 0 0 0 20px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>label{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>label:nth-child(1){
+    top: 160px;
+    right: 750px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>input#txtName {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>label:nth-child(5){
+    top: 260px;
+    right: 750px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>input#txtEmail {
+    position: absolute;
+    top: 300px;
+    right: 200px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>label:nth-child(9){
+    top: 360px;
+    right: 720px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>textarea {
+    width: 39vw;
+    height: 184px;
+    background: #F7F8FA;
+    box-shadow: 10px 10px 10px 0 black;
+    border-radius: 43px;
+    border: none;
+    padding: 20px 0 0 20px;
+    position: absolute;
+    top: 400px;
+    right: 200px;
+}
+
+main > footer > section:nth-child(1) > aside>form>fieldset>button{
+    position: absolute;
+    bottom: 75px;
+    right: 660px;
+    background: #458FFF;
+    border: none;
+    color: white;
+    box-shadow: 10px 10px 10px 0 black;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
 }
 
 main > footer > section:nth-child(2) {
