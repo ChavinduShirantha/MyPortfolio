@@ -1248,7 +1248,7 @@ main > footer > section:nth-child(1) > aside>form>fieldset>textarea {
 
 main > footer > section:nth-child(1) > aside>form>fieldset>button{
     position: absolute;
-    bottom: 75px;
+    bottom: 70px;
     right: 660px;
     background: #458FFF;
     border: none;
