@@ -220,7 +220,7 @@ main > section:nth-child(2) > aside > ul > li:before {
     font-weight: bold;
 }
 
-main > section:nth-child(2) > aside > ul > li{
+main > section:nth-child(2) > aside > ul > li {
     margin-bottom: 25px;
 }
 
@@ -865,7 +865,7 @@ main > section:nth-child(9) > p:nth-child(2) {
     font-size: 24px;
 }
 
-main > section:nth-child(9) >div{
+main > section:nth-child(9) > div {
     top: 200px;
     left: 220px;
     position: relative;
@@ -878,7 +878,7 @@ main > section:nth-child(9) >div{
     grid-row-gap: 10px;
 }
 
-main > section:nth-child(9) >div>a>div>img{
+main > section:nth-child(9) > div > a > div > img {
     box-shadow: 10px 10px 10px 0 black;
     width: 350px;
 }
@@ -980,7 +980,7 @@ main > section:nth-child(10) > h3 {
     font-size: 42px;
 }
 
-main>section:nth-child(10)>div{
+main > section:nth-child(10) > div {
     bottom: 60px;
     left: 50px;
     position: relative;
@@ -993,25 +993,25 @@ main>section:nth-child(10)>div{
     row-gap: 20px;
 }
 
-main>section:nth-child(10)>div>div{
+main > section:nth-child(10) > div > div {
     box-shadow: 10px 10px 10px 0;
     border-radius: 20px;
 }
 
-main>section:nth-child(10)>div>div:nth-child(1){
+main > section:nth-child(10) > div > div:nth-child(1) {
     background: url("/assets/img/gallery1.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 1/3;
 }
 
-main>section:nth-child(10)>div>div:nth-child(2){
+main > section:nth-child(10) > div > div:nth-child(2) {
     background: url("/assets/img/gallery6.jpg");
     background-size: cover;
     background-position: center;
 }
 
-main>section:nth-child(10)>div>div:nth-child(3){
+main > section:nth-child(10) > div > div:nth-child(3) {
     background: url("/assets/img/gallery3.jpg");
     background-size: cover;
     background-position: center;
@@ -1019,7 +1019,7 @@ main>section:nth-child(10)>div>div:nth-child(3){
     grid-row: 1/3;
 }
 
-main>section:nth-child(10)>div>div:nth-child(4){
+main > section:nth-child(10) > div > div:nth-child(4) {
     background: url("/assets/img/gallery7.jpg");
     background-size: cover;
     background-position: center;
@@ -1027,7 +1027,7 @@ main>section:nth-child(10)>div>div:nth-child(4){
     grid-row: 3/4;
 }
 
-main>section:nth-child(10)>div>div:nth-child(5){
+main > section:nth-child(10) > div > div:nth-child(5) {
     background: url("/assets/img/gallery4.jpg");
     background-size: cover;
     background-position: center;
@@ -1035,7 +1035,7 @@ main>section:nth-child(10)>div>div:nth-child(5){
     grid-row: 2/4;
 }
 
-main>section:nth-child(10)>div>div:nth-child(6){
+main > section:nth-child(10) > div > div:nth-child(6) {
     background: url("/assets/img/gallery5.jpg");
     background-size: cover;
     background-position: center;
@@ -1043,7 +1043,8 @@ main>section:nth-child(10)>div>div:nth-child(6){
     grid-column: 4/5;
     z-index: 1;
 }
-main>section:nth-child(10)>div>div:nth-child(7){
+
+main > section:nth-child(10) > div > div:nth-child(7) {
     background: url("/assets/img/gallery8.jpg");
     background-size: cover;
     background-position: center;
@@ -1051,7 +1052,7 @@ main>section:nth-child(10)>div>div:nth-child(7){
     grid-column: 4/5;
 }
 
-main>section:nth-child(10)>div>div:nth-child(8){
+main > section:nth-child(10) > div > div:nth-child(8) {
     background: url("/assets/img/gallery9.jpg");
     background-size: cover;
     background-position: center;
@@ -1194,11 +1195,11 @@ main > footer > section:nth-child(1) > div > address:nth-child(7) > a {
     color: black;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset{
+main > footer > section:nth-child(1) > aside > form > fieldset {
     border: none;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>input {
+main > footer > section:nth-child(1) > aside > form > fieldset > input {
     width: 39vw;
     height: 44px;
     background: #F7F8FA;
@@ -1206,9 +1207,10 @@ main > footer > section:nth-child(1) > aside>form>fieldset>input {
     border-radius: 43px;
     border: none;
     padding: 0 0 0 20px;
+    outline: none;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>label{
+main > footer > section:nth-child(1) > aside > form > fieldset > label {
     position: absolute;
     margin: auto;
     text-align: center;
@@ -1217,34 +1219,34 @@ main > footer > section:nth-child(1) > aside>form>fieldset>label{
     font-size: 26px;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>label:nth-child(1){
+main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(1) {
     top: 160px;
     right: 750px;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>input#txtName {
+main > footer > section:nth-child(1) > aside > form > fieldset > input#txtName {
     position: absolute;
     top: 200px;
     right: 200px;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>label:nth-child(5){
+main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(5) {
     top: 260px;
     right: 750px;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>input#txtEmail {
+main > footer > section:nth-child(1) > aside > form > fieldset > input#txtEmail {
     position: absolute;
     top: 300px;
     right: 200px;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>label:nth-child(9){
+main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(9) {
     top: 360px;
     right: 720px;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>textarea {
+main > footer > section:nth-child(1) > aside > form > fieldset > textarea {
     width: 39vw;
     height: 184px;
     background: #F7F8FA;
@@ -1255,9 +1257,10 @@ main > footer > section:nth-child(1) > aside>form>fieldset>textarea {
     position: absolute;
     top: 400px;
     right: 200px;
+    outline: none;
 }
 
-main > footer > section:nth-child(1) > aside>form>fieldset>button{
+main > footer > section:nth-child(1) > aside > form > fieldset > button {
     position: absolute;
     bottom: 70px;
     right: 660px;
@@ -1317,19 +1320,7 @@ main > footer > section:nth-child(2) > nav > div {
     margin-left: 30px;
 }
 
-main > footer > section:nth-child(2) > nav > div:nth-child(1) > a > img {
-    height: 45px;
-}
-
-main > footer > section:nth-child(2) > nav > div:nth-child(2) > a > img {
-    height: 45px;
-}
-
-main > footer > section:nth-child(2) > nav > div:nth-child(3) > a > img {
-    height: 45px;
-}
-
-main > footer > section:nth-child(2) > nav > div:nth-child(4) > a > img {
+main > footer > section:nth-child(2) > nav > div > a > img {
     height: 45px;
 }
 
