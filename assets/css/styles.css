@@ -1367,4 +1367,5 @@ main > div > a > img {
     height: 100px;
     right: 5px;
     bottom: 5px;
+    z-index: 2;
 }
