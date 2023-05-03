@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transition Assignment One</title>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/fontAwesome/css/all.css">
+    <style>
+        section{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            right: 200px;
+        }
+
+        section>div{
+            position: relative;
+            top: 100px;
+            box-shadow: 1px 2px 4px 0px;
+            height: 50px;
+            width: 250px;
+            background: darkviolet;
+            margin-bottom: 50px;
+            transition: all 2s;
+            left: 0;
+        }
+
+        section>div>i{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        
+        section>div:hover{
+            position: relative;
+            left: 200px;
+            transition: all 2s;
+        }
+
+        section>div>p{
+            position: absolute;
+            color: white;
+            left: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div><p>My One</p><i class="fa-solid fa-address-book" style="color: #ffffff;"></i></div>
+    <div><p>My Two</p><i class="fa-solid fa-truck-medical" style="color: #ffffff;"></i></div>
+    <div><p>My Three</p><i class="fa-solid fa-image" style="color: #ffffff;"></i></div>
+    <div><p>My Four</p><i class="fa-sharp fa-solid fa-database" style="color: #ffffff;"></i></div>
+    <div><p>My Five</p><i class="fa-solid fa-cart-plus" style="color: #ffffff;"></i></div>
+</section>
+</body>
+</html>
