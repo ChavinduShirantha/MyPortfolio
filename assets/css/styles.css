@@ -30,6 +30,10 @@ header > nav > menu > li {
     margin: 20px;
 }
 
+header > nav > menu > li>a:hover{
+    color: purple;
+}
+
 header > nav > menu > li > a {
     text-decoration: none;
     color: #6C6C6C;
@@ -237,6 +241,10 @@ main > section:nth-child(2) > aside > a > button {
     cursor: pointer;
     height: 60px;
     width: 250px;
+}
+
+main > section:nth-child(2) > aside > a > button:hover {
+    transform: scale(1.05);
 }
 
 main > section:nth-child(3) {
@@ -525,6 +533,11 @@ main > section:nth-child(5) > article > div:first-child {
     margin: auto;
 }
 
+main > section:nth-child(5) > article > div:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 main > section:nth-child(5) > article > div:first-child > img {
     position: absolute;
     left: 0;
@@ -783,6 +796,10 @@ main > section:nth-child(7) > aside > a > button {
     width: 250px;
 }
 
+main > section:nth-child(7) > aside > a > button:hover {
+    transform: scale(1.05);
+}
+
 main > section:nth-child(7) > aside > a > button > img {
     height: 30px;
 }
@@ -876,6 +893,10 @@ main > section:nth-child(9) > div {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 10px;
+}
+
+main > section:nth-child(9) > div > a > div:hover {
+    transform: scale(1.05);
 }
 
 main > section:nth-child(9) > div > a > div > img {
@@ -996,6 +1017,10 @@ main > section:nth-child(10) > div {
 main > section:nth-child(10) > div > div {
     box-shadow: 10px 10px 10px 0;
     border-radius: 20px;
+}
+
+main > section:nth-child(10) > div > div:hover {
+    transform: scale(1.05);
 }
 
 main > section:nth-child(10) > div > div:nth-child(1) {
@@ -1273,6 +1298,10 @@ main > footer > section:nth-child(1) > aside > form > fieldset > button {
     cursor: pointer;
     height: 60px;
     width: 150px;
+}
+
+main > footer > section:nth-child(1) > aside > form > fieldset > button:hover{
+    transform: scale(1.05);
 }
 
 main > footer > section:nth-child(2) {
