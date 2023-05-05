@@ -15,6 +15,14 @@ header > h1 {
     color: white;
 }
 
+header > h1 > span {
+    color: #FF4343;
+}
+
+header>div{
+    display: none;
+}
+
 header > nav {
     position: absolute;
     z-index: 1;
@@ -22,15 +30,16 @@ header > nav {
 
 header > nav > menu {
     position: relative;
-    left: 900px;
+    left: 1000px;
+    margin-top: 20px;
 }
 
 header > nav > menu > li {
     display: inline-block;
-    margin: 20px;
+    margin-right: 20px;
 }
 
-header > nav > menu > li>a:hover{
+header > nav > menu > li > a:hover {
     color: purple;
 }
 
@@ -49,7 +58,7 @@ main {
 main > section:nth-child(1) {
     position: relative;
     background: linear-gradient(to right, #0075FF, rgba(149, 198, 255, 0.23));
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -67,7 +76,7 @@ main > section:nth-child(1) > div {
 
 main > section:nth-child(1) > aside > img:nth-child(1) {
     position: absolute;
-    height: 450px;
+    height: 60%;
     top: 0;
     bottom: 0;
     right: 140px;
@@ -78,7 +87,7 @@ main > section:nth-child(1) > aside > img:nth-child(1) {
 
 main > section:nth-child(1) > aside > img:nth-child(2) {
     position: absolute;
-    height: 600px;
+    height: 80%;
     top: 20px;
     bottom: 0;
     right: 25px;
@@ -143,19 +152,7 @@ main > section:nth-child(1) > nav > div {
     margin-left: 30px;
 }
 
-main > section:nth-child(1) > nav > div:nth-child(1) > a > img {
-    height: 60px;
-}
-
-main > section:nth-child(1) > nav > div:nth-child(2) > a > img {
-    height: 60px;
-}
-
-main > section:nth-child(1) > nav > div:nth-child(3) > a > img {
-    height: 60px;
-}
-
-main > section:nth-child(1) > nav > div:nth-child(4) > a > img {
+main > section:nth-child(1) > nav > div > a > img {
     height: 60px;
 }
 
@@ -1300,7 +1297,7 @@ main > footer > section:nth-child(1) > aside > form > fieldset > button {
     width: 150px;
 }
 
-main > footer > section:nth-child(1) > aside > form > fieldset > button:hover{
+main > footer > section:nth-child(1) > aside > form > fieldset > button:hover {
     transform: scale(1.05);
 }
 
@@ -1397,4 +1394,91 @@ main > div > a > img {
     right: 5px;
     bottom: 5px;
     z-index: 2;
+}
+
+@media all and (max-width: 320px) {
+    header > h1 {
+        left: 0;
+        right: 0;
+        top: 5px;
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    header > nav > menu {
+        display: none;
+    }
+
+    header>div{
+        width: 50px;
+        display: contents;
+    }
+    header>div>i{
+        position: absolute;
+        right: -15px;
+        top: 10px;
+        margin: auto;
+        width: 50px;
+    }
+
+    main > section:nth-child(1) > aside > img:nth-child(2){
+        left: 0;
+        right: 0;
+        bottom: 170px;
+        height: 50%;
+        margin: auto;
+    }
+
+    main > section:nth-child(1) > aside > img:nth-child(1){
+        left: 0;
+        right: 0;
+        bottom: 170px;
+        height: 40%;
+        margin: auto;
+    }
+    main > section:nth-child(1) > div{
+        display: none;
+    }
+
+    main > section:nth-child(1) > article {
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 400px;
+        text-align: center;
+    }
+
+    main > section:nth-child(1) > article > h4:first-child {
+        font-size: 20px;
+    }
+
+    main > section:nth-child(1) > article > h2 {
+        font-size: 25px;
+    }
+
+    main > section:nth-child(1) > article > h4:last-child {
+        font-size: 28px;
+    }
+
+    main > section:nth-child(1) > article > h4:last-child > span{
+        font-size: 28px;
+    }
+
+    main > section:nth-child(1) > nav {
+        left: 0;
+        right: 0;
+        padding: 14px;
+        margin-top: 45px;
+    }
+
+    main > section:nth-child(1) > nav > div {
+        display: inline;
+        margin-left: 30px;
+    }
+
+    main > section:nth-child(1) > nav > div > a > img {
+        height: 30px;
+    }
+
 }
