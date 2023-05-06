@@ -1719,11 +1719,34 @@ main > div > a > img {
         font-size: 16px;
     }
 
-
     main > section:nth-child(5) > article > div:last-child > aside > p {
         top: 80px;
         font-size: 14px;
     }
 
+    main > section:nth-child(6) > img:first-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(6) > img:last-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(6) > h3 {
+        top: 5px;
+        font-size: 30px;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(1) {
+        height: 220px;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(2) {
+        height: 220px;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(3) {
+        height: 220px;
+    }
 
 }
