@@ -1417,10 +1417,8 @@ main > div > a > img {
 
     header > div > i {
         position: absolute;
-        right: -15px;
+        right: 10px;
         top: 10px;
-        margin: auto;
-        width: 50px;
     }
 
     main > section:nth-child(1) > aside > img:nth-child(2) {
@@ -1474,11 +1472,6 @@ main > div > a > img {
         margin-top: 45px;
     }
 
-    main > section:nth-child(1) > nav > div {
-        display: inline;
-        margin-left: 30px;
-    }
-
     main > section:nth-child(1) > nav > div > a > img {
         height: 30px;
     }
@@ -1510,7 +1503,7 @@ main > div > a > img {
 
     main > section:nth-child(2) > aside > ul {
         top: 420px;
-        left: 18%;
+        left: 30px;
         right: 0;
         text-align: left;
         font-size: 12px;
@@ -1616,7 +1609,6 @@ main > div > a > img {
     }
 
     main > section:nth-child(4) > article > img:nth-child(1) {
-        position: absolute;
         left: 70px;
         top: 90px;
         margin: auto;
@@ -1874,7 +1866,7 @@ main > div > a > img {
         left: 0;
         right: 0;
         margin: auto;
-        width: 320px;
+        width: 250px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0;
@@ -1937,12 +1929,12 @@ main > div > a > img {
     }
 
     main > section:nth-child(10) > div {
-        top: 5px;
+        top: 25px;
         left: 0;
         right: 0;
         margin: auto;
-        height: 500px;
-        width: 300px;
+        height: 450px;
+        width: 250px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
@@ -1991,5 +1983,199 @@ main > div > a > img {
         grid-column: 1/2;
     }
 
+    main > footer > section:nth-child(1) > img:first-child {
+        height: 50px;
+    }
+
+    main > footer > section:nth-child(1) > img:last-child {
+        height: 50px;
+    }
+
+    main > footer > section:nth-child(1) > h3 {
+        top: 5px;
+        font-size: 30px;
+    }
+
+    main > footer > section:nth-child(1) > p {
+        top: 40px;
+        font-size: 12px;
+    }
+
+    main > footer > section:nth-child(1) > div {
+        left: 0;
+        right: 0;
+        top: 60px;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+
+    }
+
+    main > footer > section:nth-child(1) > div > h3 {
+        top: 5px;
+        font-size: 10px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(2) {
+        left: 0;
+        right: 0;
+        top: 20px;
+        font-size: 12px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(3) {
+        text-align: center;
+        top: 40px;
+        left: 0;
+        right: 0;
+        font-size: 10px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(4) {
+        left: 0;
+        right: 0;
+        top: 100px;
+        font-size: 12px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(5) > a {
+        text-align: center;
+        top: 120px;
+        left: 0;
+        right: 0;
+        font-size: 10px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(6) {
+        left: 0;
+        right: 0;
+        top: 140px;
+        font-size: 12px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(7) > a {
+        text-align: center;
+        top: 160px;
+        left: 0;
+        right: 0;
+        font-size: 10px;
+    }
+
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > input {
+        width: 50vw;
+        height: 30px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label {
+        margin: auto;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(1) {
+        top: 260px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > input#txtName {
+        top: 280px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(5) {
+        top: 330px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > input#txtEmail {
+        top: 350px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(9) {
+        top: 400px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > textarea {
+        width: 50vw;
+        height: 120px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        top: 420px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > button {
+        position: absolute;
+        bottom: 20px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-size: 15px;
+        height: 30px;
+        width: 100px;
+    }
+
+    main > footer > section:nth-child(2) > article > h3 {
+        top: 10px;
+        font-size: 20px;
+    }
+
+    main > footer > section:nth-child(2) > article > p {
+        top: 20px;
+        font-size: 18px;
+    }
+
+    main > footer > section:nth-child(2) > nav {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(2) > nav > div:first-child {
+        margin-left: 50px;
+    }
+
+    main > footer > section:nth-child(2) > nav > div > a > img {
+        height: 30px;
+    }
+
+    main > footer > section:nth-child(2) > p {
+        top: 120px;
+        font-size: 12px;
+    }
+
+    main > footer > section:nth-child(2) > aside > nav > menu {
+        left: 0;
+        right: 0;
+        top: 50px;
+    }
+
+    main > footer > section:nth-child(2) > aside > nav > menu > li {
+        margin: 10px;
+    }
+
+    main > footer > section:nth-child(2) > aside > nav > menu > li > a {
+        font-size: 10px;
+    }
+
+    main > div > a > img {
+        width: 50px;
+        height: 50px;
+    }
 
 }
