@@ -1659,4 +1659,71 @@ main > div > a > img {
         width: 250px;
         line-height: 18px;
     }
+
+    main > section:nth-child(5) > img:first-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(5) > img:last-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(5) > article > h3 {
+        top: 5px;
+        font-size: 30px;
+    }
+
+    main > section:nth-child(5) > article > p {
+        top: 40px;
+        font-size: 16px;
+    }
+
+    main > section:nth-child(5) > article > div:first-child {
+        left: 0;
+        right: 0;
+        top: 100px;
+        height: 200px;
+        width: 250px;
+    }
+
+    main > section:nth-child(5) > article > div:first-child > img {
+        top: 5px;
+        height: 40px;
+    }
+
+    main > section:nth-child(5) > article > div:first-child > h4 {
+        top: 50px;
+        font-size: 16px;
+    }
+
+    main > section:nth-child(5) > article > div:first-child > p {
+        top: 80px;
+        font-size: 14px;
+    }
+
+    main > section:nth-child(5) > article > div:last-child {
+        left: 0;
+        right: 0;
+        top: 350px;
+        height: 200px;
+        width: 250px;
+    }
+
+    main > section:nth-child(5) > article > div:last-child > aside > img {
+        top: 5px;
+        height: 40px;
+    }
+
+    main > section:nth-child(5) > article > div:last-child > aside > h4 {
+        top: 50px;
+        font-size: 16px;
+    }
+
+
+    main > section:nth-child(5) > article > div:last-child > aside > p {
+        top: 80px;
+        font-size: 14px;
+    }
+
+
 }
