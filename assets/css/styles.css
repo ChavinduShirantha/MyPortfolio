@@ -1749,4 +1749,73 @@ main > div > a > img {
         height: 220px;
     }
 
+    main > section:nth-child(7) > h3 {
+        top: 5px;
+        font-size: 30px;
+    }
+
+    main > section:nth-child(7) > article > img {
+        left: 0;
+        right: 0;
+        bottom: 250px;
+        height: 170px;
+    }
+
+    main > section:nth-child(7) > aside > h4 {
+        right: 0;
+        left: 0;
+        top: 60px;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(7) > aside > article > p {
+        right: 0;
+        left: 0;
+        top: 320px;
+        font-size: 18px;
+    }
+
+    main > section:nth-child(7) > aside > ul {
+        top: 400px;
+        right: 0;
+        left: 0;
+    }
+
+    main > section:nth-child(7) > aside > ul > li:first-child {
+        top: 50px;
+        left: 45px;
+        height: 25px;
+        width: 60px;
+        font-size: 16px;
+    }
+
+    main > section:nth-child(7) > aside > ul > li:nth-child(2) {
+        top: 50px;
+        left: 125px;
+        height: 25px;
+        width: 60px;
+        font-size: 16px;
+    }
+
+    main > section:nth-child(7) > aside > ul > li:last-child {
+        top: 50px;
+        left: 205px;
+        height: 25px;
+        width: 60px;
+        font-size: 16px;
+    }
+
+    main > section:nth-child(7) > aside > a > button {
+        bottom: 50px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-size: 20px;
+        height: 40px;
+        width: 150px;
+    }
+
+    main > section:nth-child(7) > aside > a > button > img {
+        height: 20px;
+    }
 }
