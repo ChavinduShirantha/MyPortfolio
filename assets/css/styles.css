@@ -1818,4 +1818,45 @@ main > div > a > img {
     main > section:nth-child(7) > aside > a > button > img {
         height: 20px;
     }
+
+    main > section:nth-child(8) > img:first-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(8) > img:last-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(8) > article > a:first-child > img {
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 150px;
+    }
+
+    main > section:nth-child(8) > article > a:nth-child(2) > img {
+        bottom: 320px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 100px;
+    }
+
+    main > section:nth-child(8) > article > a:nth-child(3) > img {
+        bottom: 200px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 100px;
+    }
+
+    main > section:nth-child(8) > article > a:last-child > img {
+        top: 450px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 150px;
+    }
+
 }
