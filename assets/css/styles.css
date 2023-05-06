@@ -1484,11 +1484,7 @@ main > div > a > img {
     }
 
     main > section:nth-child(2) > h3 {
-        left: 0;
-        right: 0;
         top: 5px;
-        margin: auto;
-        text-align: center;
         font-size: 30px;
     }
 
@@ -1536,6 +1532,36 @@ main > div > a > img {
         font-size: 20px;
         height: 40px;
         width: 150px;
+    }
+
+    main > section:nth-child(3) > img:first-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(3) > img:last-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(3) > h3 {
+        top: 5px;
+        font-size: 30px;
+    }
+
+    main > section:nth-child(3) > p {
+        top: 60px;
+        font-size: 11px;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(1) {
+        height: 150px;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(2) {
+        height: 150px;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(3) {
+        height: 150px;
     }
 
 }
