@@ -19,7 +19,7 @@ header > h1 > span {
     color: #FF4343;
 }
 
-header>div{
+header > div {
     display: none;
 }
 
@@ -159,7 +159,7 @@ main > section:nth-child(1) > nav > div > a > img {
 main > section:nth-child(2) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -247,7 +247,7 @@ main > section:nth-child(2) > aside > a > button:hover {
 main > section:nth-child(3) {
     position: relative;
     background: rgba(163, 200, 255, 0.8);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -320,7 +320,7 @@ main > section:nth-child(3) > article > img:nth-child(3) {
 main > section:nth-child(4) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -477,7 +477,7 @@ main > section:nth-child(4) > aside > ul > li:last-child {
 main > section:nth-child(5) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -617,7 +617,7 @@ main > section:nth-child(5) > article > div:last-child > aside > p {
 main > section:nth-child(6) {
     position: relative;
     background: rgb(163, 200, 255);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -679,7 +679,7 @@ main > section:nth-child(6) > article > img:nth-child(3) {
 main > section:nth-child(7) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -804,7 +804,7 @@ main > section:nth-child(7) > aside > a > button > img {
 main > section:nth-child(8) {
     position: relative;
     background: rgb(163, 200, 255);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -851,7 +851,7 @@ main > section:nth-child(8) > article > a:last-child > img {
 main > section:nth-child(9) {
     position: relative;
     background: rgb(163, 200, 255);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -970,7 +970,7 @@ main > section:nth-child(9) > p:nth-child(9) {
 main > section:nth-child(10) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -1085,7 +1085,7 @@ main > section:nth-child(10) > div > div:nth-child(8) {
 main > footer > section:nth-child(1) {
     position: relative;
     background: rgb(163, 200, 255);
-    width: 98.93vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -1304,7 +1304,7 @@ main > footer > section:nth-child(1) > aside > form > fieldset > button:hover {
 main > footer > section:nth-child(2) {
     position: relative;
     background: rgb(113, 113, 113);
-    width: 98.93vw;
+    width: 100%;
     height: 30vh;
 }
 
@@ -1410,11 +1410,12 @@ main > div > a > img {
         display: none;
     }
 
-    header>div{
+    header > div {
         width: 50px;
         display: contents;
     }
-    header>div>i{
+
+    header > div > i {
         position: absolute;
         right: -15px;
         top: 10px;
@@ -1422,7 +1423,7 @@ main > div > a > img {
         width: 50px;
     }
 
-    main > section:nth-child(1) > aside > img:nth-child(2){
+    main > section:nth-child(1) > aside > img:nth-child(2) {
         left: 0;
         right: 0;
         bottom: 170px;
@@ -1430,14 +1431,15 @@ main > div > a > img {
         margin: auto;
     }
 
-    main > section:nth-child(1) > aside > img:nth-child(1){
+    main > section:nth-child(1) > aside > img:nth-child(1) {
         left: 0;
         right: 0;
         bottom: 170px;
         height: 40%;
         margin: auto;
     }
-    main > section:nth-child(1) > div{
+
+    main > section:nth-child(1) > div {
         display: none;
     }
 
@@ -1461,7 +1463,7 @@ main > div > a > img {
         font-size: 28px;
     }
 
-    main > section:nth-child(1) > article > h4:last-child > span{
+    main > section:nth-child(1) > article > h4:last-child > span {
         font-size: 28px;
     }
 
@@ -1479,6 +1481,61 @@ main > div > a > img {
 
     main > section:nth-child(1) > nav > div > a > img {
         height: 30px;
+    }
+
+    main > section:nth-child(2) > h3 {
+        left: 0;
+        right: 0;
+        top: 5px;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    main > section:nth-child(2) > article {
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    main > section:nth-child(2) > article > img {
+        width: 250px;
+        bottom: 260px;
+        left: 0;
+        right: 0;
+    }
+
+    main > section:nth-child(2) > aside > p {
+        top: 330px;
+        right: 0;
+        left: 0;
+        font-size: 12px;
+    }
+
+    main > section:nth-child(2) > aside > ul {
+        top: 420px;
+        left: 18%;
+        right: 0;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    main > section:nth-child(2) > aside > ul > li:before {
+        font-size: 10px;
+    }
+
+    main > section:nth-child(2) > aside > ul > li {
+        margin-bottom: 6px;
+    }
+
+    main > section:nth-child(2) > aside > a > button {
+        bottom: 50px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-size: 20px;
+        height: 40px;
+        width: 150px;
     }
 
 }
