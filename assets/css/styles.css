@@ -1564,4 +1564,99 @@ main > div > a > img {
         height: 150px;
     }
 
+    main > section:nth-child(4) > img:first-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(4) > img:last-child {
+        height: 50px;
+    }
+
+    main > section:nth-child(4) > h3 {
+        top: 5px;
+        font-size: 30px;
+    }
+
+    main > section:nth-child(4) > div > div:first-child {
+        left: 40px;
+        top: 100px;
+        border-width: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(2) {
+        left: 46px;
+        top: 112px;
+        width: 2px;
+        height: 140px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(3) {
+        left: 40px;
+        top: 252px;
+        border-width: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(4) {
+        left: 46px;
+        top: 265px;
+        width: 2px;
+        height: 140px;
+    }
+
+    main > section:nth-child(4) > div > div:last-child {
+        left: 40px;
+        top: 405px;
+        border-width: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(1) {
+        position: absolute;
+        left: 70px;
+        top: 90px;
+        margin: auto;
+        width: 120px;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(2) {
+        left: 100px;
+        top: 210px;
+        height: 50px;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(3) {
+        left: 100px;
+        top: 350px;
+        height: 50px;
+    }
+
+    main > section:nth-child(4) > aside > ul {
+        top: 120px;
+        left: 30px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:first-child {
+        font-size: 12px;
+        width: 250px;
+        line-height: 18px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:nth-child(2) {
+        top: 125px;
+        font-size: 12px;
+        width: 250px;
+        line-height: 18px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:last-child {
+        top: 270px;
+        font-size: 12px;
+        width: 250px;
+        line-height: 18px;
+    }
 }
