@@ -1396,14 +1396,14 @@ main > div > a > img {
     z-index: 2;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 376px) {
     header > h1 {
         left: 0;
         right: 0;
         top: 5px;
         margin: auto;
         text-align: center;
-        font-size: 40px;
+        font-size: 45px;
     }
 
     header > nav > menu {
@@ -1411,14 +1411,14 @@ main > div > a > img {
     }
 
     header > div {
-        width: 50px;
+        width: 60px;
         display: contents;
     }
 
     header > div > i {
         position: absolute;
-        right: 10px;
-        top: 10px;
+        right: 20px;
+        top: 20px;
     }
 
     main > section:nth-child(1) > aside > img:nth-child(2) {
@@ -1450,25 +1450,28 @@ main > div > a > img {
     }
 
     main > section:nth-child(1) > article > h4:first-child {
-        font-size: 20px;
+        font-size: 24px;
+        top: 28px;
     }
 
     main > section:nth-child(1) > article > h2 {
-        font-size: 25px;
+        font-size: 28px;
+        top: 30px;
     }
 
     main > section:nth-child(1) > article > h4:last-child {
-        font-size: 28px;
+        top: 36px;
+        font-size: 30px;
     }
 
     main > section:nth-child(1) > article > h4:last-child > span {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     main > section:nth-child(1) > nav {
         left: 0;
         right: 0;
-        padding: 14px;
+        padding: 35px;
         margin-top: 45px;
     }
 
@@ -1503,7 +1506,7 @@ main > div > a > img {
 
     main > section:nth-child(2) > aside > ul {
         top: 420px;
-        left: 30px;
+        left: 75px;
         right: 0;
         text-align: left;
         font-size: 12px;
@@ -1770,7 +1773,7 @@ main > div > a > img {
     main > section:nth-child(7) > aside > ul {
         top: 400px;
         right: 0;
-        left: 0;
+        left: 30px;
     }
 
     main > section:nth-child(7) > aside > ul > li:first-child {
@@ -1880,37 +1883,37 @@ main > div > a > img {
     }
 
     main > section:nth-child(9) > p:nth-child(4) {
-        left: 55px;
+        left: 100px;
         top: 130px;
         font-size: 12px;
     }
 
     main > section:nth-child(9) > p:nth-child(5) {
-        left: 215px;
+        left: 225px;
         top: 130px;
         font-size: 12px;
     }
 
     main > section:nth-child(9) > p:nth-child(6) {
-        left: 55px;
+        left: 100px;
         top: 290px;
         font-size: 12px;
     }
 
     main > section:nth-child(9) > p:nth-child(7) {
-        left: 215px;
+        left: 225px;
         top: 290px;
         font-size: 12px;
     }
 
     main > section:nth-child(9) > p:nth-child(8) {
-        left: 55px;
+        left: 100px;
         top: 460px;
         font-size: 12px;
     }
 
     main > section:nth-child(9) > p:nth-child(9) {
-        left: 215px;
+        left: 225px;
         top: 460px;
         font-size: 12px;
     }
@@ -1933,8 +1936,8 @@ main > div > a > img {
         left: 0;
         right: 0;
         margin: auto;
-        height: 450px;
-        width: 250px;
+        height: 500px;
+        width: 300px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
@@ -2147,7 +2150,7 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(2) > nav > div:first-child {
-        margin-left: 50px;
+        margin-left: 75px;
     }
 
     main > footer > section:nth-child(2) > nav > div > a > img {
@@ -2166,7 +2169,7 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(2) > aside > nav > menu > li {
-        margin: 10px;
+        margin: 12px;
     }
 
     main > footer > section:nth-child(2) > aside > nav > menu > li > a {
@@ -2176,6 +2179,54 @@ main > div > a > img {
     main > div > a > img {
         width: 50px;
         height: 50px;
+        right: 0;
+    }
+}
+
+
+
+@media all and (max-width: 320px) {
+    main > section:nth-child(2) > aside > ul {
+        left: 30px;
+    }
+    main > section:nth-child(7) > aside > ul {
+        left: 0;
+    }
+    main > section:nth-child(9) > p:nth-child(4) {
+        left: 75px;
     }
 
+    main > section:nth-child(9) > p:nth-child(5) {
+        left: 205px;
+    }
+
+    main > section:nth-child(9) > p:nth-child(6) {
+        left: 75px;
+    }
+
+    main > section:nth-child(9) > p:nth-child(7) {
+        left: 205px;
+    }
+
+    main > section:nth-child(9) > p:nth-child(8) {
+        left: 75px;
+    }
+
+    main > section:nth-child(9) > p:nth-child(9) {
+        left: 205px;
+    }
+    main > section:nth-child(10) > div {
+        height: 450px;
+        width: 250px;
+    }
+    main > footer > section:nth-child(2) > nav > div:first-child {
+        margin-left: 50px;
+    }
+    main > footer > section:nth-child(2) > aside > nav > menu > li {
+        margin: 6px;
+    }
+    main > div > a > img {
+        width: 40px;
+        height: 40px;
+    }
 }
