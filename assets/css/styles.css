@@ -2186,6 +2186,10 @@ main > div > a > img {
 
 
 @media all and (max-width: 320px) {
+    main > section:nth-child(1) > nav {
+        padding: 18px;
+        margin-top: 60px;
+    }
     main > section:nth-child(2) > aside > ul {
         left: 30px;
     }
