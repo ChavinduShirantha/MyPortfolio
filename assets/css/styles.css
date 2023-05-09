@@ -2556,6 +2556,10 @@ main > div > a > img {
         margin-left: 45px;
     }
 
+    main > section:nth-child(2) > article > img {
+        top: 2%;
+    }
+
     main > section:nth-child(2) > aside > p {
         font-size: 15px;
     }
@@ -2592,9 +2596,40 @@ main > div > a > img {
         left: 10%;
     }
 
+    main > section:nth-child(9) > p:nth-child(4) {
+        left: 15%;
+        top: 22%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(5) {
+        left: 47%;
+        top: 22%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(6) {
+        left: 75%;
+        top: 22%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(7) {
+        left: 15%;
+        top: 45%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(8) {
+        left: 47%;
+        top: 45%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(9) {
+        left: 75%;
+        top: 45%;
+    }
+
+
     main > section:nth-child(9) > div {
         width: 350px;
-        height: 300px;
+        height: 350px;
     }
 
     main > section:nth-child(9) > div > a > div > img {
@@ -2667,6 +2702,10 @@ main > div > a > img {
 
     main > section:nth-child(9) > div > a > div > img {
         width: 85px;
+    }
+
+    main > footer > section:nth-child(1) > p {
+        top: 9%;
     }
 
     main > footer > section:nth-child(2) > nav {
