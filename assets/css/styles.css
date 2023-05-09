@@ -1400,13 +1400,15 @@ main > div > a > img {
     header > h1 {
         left: 30px;
     }
+
     header > nav > menu {
         left: 60%;
     }
-    
+
     main > section:nth-child(1) > div {
         display: none;
     }
+
     header > div {
         display: none;
     }
@@ -1416,6 +1418,7 @@ main > div > a > img {
         right: 50px;
         top: 20px;
     }
+
     main > section:nth-child(1) > aside > img:nth-child(2) {
         left: 0;
         right: 0;
@@ -1431,12 +1434,14 @@ main > div > a > img {
         height: 300px;
         margin: auto;
     }
+
     main > section:nth-child(1) > article {
         left: 200px;
         margin: auto;
         top: 65%;
         text-align: left;
     }
+
     main > section:nth-child(1) > article > h4:first-child {
         font-size: 24px;
         top: 28px;
@@ -2107,9 +2112,10 @@ main > div > a > img {
         top: 50px;
     }
 
-    main > footer > section:nth-child(2) > aside > nav{
+    main > footer > section:nth-child(2) > aside > nav {
         left: 14%;
     }
+
     main > footer > section:nth-child(2) > aside > nav > menu > li {
         margin: 12px;
     }
@@ -2125,12 +2131,13 @@ main > div > a > img {
     }
 }
 
-@media all and (max-width: 426px){
+@media all and (max-width: 426px) {
     header > h1 {
         left: 0;
         right: 0;
         text-align: center;
     }
+
     header > nav > menu {
         display: none;
     }
@@ -2538,7 +2545,7 @@ main > div > a > img {
         left: 6%;
     }
 
-    main > footer > section:nth-child(2) > aside > nav{
+    main > footer > section:nth-child(2) > aside > nav {
         left: -14%;
     }
 
@@ -2598,7 +2605,7 @@ main > div > a > img {
         left: -2%;
     }
 
-    main > footer > section:nth-child(2) > aside > nav{
+    main > footer > section:nth-child(2) > aside > nav {
         left: -22%;
     }
 
@@ -2666,7 +2673,7 @@ main > div > a > img {
         left: -10%;
     }
 
-    main > footer > section:nth-child(2) > aside > nav{
+    main > footer > section:nth-child(2) > aside > nav {
         left: -32%;
     }
 
