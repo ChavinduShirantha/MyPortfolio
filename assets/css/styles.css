@@ -1537,17 +1537,21 @@ main > div > a > img {
     main > section:nth-child(3) > article > img:nth-child(1) {
         top: 5%;
         width: 95%;
+        height: 65%;
     }
 
     main > section:nth-child(3) > article > img:nth-child(2) {
         top: 5%;
         width: 95%;
+        height: 65%;
     }
 
     main > section:nth-child(3) > article > img:nth-child(3) {
         top: 5%;
         width: 95%;
+        height: 65%;
     }
+
     main > section:nth-child(4) > img:first-child {
         height: 15%;
     }
@@ -1838,6 +1842,7 @@ main > div > a > img {
         margin: auto;
         height: 200px;
     }
+
     main > section:nth-child(9) > h3 {
         top: 2%;
         font-size: 40px;
@@ -2066,6 +2071,7 @@ main > div > a > img {
         height: 30px;
         width: 100px;
     }
+
     main > footer > section:nth-child(2) > article > h3 {
         top: 10px;
         font-size: 20px;
@@ -2119,7 +2125,464 @@ main > div > a > img {
     }
 }
 
-@media all and (max-width: 376px) {
+@media all and (max-width: 426px){
+    header > h1 {
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    header > nav > menu {
+        display: none;
+    }
+
+    header > div {
+        display: contents;
+    }
+
+    main > section:nth-child(1) > article {
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 60%;
+        text-align: center;
+    }
+
+    main > section:nth-child(1) > nav {
+        margin-left: 70px;
+    }
+
+    main > section:nth-child(2) > article > img {
+        width: 250px;
+        top: 5%;
+        left: 0;
+        right: 0;
+    }
+
+    main > section:nth-child(2) > aside > p {
+        top: 55%;
+        right: 0;
+        left: 0;
+        font-size: 16px;
+    }
+
+    main > section:nth-child(2) > aside > ul {
+        top: 73%;
+        left: 20%;
+        font-size: 14px;
+    }
+
+    main > section:nth-child(2) > aside > a > button {
+        bottom: 4%;
+    }
+
+    main > section:nth-child(3) > img:first-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(3) > img:last-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(1) {
+        width: 90%;
+        height: 40%;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(2) {
+        width: 90%;
+        height: 40%;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(3) {
+        width: 90%;
+        height: 40%;
+    }
+
+    main > section:nth-child(4) > img:first-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(4) > img:last-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(4) > div > div:first-child {
+        left: 30px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(2) {
+        left: 38px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(3) {
+        left: 30px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(4) {
+        left: 38px;
+    }
+
+    main > section:nth-child(4) > div > div:last-child {
+        left: 30px;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(1) {
+        left: 15%;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(2) {
+        left: 20%;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(3) {
+        left: 20%;
+    }
+
+    main > section:nth-child(4) > aside > ul {
+        top: 18%;
+        left: 6%;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:first-child {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:nth-child(2) {
+        top: 10em;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:last-child {
+        top: 20em;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    main > section:nth-child(5) > img:first-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(5) > img:last-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(5) > article > div:first-child {
+        left: 0;
+        right: 0;
+        bottom: 30%;
+        width: 55%;
+    }
+
+    main > section:nth-child(5) > article > div:last-child {
+        right: 0;
+        left: 0;
+        top: 50%;
+        height: 35%;
+        width: 55%;
+    }
+
+    main > section:nth-child(6) > img:first-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(6) > img:last-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(7) > article > img {
+        width: 85%;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(1) {
+        height: 45%;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(2) {
+        height: 45%;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(3) {
+        height: 45%;
+    }
+
+    main > section:nth-child(7) > aside > ul {
+        left: 15%;
+    }
+
+    main > section:nth-child(7) > aside > a > button {
+        bottom: 8%;
+    }
+
+    main > section:nth-child(8) > img:first-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(8) > img:last-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(8) > article > a:first-child > img {
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 150px;
+    }
+
+    main > section:nth-child(8) > article > a:nth-child(2) > img {
+        bottom: 50%;
+        right: 0;
+        margin: auto;
+        height: 120px;
+        left: 0;
+    }
+
+    main > section:nth-child(8) > article > a:nth-child(3) > img {
+        bottom: 28%;
+        left: 0;
+        right: 0;
+        height: 120px;
+    }
+
+    main > section:nth-child(8) > article > a:last-child > img {
+        top: 75%;
+        right: 0;
+        left: 0;
+        height: 150px;
+    }
+
+    main > section:nth-child(9) > div {
+        top: 20%;
+        width: 400px;
+        height: 300px;
+        grid-column-gap: 0;
+    }
+
+    main > section:nth-child(9) > div > a > div > img {
+        width: 120px;
+    }
+
+    main > section:nth-child(9) > p:nth-child(4) {
+        left: 15%;
+        top: 22%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(5) {
+        left: 47%;
+        top: 22%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(6) {
+        left: 75%;
+        top: 22%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(7) {
+        left: 15%;
+        top: 45%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(8) {
+        left: 47%;
+        top: 45%;
+    }
+
+    main > section:nth-child(9) > p:nth-child(9) {
+        left: 75%;
+        top: 45%;
+    }
+
+    main > section:nth-child(10) > img:first-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(10) > img:last-child {
+        height: 10%;
+    }
+
+    main > section:nth-child(10) > div {
+        top: 2%;
+        height: 500px;
+        width: 300px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    main > section:nth-child(10) > div > div:nth-child(1) {
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+
+    main > section:nth-child(10) > div > div:nth-child(2) {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    main > section:nth-child(10) > div > div:nth-child(3) {
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+
+    main > section:nth-child(10) > div > div:nth-child(4) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    main > section:nth-child(10) > div > div:nth-child(5) {
+        grid-column: 1/2;
+        grid-row: 4/6;
+    }
+
+    main > section:nth-child(10) > div > div:nth-child(6) {
+        grid-row: 5/7;
+        grid-column: 2/3;
+        z-index: 1;
+    }
+
+    main > section:nth-child(10) > div > div:nth-child(7) {
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    main > section:nth-child(10) > div > div:nth-child(8) {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+
+    main > footer > section:nth-child(1) > img:first-child {
+        height: 10%;
+    }
+
+    main > footer > section:nth-child(1) > img:last-child {
+        height: 10%;
+    }
+
+    main > footer > section:nth-child(1) > div {
+        left: 0;
+        right: 0;
+        top: 60px;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+    }
+
+    main > footer > section:nth-child(1) > div > h3 {
+        top: 2%;
+        font-size: 20px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(2) {
+        left: 0;
+        right: 0;
+        top: 15%;
+        font-size: 18px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(3) {
+        text-align: center;
+        top: 25%;
+        left: 0;
+        right: 0;
+        font-size: 14px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(4) {
+        left: 0;
+        right: 0;
+        top: 55%;
+        font-size: 18px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(5) > a {
+        text-align: center;
+        top: 65%;
+        left: 0;
+        right: 0;
+        font-size: 14px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(6) {
+        left: 0;
+        right: 0;
+        top: 75%;
+        font-size: 18px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(7) > a {
+        text-align: center;
+        top: 85%;
+        left: 0;
+        right: 0;
+        font-size: 14px;
+    }
+
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > input {
+        width: 50vw;
+        height: 30px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label {
+        margin: auto;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(1) {
+        top: 20%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > input#txtName {
+        top: 25%;
+        right: 2%;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(5) {
+        top: 40%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > input#txtEmail {
+        top: 45%;
+        right: 2%;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(9) {
+        top: 60%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > textarea {
+        width: 50vw;
+        height: 120px;
+        right: 2%;
+        margin: auto;
+        top: 65%;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > button {
+        position: absolute;
+        bottom: 4%;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-size: 15px;
+        height: 30px;
+        width: 100px;
+    }
+
+}
+
+@media all and (max-width: 375px) {
 
 }
 
