@@ -2246,18 +2246,21 @@ main > div > a > img {
     main > section:nth-child(4) > aside > ul > li:first-child {
         font-size: 16px;
         line-height: 20px;
+        width: 280px;
     }
 
     main > section:nth-child(4) > aside > ul > li:nth-child(2) {
         top: 10em;
         font-size: 16px;
         line-height: 20px;
+        width: 339px;
     }
 
     main > section:nth-child(4) > aside > ul > li:last-child {
         top: 20em;
         font-size: 16px;
         line-height: 20px;
+        width: 339px;
     }
 
     main > section:nth-child(5) > img:first-child {
@@ -2541,7 +2544,63 @@ main > div > a > img {
 
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 376px) {
+    main > section:nth-child(1) > nav {
+        margin-left: 45px;
+    }
+
+    main > section:nth-child(2) > aside > p {
+        font-size: 15px;
+    }
+
+    main > section:nth-child(2) > aside > ul {
+        top: 72%;
+        left: 20%;
+        font-size: 12px;
+    }
+
+    main > section:nth-child(4) > aside > ul {
+        top: 18%;
+        left: 6%;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:first-child {
+        font-size: 14px;
+        width: 245px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:nth-child(2) {
+        top: 12em;
+        font-size: 14px;
+        width: 297px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:last-child {
+        top: 23em;
+        font-size: 14px;
+        width: 297px;
+    }
+
+    main > section:nth-child(7) > aside > ul {
+        left: 10%;
+    }
+
+    main > section:nth-child(9) > div {
+        width: 350px;
+        height: 300px;
+    }
+
+    main > section:nth-child(9) > div > a > div > img {
+        width: 100px;
+    }
+
+    main > footer > section:nth-child(2) > nav {
+        left: -2%;
+    }
+
+    main > footer > section:nth-child(2) > aside > nav{
+        left: -22%;
+    }
 
 }
 
