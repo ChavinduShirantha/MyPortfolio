@@ -2460,12 +2460,10 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(1) > div {
-        left: 0;
-        right: 0;
-        top: 60px;
+        top: 15%;
         margin: auto;
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
     }
 
     main > footer > section:nth-child(1) > div > h3 {
@@ -2474,110 +2472,71 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(1) > div > h5:nth-child(2) {
-        left: 0;
-        right: 0;
-        top: 15%;
-        font-size: 18px;
+        top: 16%;
     }
 
     main > footer > section:nth-child(1) > div > address:nth-child(3) {
-        text-align: center;
-        top: 25%;
-        left: 0;
-        right: 0;
-        font-size: 14px;
+        top: 26%;
     }
 
     main > footer > section:nth-child(1) > div > h5:nth-child(4) {
-        left: 0;
-        right: 0;
-        top: 55%;
-        font-size: 18px;
+        top: 60%;
     }
 
     main > footer > section:nth-child(1) > div > address:nth-child(5) > a {
-        text-align: center;
-        top: 65%;
-        left: 0;
-        right: 0;
-        font-size: 14px;
+        top: 70%;
     }
 
     main > footer > section:nth-child(1) > div > h5:nth-child(6) {
-        left: 0;
-        right: 0;
-        top: 75%;
-        font-size: 18px;
+        top: 78%;
     }
 
     main > footer > section:nth-child(1) > div > address:nth-child(7) > a {
-        text-align: center;
-        top: 85%;
-        left: 0;
-        right: 0;
-        font-size: 14px;
-    }
-
-
-    main > footer > section:nth-child(1) > aside > form > fieldset > input {
-        width: 50vw;
-        height: 30px;
+        top: 88%;
     }
 
     main > footer > section:nth-child(1) > aside > form > fieldset > label {
-        margin: auto;
-        text-align: center;
-        font-size: 24px;
+        font-size: 18px;
     }
 
     main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(1) {
-        top: 20%;
-        right: 0;
-        left: 0;
-        margin: auto;
+        top: 55%;
     }
 
     main > footer > section:nth-child(1) > aside > form > fieldset > input#txtName {
-        top: 25%;
-        right: 2%;
+        top: 58%;
+        right: 20%;
     }
 
     main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(5) {
-        top: 40%;
-        right: 0;
-        left: 0;
-        margin: auto;
-    }
-
-    main > footer > section:nth-child(1) > aside > form > fieldset > input#txtEmail {
-        top: 45%;
-        right: 2%;
-    }
-
-    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(9) {
-        top: 60%;
-        right: 0;
-        left: 0;
-        margin: auto;
-    }
-
-    main > footer > section:nth-child(1) > aside > form > fieldset > textarea {
-        width: 50vw;
-        height: 120px;
-        right: 2%;
-        margin: auto;
         top: 65%;
     }
 
+    main > footer > section:nth-child(1) > aside > form > fieldset > input#txtEmail {
+        top: 68%;
+        right: 20%;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(9) {
+        top: 74%;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > textarea {
+        height: 60px;
+        right: 20%;
+        top: 77%;
+    }
+
     main > footer > section:nth-child(1) > aside > form > fieldset > button {
-        position: absolute;
-        bottom: 4%;
-        right: 0;
-        left: 0;
-        margin: auto;
-        font-size: 15px;
-        height: 30px;
-        width: 100px;
+        bottom: 3%;
+    }
+
+    main > footer > section:nth-child(2) > nav {
+        left: 6%;
+    }
+
+    main > footer > section:nth-child(2) > aside > nav{
+        left: -14%;
     }
 
 }
