@@ -2605,51 +2605,69 @@ main > div > a > img {
 }
 
 @media all and (max-width: 320px) {
-   /* main > section:nth-child(1) > nav {
-        padding: 18px;
-        margin-top: 60px;
+    main > section:nth-child(1) > nav {
+        margin-left: 18px;
     }
+
+    main > section:nth-child(1) > aside > img:nth-child(1) {
+        height: 300px;
+    }
+
+    main > section:nth-child(1) > aside > img:nth-child(2) {
+        height: 300px;
+    }
+
+    main > section:nth-child(2) > aside > p {
+        font-size: 13px;
+    }
+
     main > section:nth-child(2) > aside > ul {
-        left: 30px;
+        top: 70%;
+        left: 12%;
+        font-size: 12px;
     }
+
+    main > section:nth-child(4) > aside > ul {
+        top: 18%;
+        left: 6%;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:first-child {
+        font-size: 12px;
+        width: 210px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:nth-child(2) {
+        top: 14em;
+        font-size: 12px;
+        width: 254px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:last-child {
+        top: 27em;
+        font-size: 12px;
+        width: 254px;
+    }
+
     main > section:nth-child(7) > aside > ul {
         left: 0;
     }
-    main > section:nth-child(9) > p:nth-child(4) {
-        left: 75px;
+
+    main > section:nth-child(9) > div {
+        width: 300px;
+        height: 300px;
     }
 
-    main > section:nth-child(9) > p:nth-child(5) {
-        left: 205px;
+    main > section:nth-child(9) > div > a > div > img {
+        width: 85px;
     }
 
-    main > section:nth-child(9) > p:nth-child(6) {
-        left: 75px;
+    main > footer > section:nth-child(2) > nav {
+        left: -10%;
     }
 
-    main > section:nth-child(9) > p:nth-child(7) {
-        left: 205px;
+    main > footer > section:nth-child(2) > aside > nav{
+        left: -32%;
     }
 
-    main > section:nth-child(9) > p:nth-child(8) {
-        left: 75px;
-    }
-
-    main > section:nth-child(9) > p:nth-child(9) {
-        left: 205px;
-    }
-    main > section:nth-child(10) > div {
-        height: 450px;
-        width: 250px;
-    }
-    main > footer > section:nth-child(2) > nav > div:first-child {
-        margin-left: 50px;
-    }
-    main > footer > section:nth-child(2) > aside > nav > menu > li {
-        margin: 6px;
-    }
-    main > div > a > img {
-        width: 40px;
-        height: 40px;
-    }*/
 }
