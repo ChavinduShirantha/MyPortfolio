@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animations Assignment Six</title>
+    <meta content="width=device-width initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        main > div:first-child {
+            width: 100vw;
+            height: 80vh;
+            position: relative;
+        }
+
+        main > section:nth-child(2) {
+            width: max-content;
+            position: absolute;
+            height: 300px;
+            top: 290px;
+            animation-name: cityRoadMoveAnimation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        main > section:nth-child(2) > div {
+            display: flex;
+            width: max-content;
+            height: max-content;
+        }
+
+        main > section:nth-child(2) > div:nth-child(1) {
+            height: 38vh;
+        }
+
+        main > section:nth-child(2) > div:nth-child(2) {
+            height: 260px;
+            top: 200px;
+        }
+
+        @keyframes cityRoadMoveAnimation {
+            from {
+                transform: translateX(0%);
+            }
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        main > div:nth-child(3) > img {
+            width: 380px;
+            height: 180px;
+            top: 55vh;
+            bottom: 0;
+            left: 12px;
+            right: 0;
+            margin: auto;
+            position: absolute;
+        }
+
+        main > div:nth-child(4) {
+            width: max-content;
+            height: 5px;
+            top: 30vh;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+        }
+
+        main > div:nth-child(4) > img {
+            animation-name: carWheelRotateAnimation;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+            animation-direction: alternate;
+        }
+
+        main > div:nth-child(4) > img:nth-child(1) {
+            width: 75px;
+            height: 75px;
+            margin-top: 100px;
+            margin-right: 155px;
+        }
+
+        main > div:nth-child(4) > img:nth-child(2) {
+            width: 75px;
+            height: 75px;
+        }
+
+        @keyframes carWheelRotateAnimation {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(-360deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+<main>
+    <div>
+        <img src="assets/img/sky.jpg">
+    </div>
+    <section>
+        <div>
+            <img src="assets/img/city.png">
+            <img src="assets/img/city.png">
+            <img src="assets/img/city.png">
+            <img src="assets/img/city.png">
+        </div>
+        <div>
+            <img src="assets/img/road.jpg">
+            <img src="assets/img/road.jpg">
+        </div>
+    </section>
+    <div>
+        <img src="assets/img/car.png">
+    </div>
+    <div>
+        <img src="assets/img/wheel.png">
+        <img src="assets/img/wheel.png">
+    </div>
+</main>
+</body>
+</html>
