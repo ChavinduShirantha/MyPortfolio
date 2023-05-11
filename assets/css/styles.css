@@ -1396,6 +1396,46 @@ main > div > a > img {
     z-index: 2;
 }
 
+@media all and (max-width: 1024px){
+    header > nav > menu {
+        left: 500px;
+    }
+
+    main > section:nth-child(1) > div {
+        width: 180px;
+        height: 1000px;
+        bottom: 150px;
+    }
+
+    main > section:nth-child(1) > article {
+        left: 40px;
+    }
+
+    main > section:nth-child(1) > article > h4:first-child {
+        font-size: 30px;
+    }
+
+    main > section:nth-child(1) > article > h2 {
+        font-size: 45px;
+    }
+
+    main > section:nth-child(1) > article > h4:last-child {
+        font-size: 30px;
+    }
+
+    main > section:nth-child(1) > article > h4:last-child > span {
+        font-size: 30px;
+    }
+
+    main > section:nth-child(1) > nav {
+        left: 60px;
+    }
+
+    main > section:nth-child(1) > nav > div > a > img {
+        height: 45px;
+    }
+}
+
 @media all and (max-width: 768px) {
     header > h1 {
         left: 30px;
