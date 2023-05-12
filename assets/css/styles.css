@@ -1396,7 +1396,7 @@ main > div > a > img {
     z-index: 2;
 }
 
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px) {
     header > nav > menu {
         left: 500px;
     }
