@@ -675,7 +675,6 @@ main > section:nth-child(6) > article > img:nth-child(3) {
     margin: auto;
 }
 
-
 main > section:nth-child(7) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
@@ -1561,6 +1560,239 @@ main > div > a > img {
 
     main > section:nth-child(6) > article > img:nth-child(3) {
         height: 500px;
+    }
+
+    main > section:nth-child(7) > article > img {
+        position: absolute;
+        left: 50px;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        height: 300px;
+    }
+
+    main > section:nth-child(7) > aside > h4 {
+        position: absolute;
+        right: 70px;
+        top: 100px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Gowun Batang', serif;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    main > section:nth-child(7) > aside > article > p {
+        position: absolute;
+        right: 65px;
+        top: 175px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Gowun Batang', serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(7) > aside > ul {
+        top: 300px;
+        right: 350px;
+    }
+
+    main > section:nth-child(7) > aside > ul > li:first-child {
+        left: 0;
+        height: 30px;
+        width: 75px;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(7) > aside > ul > li:nth-child(2) {
+        left: 110px;
+        height: 30px;
+        width: 80px;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(7) > aside > ul > li:last-child {
+        left: 230px;
+        height: 30px;
+        width: 75px;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(7) > aside > a > button {
+        bottom: 120px;
+        right: 150px;
+        height: 40px;
+        width: 180px;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(7) > aside > a > button > img {
+        height: 20px;
+    }
+
+    main > section:nth-child(8) > article > a:first-child > img {
+        left: 120px;
+        height: 230px;
+    }
+
+    main > section:nth-child(8) > article > a:nth-child(2) > img {
+        right: 135px;
+        height: 230px;
+    }
+
+    main > section:nth-child(8) > article > a:nth-child(3) > img {
+        bottom: 45px;
+        left: 150px;
+    }
+
+    main > section:nth-child(8) > article > a:last-child > img {
+        right: 70px;
+        height: 230px;
+    }
+
+    main > section:nth-child(9) > p:nth-child(2) {
+        top: 80px;
+    }
+
+    main > section:nth-child(9) > div {
+        top: 150px;
+        left: 90px;
+        height: 450px;
+        width: 900px;
+    }
+
+    main > section:nth-child(9) > div > a > div > img {
+        width: 250px;
+    }
+
+    main > section:nth-child(10) > div {
+        left: 90px;
+        height: 400px;
+        width: 800px;
+    }
+
+    main > footer > section:nth-child(1) > p {
+        font-size: 20px;
+    }
+
+    main > footer > section:nth-child(1) > div {
+        height: 450px;
+        width: 400px;
+    }
+
+    main > footer > section:nth-child(1) > div > h3 {
+        top: 15px;
+        font-size: 30px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(2) {
+        top: 80px;
+        font-size: 20px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(3) {
+        top: 110px;
+        font-size: 18px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(4) {
+        top: 240px;
+        font-size: 20px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(5) > a {
+        top: 280px;
+        font-size: 18px;
+    }
+
+    main > footer > section:nth-child(1) > div > h5:nth-child(6) {
+        top: 330px;
+        font-size: 20px;
+    }
+
+    main > footer > section:nth-child(1) > div > address:nth-child(7) > a {
+        top: 370px;
+        font-size: 18px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label {
+        font-size: 20px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(1) {
+        top: 120px;
+        right: 420px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > input#txtName {
+        top: 160px;
+        right: 60px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(5) {
+        top: 240px;
+        right: 420px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > input#txtEmail {
+        top: 280px;
+        right: 60px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(9) {
+        top: 360px;
+        right: 395px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > textarea {
+        height: 100px;
+        top: 400px;
+        right: 60px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > button {
+        bottom: 40px;
+        right: 220px;
+        font-size: 20px;
+        height: 40px;
+        width: 120px;
+    }
+
+    main > footer > section:nth-child(2) > article > h3 {
+        font-size: 24px;
+    }
+
+    main > footer > section:nth-child(2) > article > p {
+        font-size: 18px;
+    }
+
+    main > footer > section:nth-child(2) > nav {
+        top: 80px;
+        left: 365px;
+    }
+
+    main > footer > section:nth-child(2) > nav > div > a > img {
+        height: 35px;
+    }
+
+    main > footer > section:nth-child(2) > p {
+        top: 100px;
+        font-size: 16px;
+    }
+
+    main > footer > section:nth-child(2) > aside > nav > menu {
+        left: 255px;
+        top: 40px;
+    }
+
+    main > footer > section:nth-child(2) > aside > nav > menu > li > a {
+        font-size: 16px;
+    }
+
+    main > div > a > img {
+        width: 80px;
+        height: 80px;
     }
 
 }
