@@ -1434,6 +1434,135 @@ main > div > a > img {
     main > section:nth-child(1) > nav > div > a > img {
         height: 45px;
     }
+
+    main > section:nth-child(2) > article > img {
+        width: 400px;
+        left: 60px;
+    }
+
+    main > section:nth-child(2) > aside > p {
+        top: 120px;
+        right: 10px;
+        font-size: 22px;
+    }
+
+    main > section:nth-child(2) > aside > ul {
+        top: 270px;
+        right: 100px;
+        font-size: 18px;
+    }
+
+    main > section:nth-child(2) > aside > ul > li {
+        margin-bottom: 15px;
+    }
+
+    main > section:nth-child(2) > aside > a > button {
+        right: 220px;
+        font-size: 20px;
+        height: 40px;
+        width: 150px;
+    }
+
+
+    main > section:nth-child(3) > p {
+        font-size: 24px;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(1) {
+        height: 450px;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(2) {
+        height: 450px;
+    }
+
+    main > section:nth-child(3) > article > img:nth-child(3) {
+        height: 450px;
+    }
+
+    main > section:nth-child(4) > div > div:first-child {
+        left: 150px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(2) {
+        left: 172px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(3) {
+        left: 150px;
+    }
+
+    main > section:nth-child(4) > div > div:nth-child(4) {
+        left: 172px;
+    }
+
+    main > section:nth-child(4) > div > div:last-child {
+        left: 150px;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(1) {
+        left: 250px;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(2) {
+        left: 300px;
+    }
+
+    main > section:nth-child(4) > article > img:nth-child(3) {
+        left: 300px;
+    }
+
+    main > section:nth-child(4) > aside > ul {
+        left: 400px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:first-child {
+        font-size: 22px;
+        width: 420px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:nth-child(2) {
+        top: 170px;
+        font-size: 22px;
+        width: 466px;
+    }
+
+    main > section:nth-child(4) > aside > ul > li:last-child {
+        top: 370px;
+        font-size: 22px;
+        width: 466px;
+    }
+
+    main > section:nth-child(5) > article > div:first-child {
+        left: 100px;
+        height: 350px;
+    }
+
+    main > section:nth-child(5) > article > div:first-child > p {
+        top: 180px;
+    }
+
+    main > section:nth-child(5) > article > div:last-child {
+        right: 120px;
+        height: 350px;
+    }
+
+    main > section:nth-child(5) > article > div:last-child > aside > p {
+        top: 180px;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(1) {
+        height: 500px;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(2) {
+        height: 500px;
+    }
+
+    main > section:nth-child(6) > article > img:nth-child(3) {
+        height: 500px;
+    }
+
 }
 
 @media all and (max-width: 768px) {
