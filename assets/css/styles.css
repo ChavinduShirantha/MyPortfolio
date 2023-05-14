@@ -883,10 +883,10 @@ main > section:nth-child(9) > div {
     left: 220px;
     position: relative;
     height: 500px;
-    width: 1000px;
+    width: 800px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 10px;
 }
@@ -897,7 +897,7 @@ main > section:nth-child(9) > div > a > div:hover {
 
 main > section:nth-child(9) > div > a > div > img {
     box-shadow: 10px 10px 10px 0 black;
-    width: 350px;
+    width: 250px;
 }
 
 main > section:nth-child(9) > p:nth-child(4) {
@@ -1463,6 +1463,11 @@ main > div > a > img {
         height: 350px;
     }
 
+    main > section:nth-child(9) > div > a > div > img {
+        width: 250px;
+        margin-bottom: 40px;
+    }
+    
     main > section:nth-child(10) > div {
         bottom: 0;
         left: 50px;
@@ -1569,8 +1574,7 @@ main > div > a > img {
         height: 40px;
         width: 150px;
     }
-
-
+    
     main > section:nth-child(3) > p {
         font-size: 24px;
     }
@@ -1771,7 +1775,7 @@ main > div > a > img {
     }
 
     main > section:nth-child(9) > div > a > div > img {
-        width: 250px;
+        width: 200px;
     }
 
     main > section:nth-child(10) > div {
@@ -2368,11 +2372,12 @@ main > div > a > img {
     }
 
     main > section:nth-child(9) > div {
-        top: 15%;
+        top: 20%;
         left: 0;
         right: 0;
         margin: auto;
-        width: 650px;
+        width: 600px;
+        height: 500px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 20px;
@@ -2382,43 +2387,8 @@ main > div > a > img {
     }
 
     main > section:nth-child(9) > div > a > div > img {
-        width: 200px;
-    }
-
-    main > section:nth-child(9) > p:nth-child(4) {
-        left: 18%;
-        top: 20%;
-        font-size: 12px;
-    }
-
-    main > section:nth-child(9) > p:nth-child(5) {
-        left: 48%;
-        top: 20%;
-        font-size: 12px;
-    }
-
-    main > section:nth-child(9) > p:nth-child(6) {
-        left: 76%;
-        top: 20%;
-        font-size: 12px;
-    }
-
-    main > section:nth-child(9) > p:nth-child(7) {
-        left: 18%;
-        top: 60%;
-        font-size: 12px;
-    }
-
-    main > section:nth-child(9) > p:nth-child(8) {
-        left: 48%;
-        top: 60%;
-        font-size: 12px;
-    }
-
-    main > section:nth-child(9) > p:nth-child(9) {
-        left: 76%;
-        top: 60%;
-        font-size: 12px;
+        width: 150px;
+        margin-bottom: 40px;
     }
 
     main > section:nth-child(10) > img:first-child {
@@ -2881,6 +2851,7 @@ main > div > a > img {
 
     main > section:nth-child(9) > div > a > div > img {
         width: 120px;
+        margin-bottom: 40px;
     }
 
     main > section:nth-child(9) > p:nth-child(4) {
@@ -3143,6 +3114,7 @@ main > div > a > img {
 
     main > section:nth-child(9) > div > a > div > img {
         width: 100px;
+        margin-bottom: 40px;
     }
 
     main > footer > section:nth-child(2) > nav {
@@ -3211,6 +3183,7 @@ main > div > a > img {
 
     main > section:nth-child(9) > div > a > div > img {
         width: 85px;
+        margin-bottom: 40px;
     }
 
     main > footer > section:nth-child(1) > p {
