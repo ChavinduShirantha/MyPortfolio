@@ -1395,6 +1395,112 @@ main > div > a > img {
     z-index: 2;
 }
 
+@media all and (max-width: 1440px) {
+    header > nav > menu {
+        left: 900px;
+        font-size: 36px;
+    }
+
+    main > section:nth-child(1) > div {
+        width: 250px;
+        height: 1500px;
+        top: 0;
+    }
+
+    main > section:nth-child(1) > article {
+        top: 300px;
+        left: 100px;
+    }
+
+    main > section:nth-child(1) > article > h4:first-child {
+        font-size: 50px;
+    }
+
+    main > section:nth-child(1) > article > h2 {
+        font-size: 60px;
+    }
+
+    main > section:nth-child(1) > article > h4:last-child {
+        font-size: 40px;
+    }
+
+    main > section:nth-child(1) > article > h4:last-child > span {
+        font-size: 40px;
+    }
+
+    main > section:nth-child(1) > nav {
+        left: 150px;
+        top: 700px;
+    }
+
+    main > section:nth-child(1) > nav > div > a > img {
+        height: 60px;
+    }
+
+    main > section:nth-child(2) > aside > p {
+        top: 160px;
+    }
+
+    main > section:nth-child(2) > aside > ul {
+        top: 400px;
+    }
+
+    main > section:nth-child(7) > aside > h4 {
+        left: 0;
+    }
+
+    main > section:nth-child(7) > aside > article > p {
+        right: 80px;
+        top: 250px;
+    }
+
+    main > section:nth-child(7) > aside > ul {
+        top: 425px;
+        right: 425px;
+    }
+
+    main > section:nth-child(8) > article > a:first-child > img {
+        height: 350px;
+    }
+
+    main > section:nth-child(10) > div {
+        bottom: 0;
+        left: 50px;
+        height: 550px;
+        width: 1300px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(1) {
+        right: 690px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(5) {
+        right: 690px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(9) {
+        right: 660px;
+    }
+
+    main > footer > section:nth-child(1) > aside > form > fieldset > button {
+        bottom: 150px;
+        right: 450px;
+    }
+
+    main > footer > section:nth-child(2) > nav {
+        left: 550px;
+    }
+
+    main > footer > section:nth-child(2) > p {
+        top: 130px;
+    }
+
+    main > footer > section:nth-child(2) > aside > nav > menu {
+        left: 420px;
+    }
+
+}
+
 @media all and (max-width: 1024px) {
     header > nav > menu {
         left: 500px;
@@ -1407,6 +1513,7 @@ main > div > a > img {
     }
 
     main > section:nth-child(1) > article {
+        top: 220px;
         left: 40px;
     }
 
@@ -1427,6 +1534,7 @@ main > div > a > img {
     }
 
     main > section:nth-child(1) > nav {
+        top: 500px;
         left: 60px;
     }
 
