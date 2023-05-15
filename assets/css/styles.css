@@ -13,6 +13,21 @@ header > h1 {
     font-family: 'Inika', serif;
     left: 80px;
     color: white;
+
+    animation: headerName;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes headerName {
+    from {
+        transform: rotateY(0) rotateX(0) rotateZ(0);
+    }
+    to {
+        transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+    }
 }
 
 header > h1 > span {
@@ -39,16 +54,19 @@ header > nav > menu > li {
     margin-right: 20px;
 }
 
-header > nav > menu > li > a:hover {
-    color: purple;
-}
-
 header > nav > menu > li > a {
     text-decoration: none;
     color: #6C6C6C;
     font-size: 20px;
     font-weight: bold;
     z-index: 1;
+}
+
+header > nav > menu > li > a:hover {
+    color: purple;
+    border-bottom: 5px solid purple;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 
 main {
@@ -154,6 +172,25 @@ main > section:nth-child(1) > nav > div {
 
 main > section:nth-child(1) > nav > div > a > img {
     height: 60px;
+
+    animation: navButton;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+
+@keyframes navButton {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(75deg);
+    }
+}
+
+main > section:nth-child(1) > nav > div > a > img:hover {
+    transform: scale(1.2);
 }
 
 main > section:nth-child(2) {
@@ -1320,6 +1357,10 @@ main > footer > section:nth-child(2) > article > h3 {
     font-size: 30px;
 }
 
+main > footer > section:nth-child(2) > article > h3:hover {
+    color: #00B2FF;
+}
+
 main > footer > section:nth-child(2) > article > p {
     position: relative;
     top: 20px;
@@ -1331,6 +1372,10 @@ main > footer > section:nth-child(2) > article > p {
     font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 24px;
+}
+
+main > footer > section:nth-child(2) > article > p:hover {
+    color: #00B2FF;
 }
 
 main > footer > section:nth-child(2) > nav {
@@ -1349,6 +1394,10 @@ main > footer > section:nth-child(2) > nav > div > a > img {
     height: 45px;
 }
 
+main > footer > section:nth-child(2) > nav > div > a > img:hover {
+    transform: scale(1.5);
+}
+
 main > footer > section:nth-child(2) > p {
     position: relative;
     left: 0;
@@ -1360,6 +1409,10 @@ main > footer > section:nth-child(2) > p {
     font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 20px;
+}
+
+main > footer > section:nth-child(2) > p:hover {
+    color: #00B2FF;
 }
 
 main > footer > section:nth-child(2) > aside > nav {
@@ -1384,6 +1437,10 @@ main > footer > section:nth-child(2) > aside > nav > menu > li > a {
     font-size: 20px;
     font-weight: bold;
     z-index: 1;
+}
+
+main > footer > section:nth-child(2) > aside > nav > menu > li > a:hover {
+    color: #00B2FF;
 }
 
 main > div > a > img {
@@ -1467,7 +1524,7 @@ main > div > a > img {
         width: 250px;
         margin-bottom: 40px;
     }
-    
+
     main > section:nth-child(10) > div {
         bottom: 0;
         left: 50px;
@@ -1574,7 +1631,7 @@ main > div > a > img {
         height: 40px;
         width: 150px;
     }
-    
+
     main > section:nth-child(3) > p {
         font-size: 24px;
     }
