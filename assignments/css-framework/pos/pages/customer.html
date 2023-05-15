@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>POS</title>
+    <title>POS | Customer</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <script src="../assets/js/bootstrap.js"></script>
 </head>
@@ -10,10 +10,13 @@
     <nav class="navbar navbar-expand-lg bg-transparent border-bottom shadow-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="../assets/img/shop.png" alt="Logo" width="40px" height="40px" class="d-inline-block align-text-top">
+                <img src="../assets/img/shop.png" alt="Logo" width="40px" height="40px"
+                     class="d-inline-block align-text-top">
             </a>
             <a class="navbar-brand" href="#">POS System</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,7 +46,19 @@
         </div>
     </nav>
 </header>
-<body>
+<body class="container-fluid">
+<nav class="navbar justify-content-center">
+    <div class="col-10 col-md-5 col-lg-4 p-0 mt-2 rounded-3" style="background-color: white">
+        <h4 class="text-center p-2 text-light rounded-3" style="background: #16A085">Search Customer</h4>
+        <form class="d-flex" role="search">
+            <input class="form-control me-3 col-sm-1" type="search" placeholder="Input Name/NIC/Tp Here"
+                   aria-label="Search">
+            <button class="btn btn-outline-success me-3" type="button">Search</button>
+            <button class="btn btn-outline-warning me-3" type="button">Clear</button>
+        </form>
+    </div>
+</nav>
+
 
 </body>
 </html>
