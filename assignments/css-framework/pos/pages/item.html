@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>POS | Item</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <script src="../assets/js/bootstrap.js"></script>
     <link rel="stylesheet" href="../assets/fontAwesome/css/all.css">
 </head>
 <header>
@@ -72,8 +71,53 @@
             </form>
         </div>
     </nav>
+
+    <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
+        <button type="button" class="btn btn-success">Add New Item</button>
+        <button type="button" class="btn btn-danger">Delete Item</button>
+        <button type="button" class="btn btn-warning">Update Item</button>
+        <button type="button" class="btn btn-info">View All Items</button>
+    </div>
+
+    <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 250px;">
+        <div class="col-10">
+            <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                <table class="table  table-bordered border-info">
+                    <thead class="table-primary text-primary text-center ">
+                    <tr>
+                        <th scope="col">Item Code</th>
+                        <th scope="col">Item Name</th>
+                        <th scope="col">Item Price</th>
+                        <th scope="col">Item Qyt</th>
+                    </tr>
+                    </thead>
+                    <tbody class="text-center">
+                    <tr>
+                        <th scope="row">I001</th>
+                        <td>Apple</td>
+                        <td>200</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">I002</th>
+                        <td>Pine-apple</td>
+                        <td>250</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">I003</th>
+                        <td>Orange</td>
+                        <td>150</td>
+                        <td>120</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
 </div>
 
-
+<script src="../assets/js/bootstrap.js"></script>
 </body>
 </html>
