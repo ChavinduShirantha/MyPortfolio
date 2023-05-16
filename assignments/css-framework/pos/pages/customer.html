@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>POS | Customer</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <script src="../assets/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../assets/fontAwesome/css/all.css">
 </head>
 <header>
     <nav class="navbar navbar-expand-lg bg-transparent border-bottom shadow-lg ">
@@ -22,24 +22,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="../index.html"><i class="fa-solid fa-house-chimney"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Customers</a>
+                        <a class="nav-link active" href="#"><i class="fa-solid fa-users"></i> Customers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="item.html">Items</a>
+                        <a class="nav-link" href="item.html"><i class="fa-solid fa-bag-shopping"></i> Items</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="placeOrder.html">Place Orders</a>
+                        <a class="nav-link" href="placeOrder.html"><i class="fa-solid fa-cart-plus"></i> Place Orders</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav me-6 mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Sign Up</a>
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-user-plus"></i> Sign Up</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Log Out</a>
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-right-from-bracket"></i> Log Out</a>
                     </li>
                 </ul>
             </div>
@@ -48,18 +48,31 @@
 </header>
 
 <body class="container-fluid">
-<nav class="navbar justify-content-center">
-    <div class="col-10 col-md-5 col-lg-4 p-0 mt-2 rounded-3" style="background-color: white">
-        <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Search Customer</h4>
-        <form class="d-flex" role="search">
-            <input class="form-control me-3 col-sm-1" type="search" placeholder="Input Name/NIC/Tp Here"
-                   aria-label="Search">
-            <button class="btn btn-outline-success me-3" type="button">Search</button>
-            <button class="btn btn-outline-warning me-3" type="button">Clear</button>
-        </form>
+<div class="container d-flex flex-grow-1 flex-column">
+    <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+        <h2 style="font-family: 'Arial Narrow MT Bold',serif"><i class="fa-solid fa-users"></i> Customers</h2>
     </div>
-</nav>
+</div>
+<div class="container d-flex flex-grow-1 flex-column shadow rounded-4" style="background-color: #dcdcdc">
+    <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+        <h6>Home > Customers</h6>
+        <hr>
+    </div>
 
+    <nav class="navbar justify-content-center">
+        <div class="col-lg-5 p-2 rounded-3" style="background-color: white">
+            <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Search
+                Customer</h4>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Input Name/NIC/Tp Here"
+                       aria-label="Search">
+                <button class="btn btn-outline-success me-3" type="button">Search</button>
+                <button class="btn btn-outline-warning me-3" type="button">Clear</button>
+            </form>
+        </div>
+    </nav>
+</div>
 
+<script src="../assets/js/bootstrap.js"></script>
 </body>
 </html>
