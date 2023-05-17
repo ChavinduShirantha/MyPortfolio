@@ -45,7 +45,7 @@ header > nav {
 
 header > nav > menu {
     position: relative;
-    left: 1000px;
+    left: 200%;
     margin-top: 20px;
 }
 
@@ -1454,7 +1454,7 @@ main > div > a > img {
 
 @media all and (max-width: 1440px) {
     header > nav > menu {
-        left: 900px;
+        left: 180%;
         font-size: 36px;
     }
 
@@ -1536,6 +1536,10 @@ main > div > a > img {
         width: 1300px;
     }
 
+    main > footer > section:nth-child(1) {
+        height: 900px !important;
+    }
+
     main > footer > section:nth-child(1) > aside > form > fieldset > label:nth-child(1) {
         right: 690px;
     }
@@ -1569,7 +1573,7 @@ main > div > a > img {
 
 @media all and (max-width: 1024px) {
     header > nav > menu {
-        left: 500px;
+        left: 100%;
     }
 
     main > section {
@@ -1847,6 +1851,10 @@ main > div > a > img {
         left: 90px;
         height: 400px;
         width: 800px;
+    }
+
+    main > footer > section:nth-child(1) {
+        height: 650px !important;
     }
 
     main > footer > section:nth-child(1) > p {
@@ -2495,6 +2503,10 @@ main > div > a > img {
         height: 15%;
     }
 
+    main > footer > section:nth-child(1) {
+        height: 650px !important;
+    }
+
     main > footer > section:nth-child(1) > h3 {
         top: 2%;
         font-size: 40px;
@@ -3015,6 +3027,10 @@ main > div > a > img {
         grid-column: 1/2;
     }
 
+    main > footer > section:nth-child(1) {
+        height: 650px !important;
+    }
+
     main > footer > section:nth-child(1) > img:first-child {
         height: 10%;
     }
@@ -3195,6 +3211,10 @@ main > div > a > img {
         margin-bottom: 40px;
     }
 
+    main > footer > section:nth-child(1) {
+        height: 650px !important;
+    }
+
     main > footer > section:nth-child(2) > nav {
         left: -2%;
     }
@@ -3266,6 +3286,10 @@ main > div > a > img {
     main > section:nth-child(9) > div > a > div > img {
         width: 85px;
         margin-bottom: 40px;
+    }
+
+    main > footer > section:nth-child(1) {
+        height: 650px !important;
     }
 
     main > footer > section:nth-child(1) > p {
