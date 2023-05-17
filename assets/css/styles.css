@@ -1577,7 +1577,7 @@ main > div > a > img {
     }
 
     main > section {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > section:nth-child(1) > div {
@@ -1854,7 +1854,7 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(1) {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > footer > section:nth-child(1) > p {
@@ -1992,7 +1992,7 @@ main > div > a > img {
     }
 
     main > section {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > section:nth-child(1) > div {
@@ -2504,7 +2504,7 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(1) {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > footer > section:nth-child(1) > h3 {
@@ -2707,7 +2707,7 @@ main > div > a > img {
     }
 
     main > section {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > section:nth-child(1) > article {
@@ -2738,7 +2738,7 @@ main > div > a > img {
 
     main > section:nth-child(2) > aside > ul {
         top: 73%;
-        left: 20%;
+        left: 15%;
         font-size: 14px;
     }
 
@@ -3028,7 +3028,7 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(1) {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > footer > section:nth-child(1) > img:first-child {
@@ -3123,7 +3123,7 @@ main > div > a > img {
 
 @media all and (max-width: 376px) {
     main > section {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > section:nth-child(1) > nav {
@@ -3140,7 +3140,7 @@ main > div > a > img {
 
     main > section:nth-child(2) > aside > ul {
         top: 72%;
-        left: 20%;
+        left: 15%;
         font-size: 12px;
     }
 
@@ -3212,7 +3212,7 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(1) {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > footer > section:nth-child(2) > nav {
@@ -3227,7 +3227,7 @@ main > div > a > img {
 
 @media all and (max-width: 320px) {
     main > section {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > section:nth-child(1) > nav {
@@ -3289,7 +3289,7 @@ main > div > a > img {
     }
 
     main > footer > section:nth-child(1) {
-        height: 650px !important;
+        height: 700px !important;
     }
 
     main > footer > section:nth-child(1) > p {
