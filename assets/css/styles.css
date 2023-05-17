@@ -1458,6 +1458,10 @@ main > div > a > img {
         font-size: 36px;
     }
 
+    main>section{
+        height: 900px!important;
+    }
+    
     main > section:nth-child(1) > div {
         width: 250px;
         height: 1500px;
@@ -1566,6 +1570,10 @@ main > div > a > img {
 @media all and (max-width: 1024px) {
     header > nav > menu {
         left: 500px;
+    }
+
+    main>section{
+        height: 650px!important;
     }
 
     main > section:nth-child(1) > div {
@@ -1973,6 +1981,10 @@ main > div > a > img {
 
     header > nav > menu {
         left: 55%;
+    }
+
+    main>section{
+        height: 650px!important;
     }
 
     main > section:nth-child(1) > div {
@@ -2682,6 +2694,10 @@ main > div > a > img {
         display: contents;
     }
 
+    main>section{
+        height: 650px!important;
+    }
+
     main > section:nth-child(1) > article {
         left: 0;
         right: 0;
@@ -3089,6 +3105,10 @@ main > div > a > img {
 }
 
 @media all and (max-width: 376px) {
+    main>section{
+        height: 650px!important;
+    }
+
     main > section:nth-child(1) > nav {
         margin-left: 45px;
     }
@@ -3185,6 +3205,10 @@ main > div > a > img {
 }
 
 @media all and (max-width: 320px) {
+    main>section{
+        height: 650px!important;
+    }
+
     main > section:nth-child(1) > nav {
         margin-left: 18px;
     }
