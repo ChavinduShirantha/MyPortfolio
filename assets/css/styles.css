@@ -270,7 +270,7 @@ main > section:nth-child(2) > aside > a > button {
     border: none;
     color: white;
     box-shadow: 10px 10px 10px 0 black;
-    font-size: 30px;
+    font-size: 28px;
     border-radius: 10px;
     cursor: pointer;
     height: 60px;
@@ -1458,10 +1458,10 @@ main > div > a > img {
         font-size: 36px;
     }
 
-    main>section{
-        height: 900px!important;
+    main > section {
+        height: 900px !important;
     }
-    
+
     main > section:nth-child(1) > div {
         width: 250px;
         height: 1500px;
@@ -1572,8 +1572,8 @@ main > div > a > img {
         left: 500px;
     }
 
-    main>section{
-        height: 650px!important;
+    main > section {
+        height: 650px !important;
     }
 
     main > section:nth-child(1) > div {
@@ -1983,8 +1983,8 @@ main > div > a > img {
         left: 55%;
     }
 
-    main>section{
-        height: 650px!important;
+    main > section {
+        height: 650px !important;
     }
 
     main > section:nth-child(1) > div {
@@ -2694,8 +2694,8 @@ main > div > a > img {
         display: contents;
     }
 
-    main>section{
-        height: 650px!important;
+    main > section {
+        height: 650px !important;
     }
 
     main > section:nth-child(1) > article {
@@ -2731,6 +2731,7 @@ main > div > a > img {
     }
 
     main > section:nth-child(2) > aside > a > button {
+        font-size: 18px;
         bottom: 4%;
     }
 
@@ -3105,8 +3106,8 @@ main > div > a > img {
 }
 
 @media all and (max-width: 376px) {
-    main>section{
-        height: 650px!important;
+    main > section {
+        height: 650px !important;
     }
 
     main > section:nth-child(1) > nav {
@@ -3205,8 +3206,8 @@ main > div > a > img {
 }
 
 @media all and (max-width: 320px) {
-    main>section{
-        height: 650px!important;
+    main > section {
+        height: 650px !important;
     }
 
     main > section:nth-child(1) > nav {
