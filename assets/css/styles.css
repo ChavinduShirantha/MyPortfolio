@@ -56,18 +56,19 @@ header > nav > menu > li {
 
 header > nav > menu > li > a {
     text-decoration: none;
-    color: #6C6C6C;
+    color: #c5c5c5;
     font-size: 20px;
     font-weight: bold;
     z-index: 1;
 }
 
 header > nav > menu > li > a:hover {
-    color: purple;
-    border-bottom: 5px solid purple;
+    color: #ff80ff;
+    border-bottom: 5px solid #ff80ff;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
 }
+
 
 main {
     position: relative;
@@ -75,12 +76,12 @@ main {
 
 main > section:nth-child(1) {
     position: relative;
-    background: linear-gradient(to right, #0075FF, rgba(149, 198, 255, 0.23));
+    background: linear-gradient(to right, rgb(14, 14, 14), #002291);
     width: 100%;
     height: 100vh;
 }
 
-main > section:nth-child(1) > div {
+/*main > section:nth-child(1) > div {
     position: absolute;
     width: 195px;
     height: 1215px;
@@ -90,6 +91,14 @@ main > section:nth-child(1) > div {
     background: rgba(78, 167, 249, 0.56);
     margin: auto;
     transform: rotate(45deg);
+}*/
+
+main>section:nth-child(1)>div>img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 300px;
 }
 
 main > section:nth-child(1) > aside > img:nth-child(1) {
@@ -123,6 +132,7 @@ main > section:nth-child(1) > article > h4:first-child {
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
     font-size: 42px;
+    color: #aedffa;
     left: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -133,6 +143,7 @@ main > section:nth-child(1) > article > h2 {
     font-family: 'Gowun Batang', serif;
     font-weight: bold;
     font-size: 56px;
+    color: #aedffa;
     left: 0;
     top: 12px;
     margin-top: 0;
@@ -143,6 +154,7 @@ main > section:nth-child(1) > article > h4:last-child {
     position: relative;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 42px;
+    color: #aedffa;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
@@ -155,7 +167,7 @@ main > section:nth-child(1) > article > h4:last-child > span {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 42px;
     font-weight: bold;
-    color: #3515B7;
+    color: #957bff;
 }
 
 main > section:nth-child(1) > nav {
