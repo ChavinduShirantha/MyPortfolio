@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/fontAwesome/css/all.css">
 </head>
+
+<body>
 <header>
     <nav class="navbar navbar-expand-lg bg-transparent border-bottom shadow-lg ">
         <div class="container-fluid">
@@ -50,167 +52,171 @@
     </nav>
 </header>
 
-<body class="container-fluid">
-<div class="container d-flex flex-grow-1 flex-column">
-    <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
-        <h2 style="font-family: 'Arial Narrow MT Bold',serif"><i class="fa-solid fa-cart-plus"></i> Place Orders</h2>
-    </div>
-</div>
-
-<div class="container d-flex flex-grow-1 flex-column shadow rounded-4" style="background-color: #dcdcdc">
-    <div class="row justify-content-around" style="height: max-content">
-
-        <div class="col-10 col-md-5 col-lg-4 p-3 mt-3 rounded-5" style="background-color: white">
-            <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Invoice
-                Details</h4>
-            <div class="row mt-1">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="orderId">Order ID :</label>
-                    <input class="form-control border-dark" id="orderId" type="text">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="orderDate">Order Date :</label>
-                    <input class="form-control border-dark" id="orderDate" type="date">
-                </div>
-            </div>
-            <div class="row mt-1">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="customerId">Customer ID :</label>
-                    <select aria-label="Default select example" class="form-select border-dark" id="customerId">
-                        <option selected>-Select Customer-</option>
-                        <option value="1">C001</option>
-                        <option value="2">C002</option>
-                        <option value="3">C003</option>
-                        <option value="4">C004</option>
-                    </select>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="customerName">Customer Name :</label>
-                    <input class="form-control border-dark" id="customerName" type="text">
-                </div>
-            </div>
-            <div class="row mt-1">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="customerAddress">Customer Address :</label>
-                    <input class="form-control border-dark" id="customerAddress" type="text">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="customerSalary">Customer Salary :</label>
-                    <input class="form-control border-dark" id="customerSalary" type="number">
-                </div>
-            </div>
-        </div>
-
-        <div class="col-10 col-md-5 col-lg-4 p-3 mt-3 rounded-5" style="background-color: white">
-            <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Item Details</h4>
-            <div class="row mt-1">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="itemCode">Item Code :</label>
-                    <select aria-label="Default select example" class="form-select border-dark" id="itemCode">
-                        <option selected>-Select Item-</option>
-                        <option value="1">I001</option>
-                        <option value="2">I002</option>
-                        <option value="3">I003</option>
-                        <option value="4">I004</option>
-                    </select>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="itemName">Item Name :</label>
-                    <input class="form-control border-dark" id="itemName" type="text">
-                </div>
-            </div>
-            <div class="row mt-1">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="unitPrice">Unit Price :</label>
-                    <input class="form-control border-dark" id="unitPrice" type="number">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="qtyOnHand">Qty On Hand :</label>
-                    <input class="form-control border-dark" id="qtyOnHand" type="number">
-                </div>
-            </div>
-            <div class="row mt-1">
-                <div class="col-12 col-md-6 col-lg-12">
-                    <label class="fw-bold" for="orderedQty">Ordered Qty :</label>
-                    <input class="form-control border-dark" id="orderedQty" type="number">
-                </div>
-            </div>
-        </div>
-
-        <div class="col-10 col-md-5 col-lg-3 p-3 mt-3 rounded-5" style="background-color: white">
-            <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Payment
-                Details</h4>
-            <div class="row mt-1">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="total">Total :</label>
-                    <input class="form-control border-dark" id="total" type="number">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="discount">Discount :</label>
-                    <input class="form-control border-dark" id="discount" type="number">
-                </div>
-            </div>
-            <div class="row mt-1">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="cash">Cash :</label>
-                    <input class="form-control border-dark" id="cash" type="number">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <label class="fw-bold" for="balance">Balance :</label>
-                    <input class="form-control border-dark" id="balance" type="number">
-                </div>
-            </div>
-            <div class="row mt-1">
-                <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
-                    <button class="btn btn-outline-warning rounded-2" type="submit">Add To Cart</button>
-                    <button class="btn btn-outline-success rounded-2" type="submit">Place Order</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around" style="height: 250px;">
-            <div class="col-10">
-                <div class="customerTableDiv overflow-auto" style="height: 200px;">
-                    <table class="table table-bordered border-info table-primary">
-                        <thead class="table-info text-primary text-center ">
-                        <tr>
-                            <th scope="col">Item Code</th>
-                            <th scope="col">Item Name</th>
-                            <th scope="col">Unit Price</th>
-                            <th scope="col">Quantity</th>
-                            <th scope="col">Total</th>
-                        </tr>
-                        </thead>
-                        <tbody class="text-center">
-                        <tr>
-                            <th scope="row">I001</th>
-                            <td>Apple</td>
-                            <td>200</td>
-                            <td>2</td>
-                            <td>400</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">I002</th>
-                            <td>Pine-apple</td>
-                            <td>250</td>
-                            <td>1</td>
-                            <td>250</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">I003</th>
-                            <td>Orange</td>
-                            <td>150</td>
-                            <td>2</td>
-                            <td>300</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+<main class="container-fluid">
+    <div class="container d-flex flex-grow-1 flex-column">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h2 style="font-family: 'Arial Narrow MT Bold',serif"><i class="fa-solid fa-cart-plus"></i> Place Orders
+            </h2>
         </div>
     </div>
 
-</div>
+    <div class="container d-flex flex-grow-1 flex-column shadow rounded-4" style="background-color: #dcdcdc">
+        <div class="row justify-content-around" style="height: max-content">
+
+            <div class="col-10 col-md-5 col-lg-4 p-3 mt-3 rounded-5" style="background-color: white">
+                <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Invoice
+                    Details</h4>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="orderId">Order ID :</label>
+                        <input class="form-control border-dark" id="orderId" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="orderDate">Order Date :</label>
+                        <input class="form-control border-dark" id="orderDate" type="date">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="customerId">Customer ID :</label>
+                        <select aria-label="Default select example" class="form-select border-dark" id="customerId">
+                            <option selected>-Select Customer-</option>
+                            <option value="1">C001</option>
+                            <option value="2">C002</option>
+                            <option value="3">C003</option>
+                            <option value="4">C004</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="customerName">Customer Name :</label>
+                        <input class="form-control border-dark" id="customerName" type="text">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="customerAddress">Customer Address :</label>
+                        <input class="form-control border-dark" id="customerAddress" type="text">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="customerSalary">Customer Salary :</label>
+                        <input class="form-control border-dark" id="customerSalary" type="number">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-md-5 col-lg-4 p-3 mt-3 rounded-5" style="background-color: white">
+                <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Item
+                    Details</h4>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="itemCode">Item Code :</label>
+                        <select aria-label="Default select example" class="form-select border-dark" id="itemCode">
+                            <option selected>-Select Item-</option>
+                            <option value="1">I001</option>
+                            <option value="2">I002</option>
+                            <option value="3">I003</option>
+                            <option value="4">I004</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="itemName">Item Name :</label>
+                        <input class="form-control border-dark" id="itemName" type="text">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="unitPrice">Unit Price :</label>
+                        <input class="form-control border-dark" id="unitPrice" type="number">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="qtyOnHand">Qty On Hand :</label>
+                        <input class="form-control border-dark" id="qtyOnHand" type="number">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-12">
+                        <label class="fw-bold" for="orderedQty">Ordered Qty :</label>
+                        <input class="form-control border-dark" id="orderedQty" type="number">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-md-5 col-lg-3 p-3 mt-3 rounded-5" style="background-color: white">
+                <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Payment
+                    Details</h4>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="total">Total :</label>
+                        <input class="form-control border-dark" id="total" type="number">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="discount">Discount :</label>
+                        <input class="form-control border-dark" id="discount" type="number">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="cash">Cash :</label>
+                        <input class="form-control border-dark" id="cash" type="number">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <label class="fw-bold" for="balance">Balance :</label>
+                        <input class="form-control border-dark" id="balance" type="number">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
+                        <button class="btn btn-outline-warning rounded-2" type="submit">Add To Cart</button>
+                        <button class="btn btn-outline-success rounded-2" type="submit">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around" style="height: 250px;">
+                <div class="col-10">
+                    <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                        <table class="table table-bordered border-info table-primary">
+                            <thead class="table-info text-primary text-center ">
+                            <tr>
+                                <th scope="col">Item Code</th>
+                                <th scope="col">Item Name</th>
+                                <th scope="col">Unit Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                            </thead>
+                            <tbody class="text-center">
+                            <tr>
+                                <th scope="row">I001</th>
+                                <td>Apple</td>
+                                <td>200</td>
+                                <td>2</td>
+                                <td>400</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">I002</th>
+                                <td>Pine-apple</td>
+                                <td>250</td>
+                                <td>1</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">I003</th>
+                                <td>Orange</td>
+                                <td>150</td>
+                                <td>2</td>
+                                <td>300</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
 
 <script src="../assets/js/bootstrap.js"></script>
 </body>

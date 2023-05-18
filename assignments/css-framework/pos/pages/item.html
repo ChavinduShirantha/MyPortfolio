@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/fontAwesome/css/all.css">
 </head>
+
+<body>
 <header>
     <nav class="navbar navbar-expand-lg bg-transparent border-bottom shadow-lg ">
         <div class="container-fluid">
@@ -51,76 +53,77 @@
     </nav>
 </header>
 
-<body class="container-fluid">
-<div class="container d-flex flex-grow-1 flex-column">
-    <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
-        <h2 style="font-family: 'Arial Narrow MT Bold',serif"><i class="fa-solid fa-bag-shopping"></i> Items</h2>
-    </div>
-</div>
-<div class="container d-flex flex-grow-1 flex-column shadow rounded-4" style="background-color: #dcdcdc">
-    <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
-        <h6>Home > Items</h6>
-        <hr>
-    </div>
-
-    <nav class="navbar justify-content-center">
-        <div class="col-lg-5 p-2 rounded-3" style="background-color: white">
-            <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Search
-                Item</h4>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Input Name/Code Here"
-                       aria-label="Search">
-                <button class="btn btn-outline-success me-3" type="button">Search</button>
-                <button class="btn btn-outline-warning me-3" type="button">Clear</button>
-            </form>
+<main class="container-fluid">
+    <div class="container d-flex flex-grow-1 flex-column">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h2 style="font-family: 'Arial Narrow MT Bold',serif"><i class="fa-solid fa-bag-shopping"></i> Items</h2>
         </div>
-    </nav>
-
-    <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
-        <button type="button" class="btn btn-success">Add New Item</button>
-        <button type="button" class="btn btn-danger">Delete Item</button>
-        <button type="button" class="btn btn-warning">Update Item</button>
-        <button type="button" class="btn btn-info">View All Items</button>
     </div>
+    <div class="container d-flex flex-grow-1 flex-column shadow rounded-4" style="background-color: #dcdcdc">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h6>Home > Items</h6>
+            <hr>
+        </div>
 
-    <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 250px;">
-        <div class="col-10">
-            <div class="customerTableDiv overflow-auto" style="height: 200px;">
-                <table class="table  table-bordered border-info">
-                    <thead class="table-primary text-primary text-center ">
-                    <tr>
-                        <th scope="col">Item Code</th>
-                        <th scope="col">Item Name</th>
-                        <th scope="col">Item Price</th>
-                        <th scope="col">Item Qyt</th>
-                    </tr>
-                    </thead>
-                    <tbody class="text-center">
-                    <tr>
-                        <th scope="row">I001</th>
-                        <td>Apple</td>
-                        <td>200</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">I002</th>
-                        <td>Pine-apple</td>
-                        <td>250</td>
-                        <td>80</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">I003</th>
-                        <td>Orange</td>
-                        <td>150</td>
-                        <td>120</td>
-                    </tr>
-                    </tbody>
-                </table>
+        <nav class="navbar justify-content-center">
+            <div class="col-lg-5 p-2 rounded-3" style="background-color: white">
+                <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Search
+                    Item</h4>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Input Name/Code Here"
+                           aria-label="Search">
+                    <button class="btn btn-outline-success me-3" type="button">Search</button>
+                    <button class="btn btn-outline-warning me-3" type="button">Clear</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
+            <button type="button" class="btn btn-success">Add New Item</button>
+            <button type="button" class="btn btn-danger">Delete Item</button>
+            <button type="button" class="btn btn-warning">Update Item</button>
+            <button type="button" class="btn btn-info">View All Items</button>
+        </div>
+
+        <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 250px;">
+            <div class="col-10">
+                <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                    <table class="table  table-bordered border-info">
+                        <thead class="table-primary text-primary text-center ">
+                        <tr>
+                            <th scope="col">Item Code</th>
+                            <th scope="col">Item Name</th>
+                            <th scope="col">Item Price</th>
+                            <th scope="col">Item Qyt</th>
+                        </tr>
+                        </thead>
+                        <tbody class="text-center">
+                        <tr>
+                            <th scope="row">I001</th>
+                            <td>Apple</td>
+                            <td>200</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">I002</th>
+                            <td>Pine-apple</td>
+                            <td>250</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">I003</th>
+                            <td>Orange</td>
+                            <td>150</td>
+                            <td>120</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
 
-</div>
+    </div>
+</main>
 
 <script src="../assets/js/bootstrap.js"></script>
 </body>

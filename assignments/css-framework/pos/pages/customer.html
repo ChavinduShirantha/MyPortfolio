@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/fontAwesome/css/all.css">
 </head>
+
+
+<body>
 <header>
     <nav class="navbar navbar-expand-lg bg-transparent border-bottom shadow-lg ">
         <div class="container-fluid">
@@ -51,75 +54,76 @@
     </nav>
 </header>
 
-<body class="container-fluid">
-<div class="container d-flex flex-grow-1 flex-column">
-    <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
-        <h2 style="font-family: 'Arial Narrow MT Bold',serif"><i class="fa-solid fa-users"></i> Customers</h2>
-    </div>
-</div>
-<div class="container d-flex flex-grow-1 flex-column shadow rounded-4" style="background-color: #dcdcdc">
-    <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
-        <h6>Home > Customers</h6>
-        <hr>
-    </div>
-
-    <nav class="navbar justify-content-center">
-        <div class="col-lg-5 p-2 rounded-3" style="background-color: white">
-            <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Search
-                Customer</h4>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Input Name/NIC/Tp Here"
-                       aria-label="Search">
-                <button class="btn btn-outline-success me-3" type="button">Search</button>
-                <button class="btn btn-outline-warning me-3" type="button">Clear</button>
-            </form>
+<main class="container-fluid">
+    <div class="container d-flex flex-grow-1 flex-column">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h2 style="font-family: 'Arial Narrow MT Bold',serif"><i class="fa-solid fa-users"></i> Customers</h2>
         </div>
-    </nav>
-    <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
-        <button type="button" class="btn btn-success">Add New Customer</button>
-        <button type="button" class="btn btn-danger">Delete Customer</button>
-        <button type="button" class="btn btn-warning">Update Customer</button>
-        <button type="button" class="btn btn-info">View All Customers</button>
     </div>
+    <div class="container d-flex flex-grow-1 flex-column shadow rounded-4" style="background-color: #dcdcdc">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h6>Home > Customers</h6>
+            <hr>
+        </div>
 
-    <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 250px;">
-        <div class="col-10">
-            <div class="customerTableDiv overflow-auto" style="height: 200px;">
-                <table class="table  table-bordered border-info">
-                    <thead class="table-primary text-primary text-center ">
-                    <tr>
-                        <th scope="col">Customer ID</th>
-                        <th scope="col">Customer Name</th>
-                        <th scope="col">Customer Address</th>
-                        <th scope="col">Customer Salary</th>
-                    </tr>
-                    </thead>
-                    <tbody class="text-center">
-                    <tr>
-                        <th scope="row">C001</th>
-                        <td>Mark</td>
-                        <td>Galle</td>
-                        <td>25000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">C002</th>
-                        <td>Jacob</td>
-                        <td>Ambalangoda</td>
-                        <td>30000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">C003</th>
-                        <td>Jacob</td>
-                        <td>Panadura</td>
-                        <td>25000</td>
-                    </tr>
-                    </tbody>
-                </table>
+        <nav class="navbar justify-content-center">
+            <div class="col-lg-5 p-2 rounded-3" style="background-color: white">
+                <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Search
+                    Customer</h4>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Input Name/NIC/Tp Here"
+                           aria-label="Search">
+                    <button class="btn btn-outline-success me-3" type="button">Search</button>
+                    <button class="btn btn-outline-warning me-3" type="button">Clear</button>
+                </form>
+            </div>
+        </nav>
+        <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
+            <button type="button" class="btn btn-success">Add New Customer</button>
+            <button type="button" class="btn btn-danger">Delete Customer</button>
+            <button type="button" class="btn btn-warning">Update Customer</button>
+            <button type="button" class="btn btn-info">View All Customers</button>
+        </div>
+
+        <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 250px;">
+            <div class="col-10">
+                <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                    <table class="table  table-bordered border-info">
+                        <thead class="table-primary text-primary text-center ">
+                        <tr>
+                            <th scope="col">Customer ID</th>
+                            <th scope="col">Customer Name</th>
+                            <th scope="col">Customer Address</th>
+                            <th scope="col">Customer Salary</th>
+                        </tr>
+                        </thead>
+                        <tbody class="text-center">
+                        <tr>
+                            <th scope="row">C001</th>
+                            <td>Mark</td>
+                            <td>Galle</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C002</th>
+                            <td>Jacob</td>
+                            <td>Ambalangoda</td>
+                            <td>30000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C003</th>
+                            <td>Jacob</td>
+                            <td>Panadura</td>
+                            <td>25000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
 
-</div>
+    </div>
+</main>
 
 <script src="../assets/js/bootstrap.js"></script>
 </body>

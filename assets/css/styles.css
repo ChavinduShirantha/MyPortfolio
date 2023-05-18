@@ -217,7 +217,6 @@ main > section:nth-child(2) > article {
     top: 0;
     bottom: 0;
     left: 0;
-
 }
 
 main > section:nth-child(2) > article > img {
@@ -1980,6 +1979,53 @@ main > div > a > img {
         height: 80px;
     }
 
+}
+
+@media (max-width: 980px) {
+    header > nav > menu {
+        left: 80%;
+    }
+
+    main > section:nth-child(1) > aside > img:nth-child(1) {
+        height: 45%;
+    }
+
+    main > section:nth-child(1) > aside > img:nth-child(2) {
+        height: 65%;
+    }
+
+    main > section:nth-child(2) > article > img {
+        width: 450px;
+        left: 50px;
+    }
+
+    main > section:nth-child(2) > aside > p {
+        top: 120px;
+        right: 30px;
+        font-size: 16px;
+    }
+
+    main > section:nth-child(2) > aside > ul {
+        top: 280px;
+        right: 100px;
+        font-size: 16px;
+    }
+
+    main > section:nth-child(2) > aside > a > button {
+        bottom: 100px;
+        right: 160px;
+        font-size: 28px;
+        height: 60px;
+        width: 250px;
+    }
+
+    main > section:nth-child(9) > div {
+        left: 60px;
+    }
+
+    main > footer > section:nth-child(2) {
+        height: 200px;
+    }
 }
 
 @media all and (max-width: 768px) {
