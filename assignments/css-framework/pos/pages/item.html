@@ -79,9 +79,13 @@
         </nav>
 
         <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
-            <button type="button" class="btn btn-success">Add New Item</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addItem">Add New
+                Item
+            </button>
             <button type="button" class="btn btn-danger">Delete Item</button>
-            <button type="button" class="btn btn-warning">Update Item</button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateItem">Update
+                Item
+            </button>
             <button type="button" class="btn btn-info">View All Items</button>
         </div>
 
@@ -123,6 +127,77 @@
         </div>
 
     </div>
+
+    <div class="modal fade" id="addItem" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-success-subtle">
+                    <h5 class="modal-title">New Item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="ubFt">
+                        <div>
+                            <label for="item-ID" class="col-form-label">Item Code:</label>
+                            <input type="text" class="form-control" id="item-ID">
+                        </div>
+                        <div>
+                            <label for="item-Name" class="col-form-label">Item Name:</label>
+                            <input type="text" class="form-control" id="item-Name">
+                        </div>
+                        <div>
+                            <label for="item-Price" class="col-form-label">Item Price:</label>
+                            <input type="text" class="form-control" id="item-Price">
+                        </div>
+                        <div>
+                            <label for="item-Quantity" class="col-form-label">Item Quantity:</label>
+                            <input type="text" class="form-control" id="item-Quantity">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-success">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="updateItem" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning-subtle">
+                    <h5 class="modal-title">Update Item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="ubFt">
+                        <div>
+                            <label for="itemID" class="col-form-label">Item Code:</label>
+                            <input type="text" class="form-control" id="itemID">
+                        </div>
+                        <div>
+                            <label for="itemName" class="col-form-label">Item Name:</label>
+                            <input type="text" class="form-control" id="itemName">
+                        </div>
+                        <div>
+                            <label for="itemPrice" class="col-form-label">Item Price:</label>
+                            <input type="text" class="form-control" id="itemPrice">
+                        </div>
+                        <div>
+                            <label for="itemQuantity" class="col-form-label">Item Quantity:</label>
+                            <input type="text" class="form-control" id="itemQuantity">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-warning">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </main>
 
 <script src="../assets/js/bootstrap.js"></script>
