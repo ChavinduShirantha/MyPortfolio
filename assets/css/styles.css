@@ -93,12 +93,20 @@ main > section:nth-child(1) {
     transform: rotate(45deg);
 }*/
 
-main>section:nth-child(1)>div>img{
+main>section:nth-child(1)>div:nth-child(1)>img{
     position: absolute;
-    left: 0;
+    left: 0%;
     bottom: 0;
     margin: auto;
-    height: 300px;
+    height: 50%;
+}
+
+main>section:nth-child(1)>div:nth-child(2)>img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 80%;
 }
 
 main > section:nth-child(1) > aside > img:nth-child(1) {
