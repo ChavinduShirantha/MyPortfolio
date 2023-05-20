@@ -6,7 +6,7 @@
 
 
 [//]: # (<h3 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=32&pause=1000&center=true&width=700&lines=My+Portfolio" alt="Typing SVG" /></a></h3>)
-<hr>
+
 
 <div align="center">
 
