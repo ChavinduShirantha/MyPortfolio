@@ -1,10 +1,19 @@
-# My-Portfolio
-This is for demonstrating my skills.
+
+<h3 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=25&pause=1000&center=true&width=700&lines=My+Portfolio" alt="Typing SVG" /></a></h3>
+<hr>
+
+<div align="center">
+
+### This is for demonstrating my skills.
+
+</div>
+
 
 ### - My Profile
 * HTML
 * Javascript
 * CSS
+
 
 
 ### -My Portfolio
@@ -28,6 +37,7 @@ This is for demonstrating my skills.
 * 🔗 <a href="https://chavindushirantha.github.io/MyPortfolio/assignments/css-framework/pos" target="_blank">GitHub Page</a>
 
 
+<div align="center">
 
 ###  
 ### Clone this repository ✅
@@ -37,13 +47,17 @@ https://github.com/ChavinduShirantha/MyPortfolio
 ##  Connect with me
 #### If you have any bugs or issues , If you want to explain my code please contact me on :
 
+</div>
+
 ##
 <p align="center">
 <a href="https://twitter.com/Chavindu62"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="__NimeshPiyumantha__" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/chavindu-shirantha-b5b857264/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" height="30" width="40" /></a>
 </p>
 
+
 ##
+
 <div align="center">
 
 ![repo license](https://img.shields.io/github/license/ChavinduShirantha/MyPortfolio?&labelColor=black&color=3867d6&style=for-the-badge)
