@@ -1,4 +1,4 @@
-# My-Protfoliyo
+# My-Portfolio
 This is for demonstrating my skills.
 
 ### - My Profile
@@ -7,7 +7,7 @@ This is for demonstrating my skills.
 * CSS
 
 
-
+### -My Portfolio
 * 🔗 <a href="https://github.com/ChavinduShirantha/MyPortfolio" target="_blank">GitHub Project Link</a>
 * 🔗 <a href="https://chavindushirantha.github.io/MyPortfolio/" target="_blank">GitHub Page</a>
 * 🔗 <a href="http://chavindu.infinityfreeapp.com/?i=1" target="_blank">InfinityFree</a>
@@ -18,7 +18,7 @@ This is for demonstrating my skills.
 
 
 ##
-###  Assigements
+###  Assignments
 # - Frameworks
 
 ## - POS System
