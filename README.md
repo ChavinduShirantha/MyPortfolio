@@ -30,7 +30,7 @@
 * 🔗 <a href="https://drive.google.com/file/d/18MqeoDLBc1D3XPSoGaRyQs3f8PFY44K2/view?usp=sharing" target="_blank">POS System Wire Frame</a>
 * 🔗 <a href="https://www.figma.com/file/9wlBsRE998f5Dus96X9Yps/POS-System-Mock-up?type=design&node-id=0%3A1&t=v6dkDWLEp6suF397-1" target="_blank">POS System Mockup</a>
 * 🔗 <a href="https://drive.google.com/file/d/1htMBq7bOr3vdDFs2MGH-ICBMRoZCwjL7/view?usp=sharing" target="_blank">POS System Site Map</a>
-* 🔗 <a href="https://chavindushirantha.github.io/MyPortfolio/assignments/js/spa" target="_blank">GitHub Page</a>
+* 🔗 <a href="https://chavindushirantha.github.io/MyPortfolio/assignments/css-framework/pos" target="_blank">GitHub Page</a>
 
 
 <div align="center">
