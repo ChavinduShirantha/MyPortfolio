@@ -1,0 +1,7 @@
+main {
+    display: none;
+}
+
+main.active {
+    display: block;
+}
