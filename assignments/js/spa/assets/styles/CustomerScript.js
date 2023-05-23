@@ -35,3 +35,37 @@ document.getElementById("saveCustomer").addEventListener("click", function () {
 
     alert('Customer Saved Successfully !.. ');
 });
+
+
+document.getElementById("updateCustomerBtn").addEventListener("click", function () {
+
+    const id1 = document.getElementById('customerId').value;
+    const name1 = document.getElementById('customerName').value;
+    const address1 = document.getElementById('customerAddress').value;
+    const salary1 = document.getElementById('customerSalary').value;
+
+    const row = document.createElement('tr');
+    const idCell = document.createElement('th');
+    const nameCell = document.createElement('td');
+    const addressCell = document.createElement('td');
+    const salaryCell = document.createElement('td');
+
+    idCell.textContent = id1;
+    nameCell.textContent = name1;
+    addressCell.textContent = address1;
+    salaryCell.textContent = salary1;
+
+    row.appendChild(idCell);
+    row.appendChild(nameCell);
+    row.appendChild(addressCell);
+    row.appendChild(salaryCell);
+
+    tbody.appendChild(row);
+
+        document.getElementById('customerId').value = '';
+        document.getElementById('customerName').value = '';
+        document.getElementById('customerAddress').value = '';
+        document.getElementById('customerSalary').value = '';
+
+    alert('Customer Updated Successfully !.. ');
+});
