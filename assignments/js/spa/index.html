@@ -122,7 +122,7 @@
         <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 250px;">
             <div class="col-10">
                 <div class="customerTableDiv overflow-auto" style="height: 200px;">
-                    <table class="table  table-bordered border-info">
+                    <table class="table  table-bordered border-info" id="tblCustomer">
                         <thead class="table-primary text-primary text-center ">
                         <tr>
                             <th scope="col">Customer ID</th>
@@ -131,26 +131,7 @@
                             <th scope="col">Customer Salary</th>
                         </tr>
                         </thead>
-                        <tbody class="text-center">
-                        <tr>
-                            <th scope="row">C001</th>
-                            <td>Mark</td>
-                            <td>Galle</td>
-                            <td>25000</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">C002</th>
-                            <td>Jacob</td>
-                            <td>Ambalangoda</td>
-                            <td>30000</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">C003</th>
-                            <td>Jacob</td>
-                            <td>Panadura</td>
-                            <td>25000</td>
-                        </tr>
-                        </tbody>
+                        <tbody class="text-center"></tbody>
                     </table>
                 </div>
             </div>
@@ -166,7 +147,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form class="ubFt">
+                    <form class="ubFt" id="CustomerSaveForm">
                         <div class="ms-3 me-3">
                             <label for="customer-id" class="col-form-label">Customer ID:</label>
                             <input type="text" class="form-control" id="customer-id">
@@ -192,7 +173,7 @@
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-outline-success">Save</button>
+                    <button type="button" class="btn btn-outline-success" id="saveCustomer">Save</button>
                 </div>
             </div>
         </div>
@@ -564,6 +545,7 @@
 
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/styles/DashBoardScript.js"></script>
+<script src="assets/styles/CustomerScript.js"></script>
 
 </body>
 </html>

@@ -2,8 +2,8 @@ const form = document.getElementById('CustomerSaveForm');
 const table = document.getElementById('tblCustomer');
 const tbody = table.querySelector('tbody');
 document.getElementById("saveCustomer").addEventListener("click", function () {
-    // event.preventDefault();
-// Get user input values
+
+    // Get user input values
     const id = document.getElementById('customer-id').value;
     const name = document.getElementById('customer-name').value;
     const address = document.getElementById('customer-address').value;
@@ -33,6 +33,5 @@ document.getElementById("saveCustomer").addEventListener("click", function () {
     document.getElementById('customer-address').value = '';
     document.getElementById('customer-salary').value = '';
 
-    alert("Added Successfully !.. ");
-
+    alert('Customer Saved Successfully !.. ');
 });
