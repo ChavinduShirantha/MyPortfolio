@@ -1039,6 +1039,12 @@ main > section:nth-child(9) > a > button {
     width: 150px;
 }
 
+main > section:nth-child(9) > a > button:hover{
+    transform: scale(1.05);
+    color: #cbcbcb;
+    background: #0c336c;
+}
+
 main > section:nth-child(10) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
