@@ -1022,6 +1022,23 @@ main > section:nth-child(9) > p:nth-child(9) {
     font-size: 20px;
 }
 
+main > section:nth-child(9) > a > button {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background: #458FFF;
+    border: none;
+    color: white;
+    box-shadow: 10px 10px 10px 0 black;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+}
+
 main > section:nth-child(10) {
     position: relative;
     background: rgba(249, 249, 249, 0.8);
