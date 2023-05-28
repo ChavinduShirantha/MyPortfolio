@@ -3,8 +3,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap');
 
+
+::-webkit-scrollbar {
+    background-color: rgba(49, 45, 45, 0.91);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(26, 153, 255, 0.8);
+}
+
 header {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, rgb(14, 14, 14), #002291);
+    z-index: 1;
+}
+
+header > div {
+    display: none;
 }
 
 header > h1 {
@@ -34,41 +57,59 @@ header > h1 > span {
     color: #FF4343;
 }
 
-header > div {
-    display: none;
-}
-
-header > nav {
-    position: absolute;
-    z-index: 1;
-}
-
-header > nav > menu {
+header>nav {
     position: relative;
-    left: 200%;
-    margin-top: 20px;
+    display: flex;
+    padding-right: 30px;
+    left: 65%;
 }
 
-header > nav > menu > li {
-    display: inline-block;
-    margin-right: 20px;
+header>nav>menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
 }
 
-header > nav > menu > li > a {
+header>nav>menu>li {
+    right:20px;
+    margin-left: 20px;
+}
+
+header>nav>menu>li>a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
     text-decoration: none;
     color: #c5c5c5;
-    font-size: 20px;
-    font-weight: bold;
-    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    position: relative;
 }
 
-header > nav > menu > li > a:hover {
+header>nav a::after {
+    font-weight: bolder;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #c5c5c5;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+header>nav a:hover {
+    font-weight: bolder;
     color: #ff80ff;
-    border-bottom: 5px solid #ff80ff;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    transform: scale(1.2);
 }
 
+header>nav a:hover::after {
+    transform: scaleX(1);
+}
 
 main {
     position: relative;
@@ -1495,10 +1536,10 @@ main > div > a > img {
 }
 
 @media all and (max-width: 1440px) {
-    header > nav > menu {
+    /*header > nav > menu {
         left: 180%;
         font-size: 36px;
-    }
+    }*/
 
     main > section {
         height: 900px !important;
@@ -1614,9 +1655,12 @@ main > div > a > img {
 }
 
 @media all and (max-width: 1024px) {
-    header > nav > menu {
-        left: 100%;
+    header>nav {
+        left: 49%;
     }
+    /*header > nav > menu {
+        left: 100%;
+    }*/
 
     main > section {
         height: 700px !important;
@@ -2025,8 +2069,8 @@ main > div > a > img {
 }
 
 @media (max-width: 980px) {
-    header > nav > menu {
-        left: 80%;
+    header>nav {
+        left: 45%;
     }
 
     main > section:nth-child(1) > aside > img:nth-child(1) {
@@ -2076,8 +2120,8 @@ main > div > a > img {
         left: 30px;
     }
 
-    header > nav > menu {
-        left: 55%;
+    header>nav {
+        left: 32%;
     }
 
     main > section {
@@ -2787,17 +2831,13 @@ main > div > a > img {
         text-align: center;
     }
 
-    header > nav > menu {
+    header > nav {
         display: none;
     }
 
     header > div {
         display: block;
-        text-align: right;
-        background: linear-gradient(to right, rgb(14, 14, 14), #002291);
-        margin: auto;
-        padding-right: 20px;
-        padding-top: 20px;
+        margin-left: 380px;
         color: #fff;
         text-decoration: none;
         font-size: 20px;
@@ -3220,6 +3260,9 @@ main > div > a > img {
 }
 
 @media all and (max-width: 376px) {
+    header > div {
+        margin-left: 330px;
+    }
     main > section {
         height: 700px !important;
     }
@@ -3324,6 +3367,10 @@ main > div > a > img {
 }
 
 @media all and (max-width: 320px) {
+    header > div {
+        margin-left: 270px;
+    }
+
     main > section {
         height: 700px !important;
     }
