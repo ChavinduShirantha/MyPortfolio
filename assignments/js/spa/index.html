@@ -122,7 +122,7 @@
         <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 250px;">
             <div class="col-10">
                 <div class="customerTableDiv overflow-auto" style="height: 200px;">
-                    <table class="table  table-bordered border-info" id="tblCustomer">
+                    <table class="table  table-bordered border-info" >
                         <thead class="table-primary text-primary text-center ">
                         <tr>
                             <th scope="col">Customer ID</th>
@@ -131,7 +131,7 @@
                             <th scope="col">Customer Salary</th>
                         </tr>
                         </thead>
-                        <tbody class="text-center"></tbody>
+                        <tbody id="tblCustomer" class="text-center"></tbody>
                     </table>
                 </div>
             </div>
@@ -269,26 +269,7 @@
                             <th scope="col">Item Qyt</th>
                         </tr>
                         </thead>
-                        <tbody class="text-center">
-                        <tr>
-                            <th scope="row">I001</th>
-                            <td>Apple</td>
-                            <td>200</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">I002</th>
-                            <td>Pine-apple</td>
-                            <td>250</td>
-                            <td>80</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">I003</th>
-                            <td>Orange</td>
-                            <td>150</td>
-                            <td>120</td>
-                        </tr>
-                        </tbody>
+                        <tbody id="tblItem" class="text-center"></tbody>
                     </table>
                 </div>
             </div>
@@ -329,7 +310,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-outline-success">Save</button>
+                    <button type="button" class="btn btn-outline-success" id="saveItem">Save</button>
                 </div>
             </div>
         </div>
@@ -490,7 +471,7 @@
                 </div>
                 <div class="row mt-1">
                     <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
-                        <button class="btn btn-outline-warning rounded-2" type="submit">Add To Cart</button>
+                        <button class="btn btn-outline-warning rounded-2" type="submit" id="addToCart">Add To Cart</button>
                         <button class="btn btn-outline-success rounded-2" type="submit">Place Order</button>
                     </div>
                 </div>
@@ -509,29 +490,7 @@
                                 <th scope="col">Total</th>
                             </tr>
                             </thead>
-                            <tbody class="text-center">
-                            <tr>
-                                <th scope="row">I001</th>
-                                <td>Apple</td>
-                                <td>200</td>
-                                <td>2</td>
-                                <td>400</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">I002</th>
-                                <td>Pine-apple</td>
-                                <td>250</td>
-                                <td>1</td>
-                                <td>250</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">I003</th>
-                                <td>Orange</td>
-                                <td>150</td>
-                                <td>2</td>
-                                <td>300</td>
-                            </tr>
-                            </tbody>
+                            <tbody id="tblPlaceOrder" class="text-center"></tbody>
                         </table>
                     </div>
                 </div>
@@ -544,8 +503,10 @@
 
 
 <script src="assets/js/bootstrap.js"></script>
-<script src="assets/styles/DashBoardScript.js"></script>
-<script src="assets/styles/CustomerScript.js"></script>
+<script src="assets/js/DashBoardScript.js"></script>
+<script src="assets/js/CustomerScript.js"></script>
+<script src="assets/js/ItemScript.js"></script>
+<script src="assets/js/PlaceOrderScript.js"></script>
 
 </body>
 </html>
