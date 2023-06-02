@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Queue</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <style>
+        body {
+            background: #2b3035;
+        }
+
+        h1 {
+            position: relative;
+            top: 100px;
+            text-align: center;
+            color: white;
+        }
+
+        section:nth-child(2) {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 1200px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+        }
+
+        section:nth-child(2) > div {
+            height: 100px;
+            flex-grow: 1;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        section:nth-child(2) > div:first-child {
+            align-self: start;
+        }
+
+        section:nth-child(2) > div:last-child {
+            align-self: end;
+        }
+
+        section:nth-child(3) {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 1200px;
+            height: 130px;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Java Script Queue</h1>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+<section></section>
+
+<button id="btn1" class="btn btn-outline-success" style="position: absolute;left:700px;top: 600px">Start</button>
+<button id="btn2" class="btn btn-outline-danger" style="position: absolute;left:800px;top: 600px">Stop</button>
+
+
+<script>
+    let colors = ["red", "yellow", "green", "blue", "deeppink", "orange"]
+
+    let animate;
+
+    let divArray = document.querySelector("section").children;
+    for (let i = 0; i < divArray.length; i++) {
+        divArray[i].style.background = colors[i];
+    }
+    let lv = colors.pop();
+    colors.unshift(lv);
+
+    document.getElementById("btn1").addEventListener("click", function () {
+        clearInterval(animate);
+
+        animate = setInterval(function () {
+            let divArray = document.querySelector("section").children;
+            for (let i = 0; i < divArray.length; i++) {
+                divArray[i].style.background = colors[i];
+            }
+            let lv = colors.pop();
+            colors.unshift(lv);
+
+        }, 500);
+
+    });
+
+    document.getElementById("btn2").addEventListener("click", function () {
+        clearInterval(animate);
+    });
+
+</script>
+</body>
+</html>
