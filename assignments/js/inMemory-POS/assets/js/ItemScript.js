@@ -1,4 +1,15 @@
-document.getElementById("saveItem").addEventListener("click", function () {
+$("#saveItem").click(function () {
+    let code = $("#item-ID").val();
+    let productName = $("#item-Name").val();
+    let price = $("#item-Price").val();
+    let qty = $("#item-Quantity").val();
+
+    let tbody = "<tr>" + "<td>" + code + "</td>" + "<td>" + productName + "</td>" + "<td>" + price + "</td>" + "<td>" + qty + "</td>" + "</tr>";
+
+    $("#tblItem").append(tbody);
+
+});
+/*document.getElementById("saveItem").addEventListener("click", function () {
 
     //get typed values of input fields
     let code = document.getElementById("item-ID").value;
@@ -35,4 +46,4 @@ document.getElementById("saveItem").addEventListener("click", function () {
 
     //set the row to the table body
     tBody.appendChild(tr);
-});
+});*/

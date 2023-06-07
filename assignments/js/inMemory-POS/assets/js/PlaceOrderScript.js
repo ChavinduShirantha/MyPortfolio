@@ -1,4 +1,16 @@
-document.getElementById("addToCart").addEventListener("click", function () {
+$("#addToCart").click(function () {
+    let code = $("#itemCode").val();
+    let productName = $("#item_Name").val();
+    let price = $("#unitPrice").val();
+    let qty = $("#orderedQty").val();
+    let tot = $("#total").val();
+
+    let tbody = "<tr>" + "<td>" + code + "</td>" + "<td>" + productName + "</td>" + "<td>" + price + "</td>" + "<td>" + qty + "</td>" +  "<td>" + tot + "</td>" +"</tr>";
+
+    $("#tblPlaceOrder").append(tbody);
+
+});
+/*document.getElementById("addToCart").addEventListener("click", function () {
 
     //get typed values of input fields
     let code = document.getElementById("itemCode").value;
@@ -39,4 +51,4 @@ document.getElementById("addToCart").addEventListener("click", function () {
 
     //set the row to the table body
     tBody.appendChild(tr);
-});
+});*/
