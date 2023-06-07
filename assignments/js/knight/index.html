@@ -66,6 +66,11 @@
 </section>
 <section></section>
 
+<label for="Range" class="form-label" style="position: absolute;left:720px;top: 500px;font-size: 24px;color: #C2C2C2">Speed
+    Bar</label>
+<input type="range" class="form-range" style="width:450px;position: absolute;left:550px;top: 550px" min="0" max="100"
+       value="50" id="Range">
+
 <button id="btn1" class="btn btn-outline-success" style="position: absolute;left:700px;top: 600px">Start</button>
 <button id="btn2" class="btn btn-outline-danger" style="position: absolute;left:800px;top: 600px">Stop</button>
 
@@ -73,43 +78,66 @@
 <script src="assets/js/jquery-3.7.0.min.js"></script>
 
 <script>
-    let left = ["#B22222", "#FF1919", "#FF4C4C", "#FF6666", "#FF9999", "#FFCCCC", "#FFE5E5"];
-    let right = ["#FFE5E5", "#FFCCCC", "#FF9999", "#FF6666", "#FF4C4C", "#FF1919", "#B22222"];
+    let left = ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#B22222", "#FF1919", "#FF4C4C", "#FF6666", "#FF9999", "#FFCCCC", "#FFE5E5"];
+    let right = ["#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFE5E5", "#FFCCCC", "#FF9999", "#FF6666", "#FF4C4C", "#FF1919", "#B22222"];
 
-    let sound=new Audio("assets/audio/KittScanner.mp3");
+    let sound = new Audio("assets/audio/KittScanner.mp3");
+    let sound2 = new Audio("assets/audio/Knight-Rider-Theme-Song.mp3");
+
+    let speed;
 
     let divArray = document.querySelector("section").children;
-    for (let i = 0; i < divArray.length; i++) {
-        divArray[i].style.background = left[i];
-    }
-    let lv = left.pop();
-    left.unshift(lv);
 
     let animate;
+    let runLeft = true;
+    let count = 0;
+
+    let rangeBar = document.getElementById("Range");
+    let value;
+
+    rangeBar.addEventListener("input", function () {
+        value = rangeBar.value;
+        console.log(value);
+    });
+
 
     document.getElementById("btn1").addEventListener("click", function () {
         clearInterval(animate);
 
         animate = setInterval(function () {
-            let divArray = document.querySelector("section").children;
 
-            for (let i = 0; i < divArray.length; i++) {
-                divArray[i].style.background = left[i];
+            if (runLeft) {
+                for (let i = 0; i < divArray.length; i++) {
+                    divArray[i].style.backgroundColor = left[i];
+                }
+
+                let lastValue = left.pop();
+                left.unshift(lastValue);
+                count++;
+
+                if (count === divArray.length * 2) {
+                    runLeft = false;
+                }
+
             }
-            let lv = left.pop();
-            left.unshift(lv);
+            if (runLeft === false) {
 
-            /*for (let i = 0; i < divArray.length ; i++) {
-                divArray[i].style.background = right[i];
+                let lastColor = right.shift();
+                right.push(lastColor);
+
+                for (let i = 0; i < divArray.length; i++) {
+                    divArray[i].style.backgroundColor = right[i];
+                }
+                count--;
+
+                if (count === 1) {
+                    runLeft = true;
+                }
             }
 
-
-            let rv = right.shift();
-            right.push(rv);*/
-
-        }, 200);
-
-        sound.play();
+        }, 150);
+        sound.play()
+        sound.loop = true;
     });
 
     document.getElementById("btn2").addEventListener("click", function () {
