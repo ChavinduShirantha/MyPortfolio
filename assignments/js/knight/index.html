@@ -55,7 +55,7 @@
 </head>
 <body>
 <h1>Java Script Knight Rider</h1>
-<section>
+<section id="content">
     <div></div>
     <div></div>
     <div></div>
@@ -76,7 +76,7 @@
     let left = ["#B22222", "#FF1919", "#FF4C4C", "#FF6666", "#FF9999", "#FFCCCC", "#FFE5E5"];
     let right = ["#FFE5E5", "#FFCCCC", "#FF9999", "#FF6666", "#FF4C4C", "#FF1919", "#B22222"];
 
-    let sound=new Audio("assets/audio/sound.mp3");
+    let sound=new Audio("assets/audio/KittScanner.mp3");
 
     let divArray = document.querySelector("section").children;
     for (let i = 0; i < divArray.length; i++) {
@@ -99,13 +99,13 @@
             let lv = left.pop();
             left.unshift(lv);
 
-            for (let i = 0; i < divArray.length ; i++) {
+            /*for (let i = 0; i < divArray.length ; i++) {
                 divArray[i].style.background = right[i];
             }
 
 
             let rv = right.shift();
-            right.push(rv);
+            right.push(rv);*/
 
         }, 200);
 
@@ -114,6 +114,7 @@
 
     document.getElementById("btn2").addEventListener("click", function () {
         clearInterval(animate);
+        sound.pause();
     });
 </script>
 
