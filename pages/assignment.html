@@ -39,7 +39,7 @@
 
         section > div:nth-child(3) {
             top: 10em;
-            left: 14em;
+            left: 10em;
             position: relative;
             height: 15em;
             width: 20em;
@@ -73,7 +73,7 @@
 
         section > div:nth-child(5) {
             top: 40em;
-            left: 14em;
+            left: 10em;
             position: relative;
             height: 15em;
             width: 20em;
@@ -98,10 +98,10 @@
         @media all and (max-width: 768px) {
             section > div {
                 top: 20%;
-                left: 0;
-                right: 0;
+                left: 0!important;
+                right: 0!important;
                 margin: auto;
-                width: 600px;
+                width: 500px!important;
                 height: 500px;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(2, 1fr);
@@ -112,34 +112,37 @@
             }
 
             section > div > a > div > img {
-                width: 150px;
+                width: 100px;
                 margin-bottom: 40px;
             }
         }
 
         @media all and (max-width: 426px) {
-            section > div > a > div > img {
-                width: 6em;
+            section > div {
+                top: 20%;
+                left: 0!important;
+                right: 0!important;
+                margin: auto;
+                width: 360px!important;
             }
 
-            section > div {
-                margin: auto;
-                top: 15em;
-                width: 20em;
-                height: 20em;
+            section > div > a > div > img {
+                width: 4em;
             }
+
         }
 
         @media all and (max-width: 320px) {
             section > div > a > div > img {
-                width: 5em;
+                width: 3em;
             }
 
             section > div {
+                top: 20%;
+                left: 0!important;
+                right: 0!important;
                 margin: auto;
-                top: 15em;
-                width: 18em;
-                height: 20em;
+                width: 290px!important;
             }
         }
     </style>
