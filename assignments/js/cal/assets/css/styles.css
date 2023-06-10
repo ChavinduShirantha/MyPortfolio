@@ -1,0 +1,16 @@
+.buttons {
+    height: 50px;
+    width: 75px;
+    background-color: white;
+    font-family: Ubuntu, sans-serif;
+    border-radius: 20px;
+    padding-top: 5px;
+    opacity: 80%;
+    border: none;
+}
+
+.buttons:hover {
+    transform: scale(0.96);
+    box-shadow: 1px 3px 5px 1px #151515 !important;
+    font-weight: bold;
+}
