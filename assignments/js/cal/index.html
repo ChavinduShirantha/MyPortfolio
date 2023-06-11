@@ -34,7 +34,7 @@
                     <button class="btn btn-outline-info buttons shadow " id="num9">9</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow " id="plus">+</button>
+                    <button class="btn btn-outline-primary buttons shadow " id="additionBtn">+</button>
                 </div>
             </aside>
             <aside class="row h-25 justify-content-center">
@@ -48,7 +48,7 @@
                     <button class="btn btn-outline-info buttons shadow " id="num6">6</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow  " id="min">-</button>
+                    <button class="btn btn-outline-primary buttons shadow  " id="subtractionBtn">-</button>
                 </div>
             </aside>
             <aside class="row h-25 justify-content-center">
@@ -62,7 +62,7 @@
                     <button class="btn btn-outline-info buttons shadow " id="num3">3</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow  " id="mul">*</button>
+                    <button class="btn btn-outline-primary buttons shadow  " id="multiplicationBtn">*</button>
                 </div>
             </aside>
             <aside class="row h-25 justify-content-center">
@@ -70,13 +70,13 @@
                     <button class="btn btn-outline-info buttons shadow " id="num0">0</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow ">.</button>
+                    <button class="btn btn-outline-primary buttons shadow " id="decimalBtn">.</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
                     <button class="btn btn-outline-success buttons shadow " id="equalsBtn">=</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow" id="div">/</button>
+                    <button class="btn btn-outline-primary buttons shadow" id="divisionBtn">/</button>
                 </div>
             </aside>
         </div>
@@ -86,6 +86,70 @@
 <script src="assets/js/jquery-3.7.0.min.js"></script>
 
 <script>
+
+    $('#num0').click(function (){
+        $('#txtInput').val(0)
+    });
+
+    $('#num1').click(function (){
+        $('#txtInput').val(1)
+    });
+
+    $('#num2').click(function (){
+        $('#txtInput').val(2)
+    });
+
+    $('#num3').click(function (){
+        $('#txtInput').val(3)
+    });
+
+    $('#num4').click(function (){
+        $('#txtInput').val(4)
+    });
+
+    $('#num5').click(function (){
+        $('#txtInput').val(5)
+    });
+
+    $('#num6').click(function (){
+        $('#txtInput').val(6)
+    });
+
+    $('#num7').click(function (){
+        $('#txtInput').val(7)
+    });
+
+    $('#num8').click(function (){
+        $('#txtInput').val(8)
+    });
+
+    $('#num9').click(function (){
+        $('#txtInput').val(9)
+    });
+
+    $('#decimalBtn').click(function (){
+        $('#txtInput').val('.')
+    });
+
+    $('#additionBtn').click(function (){
+        $('#txtInput').val('+')
+    });
+
+    $('#subtractionBtn').click(function (){
+        $('#txtInput').val('-')
+    });
+
+    $('#multiplicationBtn').click(function (){
+        $('#txtInput').val('*')
+    });
+
+    $('#divisionBtn').click(function (){
+        $('#txtInput').val('/')
+    });
+
+    $('#clearBtn').click(function (){
+        $('#txtInput').val("")
+    });
 
 </script>
 
