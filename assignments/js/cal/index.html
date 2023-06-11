@@ -12,12 +12,8 @@
 
 <main class="rounded-5 shadow-lg bg-dark-subtle" style="height: 600px; width: 400px;">
     <section class="d-flex h-50 flex-column align-items-center justify-content-evenly">
-        <div class="display h-25 w-100 d-flex align-items-end justify-content-end mt-5">
-            <p class="text-secondary mb-2 h1 w-100 text-end p-2" id="history">
-        </div>
-        <div class="display h-25 w-100 d-flex align-items-end justify-content-end mt-1">
-            <p class="text-secondary mb-2 h1 w-100 text-end p-2" id="result">
-        </div>
+        <label for="txtInput"></label>
+        <input id="txtInput" type="text" class="col-10" placeholder="0" disabled>
     </section>
 
     <section class="d-flex flex-row h-50 rounded-5 p-2 gap-4 shadow" id="buttons">
@@ -29,49 +25,49 @@
             </aside>
             <aside class="row h-25 justify-content-center">
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">7</button>
+                    <button class="btn btn-outline-info buttons shadow " id="num7">7</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">8</button>
+                    <button class="btn btn-outline-info buttons shadow " id="num8">8</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">9</button>
+                    <button class="btn btn-outline-info buttons shadow " id="num9">9</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow ">+</button>
-                </div>
-            </aside>
-            <aside class="row h-25 justify-content-center">
-                <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">4</button>
-                </div>
-                <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">5</button>
-                </div>
-                <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">6</button>
-                </div>
-                <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow  ">-</button>
+                    <button class="btn btn-outline-primary buttons shadow " id="plus">+</button>
                 </div>
             </aside>
             <aside class="row h-25 justify-content-center">
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">1</button>
+                    <button class="btn btn-outline-info buttons shadow " id="num4">4</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">2</button>
+                    <button class="btn btn-outline-info buttons shadow " id="num5">5</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">3</button>
+                    <button class="btn btn-outline-info buttons shadow " id="num6">6</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow  ">*</button>
+                    <button class="btn btn-outline-primary buttons shadow  " id="min">-</button>
                 </div>
             </aside>
             <aside class="row h-25 justify-content-center">
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-info buttons shadow ">0</button>
+                    <button class="btn btn-outline-info buttons shadow " id="num1">1</button>
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <button class="btn btn-outline-info buttons shadow " id="num2">2</button>
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <button class="btn btn-outline-info buttons shadow " id="num3">3</button>
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <button class="btn btn-outline-primary buttons shadow  " id="mul">*</button>
+                </div>
+            </aside>
+            <aside class="row h-25 justify-content-center">
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <button class="btn btn-outline-info buttons shadow " id="num0">0</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
                     <button class="btn btn-outline-primary buttons shadow ">.</button>
@@ -80,18 +76,19 @@
                     <button class="btn btn-outline-success buttons shadow " id="equalsBtn">=</button>
                 </div>
                 <div class="col-3 d-flex align-items-center justify-content-center">
-                    <button class="btn btn-outline-primary buttons shadow">/</button>
+                    <button class="btn btn-outline-primary buttons shadow" id="div">/</button>
                 </div>
             </aside>
         </div>
     </section>
 </main>
 
+<script src="assets/js/jquery-3.7.0.min.js"></script>
+
 <script>
 
 </script>
 
-<script src="assets/js/jquery-3.7.0.min.js"></script>
 
 </body>
 </html>

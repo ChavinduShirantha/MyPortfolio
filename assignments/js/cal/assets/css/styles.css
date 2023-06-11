@@ -14,3 +14,12 @@
     box-shadow: 1px 3px 5px 1px #151515 !important;
     font-weight: bold;
 }
+
+#txtInput {
+    text-align: end;
+    background-color: transparent;
+    border-radius: 20px;
+    color: black;
+    border-color: transparent;
+    font-size: 50px;
+}
