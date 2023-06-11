@@ -10,7 +10,7 @@
 
 <body class="d-flex container-fluid align-items-center justify-content-center" style="height: 100vh; width: 100vw">
 
-<main class="rounded-5 shadow-lg bg-dark-subtle" style="height: 600px; width: 400px;">
+<main class="rounded-5 shadow-lg " style="height: 600px; width: 400px;">
     <section class="d-flex h-50 flex-column align-items-center justify-content-evenly">
         <label for="txtInput"></label>
         <input id="txtOutput" type="text" class="col-10" disabled>
@@ -176,7 +176,7 @@
     $('#equalsBtn').click(function () {
         value += ($("#txtInput").val());
         $("#txtOutput").val(value);
-        $("#txtInput").val();
+        $("#txtInput").val(eval(value));
         value = "";
     });
 
