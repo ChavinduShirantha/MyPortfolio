@@ -23,3 +23,12 @@
     border-color: transparent;
     font-size: 50px;
 }
+
+#txtOutput {
+    text-align: end;
+    background-color: transparent;
+    border-radius: 20px;
+    color: black;
+    border-color: transparent;
+    font-size: 50px;
+}

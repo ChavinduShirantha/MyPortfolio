@@ -13,7 +13,8 @@
 <main class="rounded-5 shadow-lg bg-dark-subtle" style="height: 600px; width: 400px;">
     <section class="d-flex h-50 flex-column align-items-center justify-content-evenly">
         <label for="txtInput"></label>
-        <input id="txtInput" type="text" class="col-10" placeholder="0" disabled>
+        <input id="txtOutput" type="text" class="col-10" disabled>
+        <input id="txtInput" type="text" class="col-10" disabled>
     </section>
 
     <section class="d-flex flex-row h-50 rounded-5 p-2 gap-4 shadow" id="buttons">
@@ -86,69 +87,97 @@
 <script src="assets/js/jquery-3.7.0.min.js"></script>
 
 <script>
+    let value = '';
 
-    $('#num0').click(function (){
-        $('#txtInput').val(0)
+    $('#num0').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 0)
+        $('#txtOutput').val("")
     });
 
-    $('#num1').click(function (){
-        $('#txtInput').val(1)
+    $('#num1').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 1)
+        $('#txtOutput').val("")
     });
 
-    $('#num2').click(function (){
-        $('#txtInput').val(2)
+    $('#num2').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 2)
+        $('#txtOutput').val("")
     });
 
-    $('#num3').click(function (){
-        $('#txtInput').val(3)
+    $('#num3').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 3)
+        $('#txtOutput').val("")
     });
 
-    $('#num4').click(function (){
-        $('#txtInput').val(4)
+    $('#num4').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 4)
+        $('#txtOutput').val("")
     });
 
-    $('#num5').click(function (){
-        $('#txtInput').val(5)
+    $('#num5').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 5)
+        $('#txtOutput').val("")
     });
 
-    $('#num6').click(function (){
-        $('#txtInput').val(6)
+    $('#num6').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 6)
+        $('#txtOutput').val("")
     });
 
-    $('#num7').click(function (){
-        $('#txtInput').val(7)
+    $('#num7').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 7)
+        $('#txtOutput').val("")
     });
 
-    $('#num8').click(function (){
-        $('#txtInput').val(8)
+    $('#num8').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 8)
+        $('#txtOutput').val("")
     });
 
-    $('#num9').click(function (){
-        $('#txtInput').val(9)
+    $('#num9').click(function () {
+        $('#txtInput').val($("#txtInput").val() + 9)
+        $('#txtOutput').val("")
     });
 
-    $('#decimalBtn').click(function (){
-        $('#txtInput').val('.')
+    $('#decimalBtn').click(function () {
+        $('#txtInput').val($("#txtInput").val() + '.')
+        $('#txtOutput').val("")
     });
 
-    $('#additionBtn').click(function (){
-        $('#txtInput').val('+')
+    $('#additionBtn').click(function () {
+        value += $("#txtInput").val() + '+';
+        $("#txtInput").val("");
+        $('#txtOutput').val("")
     });
 
-    $('#subtractionBtn').click(function (){
-        $('#txtInput').val('-')
+    $('#subtractionBtn').click(function () {
+        value += $("#txtInput").val() + '-';
+        $("#txtInput").val("");
+        $('#txtOutput').val("")
     });
 
-    $('#multiplicationBtn').click(function (){
-        $('#txtInput').val('*')
+    $('#multiplicationBtn').click(function () {
+        value += $("#txtInput").val() + '*';
+        $("#txtInput").val("");
+        $('#txtOutput').val("")
     });
 
-    $('#divisionBtn').click(function (){
-        $('#txtInput').val('/')
+    $('#divisionBtn').click(function () {
+        value += $("#txtInput").val() + '/';
+        $("#txtInput").val("");
+        $('#txtOutput').val("")
     });
 
-    $('#clearBtn').click(function (){
+    $('#clearBtn').click(function () {
         $('#txtInput').val("")
+        $('#txtOutput').val("")
+    });
+
+    $('#equalsBtn').click(function () {
+        value += ($("#txtInput").val());
+        $("#txtOutput").val(value);
+        $("#txtInput").val();
+        value = "";
     });
 
 </script>
