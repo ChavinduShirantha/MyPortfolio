@@ -1,31 +1,34 @@
-document.getElementById('HomeSection').classList.add('active');
-document.getElementById('CustomerSection').classList.remove('active');
-document.getElementById('ItemSection').classList.remove('active');
-document.getElementById('PlaceOrderSection').classList.remove('active');
+$('#HomeSection').attr('style', 'display : block !important');
+$('#CustomerSection').attr('style', 'display : none !important');
+$('#ItemSection').attr('style', 'display : none !important');
+$('#PlaceOrderSection').attr('style', 'display : none !important');
 
-document.getElementById("homeBtn").addEventListener("click", function () {
-    document.getElementById('HomeSection').classList.add('active');
-    document.getElementById('CustomerSection').classList.remove('active');
-    document.getElementById('ItemSection').classList.remove('active');
-    document.getElementById('PlaceOrderSection').classList.remove('active');
-});
-document.getElementById("itemsBtn").addEventListener("click", function () {
-    document.getElementById('ItemSection').classList.add('active');
-    document.getElementById('HomeSection').classList.remove('active');
-    document.getElementById('CustomerSection').classList.remove('active');
-    document.getElementById('PlaceOrderSection').classList.remove('active');
+$('#homeBtn').click(function () {
+    $('#HomeSection').attr('style', 'display : block !important');
+    $('#CustomerSection').attr('style', 'display : none !important');
+    $('#ItemSection').attr('style', 'display : none !important');
+    $('#PlaceOrderSection').attr('style', 'display : none !important');
 });
 
-document.getElementById("placeOrderBtn").addEventListener("click", function () {
-    document.getElementById('PlaceOrderSection').classList.add('active');
-    document.getElementById('HomeSection').classList.remove('active');
-    document.getElementById('CustomerSection').classList.remove('active');
-    document.getElementById('ItemSection').classList.remove('active');
+$('#customersBtn').click(function () {
+    $('#HomeSection').attr('style', 'display : none !important');
+    $('#CustomerSection').attr('style', 'display : block !important');
+    $('#ItemSection').attr('style', 'display : none !important');
+    $('#PlaceOrderSection').attr('style', 'display : none !important');
 });
 
-document.getElementById("customersBtn").addEventListener("click", function () {
-    document.getElementById('CustomerSection').classList.add('active');
-    document.getElementById('HomeSection').classList.remove('active');
-    document.getElementById('PlaceOrderSection').classList.remove('active');
-    document.getElementById('ItemSection').classList.remove('active');
+$('#itemsBtn').click(function () {
+    $('#HomeSection').attr('style', 'display : none !important');
+    $('#CustomerSection').attr('style', 'display : none !important');
+    $('#ItemSection').attr('style', 'display : block !important');
+    $('#PlaceOrderSection').attr('style', 'display : none !important');
+});
+
+$('#placeOrderBtn').click(function () {
+    $('#HomeSection').attr('style', 'display : none !important');
+    $('#CustomerSection').attr('style', 'display : none !important');
+    $('#ItemSection').attr('style', 'display : none  !important');
+    $('#PlaceOrderSection').attr('style', 'display : block !important');
+    loadCustomers();
+    loadItems();
 });
