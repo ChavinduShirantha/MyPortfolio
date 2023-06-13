@@ -1,7 +1,7 @@
 var orderDB=[];
 
 $("#addToCart").click(function () {
-    let code = $("#itemCode").val();
+    let code = $("#itemCodes").val();
     let productName = $("#item_Name").val();
     let price = $("#unitPrice").val();
     let qty = $("#orderedQty").val();
@@ -52,15 +52,32 @@ function loadCustomers() {
 function loadItems() {
     $("#itemCodes").empty();
 
-    $("#itemCodes").append(`<option>-Select Customer-</option>`);
+    $("#itemCodes").append(`<option>-Select Item-</option>`);
     for (let i = 0; i < itemDB.length; i++) {
         let code=itemDB[i].iCode;
         $("#itemCodes").append(`<option>${code}</option>`);
     }
 }
 $("#customer_Ids").click(function () {
+let val = $("#customer_Ids").val();
+
+    for (let i = 0; i < customerDB.length; i++) {
+        if (val==customerDB[i].cusId){
+            $("#customer_Name").val(customerDB[i].cusName)
+            $("#customer_Address").val(customerDB[i].cusAddress)
+            $("#customer_Salary").val(customerDB[i].cusSalary)
+        }
+    }
 
 });
 $("#itemCodes").click(function () {
+    let val = $("#itemCodes").val();
 
+    for (let i = 0; i < itemDB.length; i++) {
+        if (val==itemDB[i].iCode){
+            $("#item_Name").val(itemDB[i].iName)
+            $("#unitPrice").val(itemDB[i].iPrice)
+            $("#qtyOnHand").val(itemDB[i].iQty)
+        }
+    }
 });
