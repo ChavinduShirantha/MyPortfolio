@@ -1,18 +1,33 @@
-let contents = "Software Engineering Student ";
+let contents = ["Software Engineering Student ", "Web Developer ", "Web Designer ", "Full Stack Developer ", "Photographer "];
 
-let count = 0;
+let charCount = 0;
+
+let wordCount = 0;
+
 setInterval(function () {
     animateText();
-}, 200);
+}, 300);
 
 function animateText() {
-    let content = contents.substring(0, count) + "|";
+
+    let content = contents[wordCount].substring(0, charCount) + "|";
+
     $("#content").text(content);
 
-    count++;
+    charCount++;
 
-    if (count == contents.length) {
-        count = 0;
+    if (charCount == contents[wordCount].length) {
+
+        charCount = 0;
+
+        wordCount++;
+
+        if (wordCount == contents.length) {
+
+            wordCount = 0;
+
+        }
+
     }
 
 };
