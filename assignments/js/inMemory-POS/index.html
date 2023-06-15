@@ -101,8 +101,8 @@
                 <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Search
                     Customer</h4>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Input Name/NIC/Tp Here"
-                           aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Input ID Here"
+                           aria-label="Search" id="txtCusID">
                     <button class="btn btn-outline-success me-3" type="button">Search</button>
                     <button class="btn btn-outline-warning me-3" type="button">Clear</button>
                 </form>
@@ -112,7 +112,7 @@
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#newCustomer">Add New
                 Customer
             </button>
-            <button type="button" class="btn btn-danger">Delete Customer</button>
+            <button type="button" class="btn btn-danger" id="deleteCustomer">Delete Customer</button>
             <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateCustomer">Update
                 Customer
             </button>
@@ -131,7 +131,8 @@
                             <th scope="col">Customer Salary</th>
                         </tr>
                         </thead>
-                        <tbody id="tblCustomer" class="text-center"></tbody>
+                        <tbody id="tblCustomer" class="text-center" data-bs-toggle="modal" data-bs-target="#updateCustomer">
+                        </tbody></button>
                     </table>
                 </div>
             </div>
@@ -238,8 +239,8 @@
                 <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Search
                     Item</h4>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Input Name/Code Here"
-                           aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Input Code Here"
+                           aria-label="Search" id="txtItemCode">
                     <button class="btn btn-outline-success me-3" type="button">Search</button>
                     <button class="btn btn-outline-warning me-3" type="button">Clear</button>
                 </form>
@@ -250,7 +251,7 @@
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addItem">Add New
                 Item
             </button>
-            <button type="button" class="btn btn-danger">Delete Item</button>
+            <button type="button" class="btn btn-danger" id="deleteItem">Delete Item</button>
             <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateItem">Update
                 Item
             </button>
@@ -269,7 +270,7 @@
                             <th scope="col">Item Qyt</th>
                         </tr>
                         </thead>
-                        <tbody id="tblItem" class="text-center"></tbody>
+                        <tbody id="tblItem" class="text-center" data-bs-toggle="modal" data-bs-target="#updateItem"></tbody>
                     </table>
                 </div>
             </div>
