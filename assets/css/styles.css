@@ -61,7 +61,7 @@ header>nav {
     position: relative;
     display: flex;
     padding-right: 30px;
-    left: 65%;
+    left: 64%;
 }
 
 header>nav>menu {
@@ -109,6 +109,63 @@ header>nav a:hover {
 
 header>nav a:hover::after {
     transform: scaleX(1);
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), #727272);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    transition: height 0.5s;
+}
+
+.layer h5 {
+    color: white;
+    font-size: 1em;
+    font-weight: 60;
+    position: relative;
+    top: 10%;
+}
+
+.layer i {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.row img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.row:hover img {
+    transform: scale(1.1);
+}
+
+.row:hover .layer {
+    height: 100%;
 }
 
 main {
@@ -980,7 +1037,7 @@ main > section:nth-child(9) > div {
     left: 220px;
     position: relative;
     height: 500px;
-    width: 800px;
+    width: 1000px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -1927,6 +1984,8 @@ main > div > a > img {
         left: 90px;
         height: 450px;
         width: 900px;
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
     }
 
     main > section:nth-child(9) > div > a > div > img {
@@ -2590,8 +2649,8 @@ main > div > a > img {
         height: 500px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 20px;
-        grid-row-gap: 0;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
         justify-items: center;
         align-items: center;
     }
@@ -3067,10 +3126,11 @@ main > div > a > img {
     }
 
     main > section:nth-child(9) > div {
-        top: 20%;
+        top: 35%;
         width: 400px;
         height: 300px;
-        grid-column-gap: 0;
+        grid-column-gap: 20px;
+        grid-row-gap: 100px;
     }
 
     main > section:nth-child(9) > div > a > div > img {
