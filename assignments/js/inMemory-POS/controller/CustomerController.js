@@ -219,34 +219,81 @@ function clearUpdateFormFields() {
     $("#customerId").focus();
 }
 
+updateCustomerValidations.push({
+    reg: regCusID,
+    field: $('#customerId'),
+    error: 'Customer ID Pattern is Wrong : C00-001'
+});
+updateCustomerValidations.push({
+    reg: regCusName,
+    field: $('#customerName'),
+    error: 'Customer Name Pattern is Wrong : A-z 5-20'
+});
+updateCustomerValidations.push({
+    reg: regCusAddress,
+    field: $('#customerAddress'),
+    error: 'Customer Address Pattern is Wrong : A-z 0-9 ,/'
+});
+updateCustomerValidations.push({
+    reg: regCusSalary,
+    field: $('#customerSalary'),
+    error: 'Customer Salary Pattern is Wrong : 100 or 100.00'
+});
+
 $("#customerId,#customerName,#customerAddress,#customerSalary").keydown(function (e) {
     if (e.key == "Tab") {
         e.preventDefault();
     }
 });
 
-$('#customerId').keydown(function (e) {
-    if (e.key == "Enter") {
-        $("#customerName").focus();
-    }else {
-        focusText($("#customer-id"));
+$("#customerId,#customerName,#customerAddress,#customerSalary").keyup(function (e) {
+    checkUpdateCustomerValidity();
+});
+
+function checkUpdateCustomerValidity() {
+    let errorCount = 0;
+    for (let validation of updateCustomerValidations) {
+        if (check(validation.reg, validation.field)) {
+            textSuccess(validation.field, "");
+        } else {
+            errorCount = errorCount + 1;
+            setTextError(validation.field, validation.error);
+        }
     }
-})
-$('#customerName').keydown(function (e) {
-    if (e.key == "Enter") {
-        $("#customerAddress").focus();
+    setUpdateCustomerButtonState(errorCount);
+}
+
+function setUpdateCustomerButtonState(value) {
+    if (value > 0) {
+        $("#updateCustomerBtn").attr('disabled', true);
+    } else {
+        $("#updateCustomerBtn").attr('disabled', false);
     }
-})
-$('#customerAddress').keydown(function (e) {
-    if (e.key == "Enter") {
-        $("#customerSalary").focus();
+}
+
+$("#customerId").keydown(function (e) {
+    if (e.key == "Enter" && check(regCusID, $("#customerId"))) {
+        focusText($("#customerName"));
     }
-})
-$('#customerSalary').keydown(function (e) {
-    if (e.key == "Enter") {
+});
+
+$("#customerName").keydown(function (e) {
+    if (e.key == "Enter" && check(regCusName, $("#customerName"))) {
+        focusText($("#customerAddress"));
+    }
+});
+
+$("#customerAddress").keydown(function (e) {
+    if (e.key == "Enter" && check(regCusAddress, $("#customerAddress"))) {
+        focusText($("#customerSalary"));
+    }
+});
+
+$("#customerSalary").keydown(function (e) {
+    if (e.key == "Enter" && check(regCusSalary, $("#customerSalary"))) {
         $("#updateCustomerBtn").focus();
     }
-})
+});
 
 $('#btnSearchCustomer').click(function () {
     let cus_id = $('#txtCusID').val();
