@@ -1,4 +1,3 @@
-var customerDB = [];
 $("#saveCustomer").click(function () {
     let id = $("#customer-id").val();
     if (searchCustomer(id.trim()) == undefined) {
@@ -66,6 +65,7 @@ function check(regex, txtField) {
     let inputValue = txtField.val();
     return regex.test(inputValue) ? true : false;
 }
+
 $("#customer-id,#customer-name,#customer-address,#customer-salary").keydown(function (e) {
     if (e.key == "Tab") {
         e.preventDefault();
@@ -79,10 +79,7 @@ $("#customer-id,#customer-name,#customer-address,#customer-salary").keyup(functi
 $('#customer-id').keydown(function (e) {
     if (e.key == "Enter" && check(regCusID, $("#customer-id"))) {
         $("#customer-name").focus();
-    } else {
-        focusText($("#customer-id"));
     }
-
 })
 $('#customer-name').keydown(function (e) {
     if (e.key == "Enter" && check(regCusName, $("#customer-name"))) {
@@ -90,12 +87,12 @@ $('#customer-name').keydown(function (e) {
     }
 })
 $('#customer-address').keydown(function (e) {
-    if (e.key == "Enter") {
-        $("#customer-salary").focus();
+    if (e.key == "Enter" && check(regCusAddress, $("#customer-address"))) {
+        focusText($("#customer-salary"));
     }
 })
 $('#customer-salary').keydown(function (e) {
-    if (e.key == "Enter") {
+    if (e.key == "Enter" && check(regCusSalary, $("#customer-salary"))) {
         $("#saveCustomer").focus();
     }
 })

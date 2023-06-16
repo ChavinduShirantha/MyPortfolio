@@ -1,5 +1,3 @@
-var itemDB = [];
-
 $("#saveItem").click(function () {
     let code = $("#item-ID").val();
     let productName = $("#item-Name").val();

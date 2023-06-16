@@ -1,5 +1,3 @@
-var orderDB = [];
-
 $("#addToCart").click(function () {
     let code = $("#itemCodes").val();
     let productName = $("#item_Name").val();
