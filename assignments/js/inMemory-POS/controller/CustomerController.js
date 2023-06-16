@@ -228,6 +228,8 @@ $("#customerId,#customerName,#customerAddress,#customerSalary").keydown(function
 $('#customerId').keydown(function (e) {
     if (e.key == "Enter") {
         $("#customerName").focus();
+    }else {
+        focusText($("#customer-id"));
     }
 })
 $('#customerName').keydown(function (e) {
