@@ -112,9 +112,9 @@ function checkValidity() {
 
 function setButtonState(value) {
     if (value > 0) {
-        $("#newCustomer").attr('disabled', true);
+        $("#saveCustomer").attr('disabled', true);
     } else {
-        $("#newCustomer").attr('disabled', false);
+        $("#saveCustomer").attr('disabled', false);
     }
 }
 
