@@ -5,6 +5,7 @@
     <title>Assignments</title>
     <meta name="viewport" content="width=device-width initial-scale=1">
     <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
     <style>
         ::-webkit-scrollbar {
             background-color: rgba(49, 45, 45, 0.91);
@@ -22,7 +23,7 @@
             position: relative;
             background: rgb(163, 200, 255);
             width: 100%;
-            height: 150vh;
+            height: 160vh;
         }
 
         section > h3 {
@@ -51,10 +52,10 @@
 
         section > div:nth-child(3) {
             top: 10em;
-            left: 14em;
+            left: 16em;
             position: relative;
-            height: 15em;
-            width: 20em;
+            height: 40em;
+            width: 60em;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -84,36 +85,52 @@
         }
 
         section > div:nth-child(5) {
-            top: 40em;
-            left: 14em;
+            top: 15em;
+            left: 16em;
             position: relative;
-            height: 15em;
-            width: 20em;
+            height: 20em;
+            width: 60em;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
             grid-column-gap: 2em;
             grid-row-gap: 1em;
         }
 
         @media all and (max-width: 1024px) {
+            section > div:nth-child(3) {
+                width: 45em;
+            }
+            section > div:nth-child(5) {
+                width: 45em;
+            }
             section > div > a > div > img {
                 width: 10em;
                 margin-bottom: 2em;
             }
 
             section > div {
-                left: 10em!important;
+                left: 10em !important;
             }
         }
 
         @media all and (max-width: 768px) {
+            section > div:nth-child(3) {
+                height: 20em;
+            }
+            section > div:nth-child(5) {
+                top: 18em;
+                height: 10em;
+            }
+            section > p:nth-child(4) {
+                top: 17em;
+            }
             section > div {
                 top: 20%;
-                left: 0!important;
-                right: 0!important;
+                left: 0 !important;
+                right: 0 !important;
                 margin: auto;
-                width: 500px!important;
+                width: 500px !important;
                 height: 500px;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(2, 1fr);
@@ -132,10 +149,10 @@
         @media all and (max-width: 426px) {
             section > div {
                 top: 20%;
-                left: 0!important;
-                right: 0!important;
+                left: 0 !important;
+                right: 0 !important;
                 margin: auto;
-                width: 360px!important;
+                width: 360px !important;
             }
 
             section > div > a > div > img {
@@ -151,76 +168,132 @@
 
             section > div {
                 top: 20%;
-                left: 0!important;
-                right: 0!important;
+                left: 0 !important;
+                right: 0 !important;
                 margin: auto;
-                width: 290px!important;
+                width: 290px !important;
             }
         }
     </style>
+
 </head>
 <body>
 <section>
     <h3>Assignments</h3>
     <p>CSS Assignments</p>
     <div>
-        <a target="_blank" href="../assignments/css/caseOne/index.html">
-            <div><img src="../assets/img/projectimg/case01.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/css/caseTwo/index.html">
-            <div><img src="../assets/img/projectimg/case02.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/css/caseThree/index.html">
-            <div><img src="../assets/img/projectimg/case03.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/css/caseFour/index.html">
-            <div><img src="../assets/img/projectimg/case04.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/css/CaseFive&Six/case5.html">
-            <div><img src="../assets/img/projectimg/case05.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/css/CaseFive&Six/case6.html">
-            <div><img src="../assets/img/projectimg/case06.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/transitions/caseOne/index.html">
-            <div><img src="../assets/img/projectimg/TransitionCase01.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/transitions/caseTwo/index.html">
-            <div><img src="../assets/img/projectimg/TransitionCase02.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/animations/caseThree/index.html">
-            <div><img src="../assets/img/projectimg/AnimationCase03.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/animations/caseFour/index.html">
-            <div><img src="../assets/img/projectimg/AnimationCase04.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/animations/caseFive/index.html">
-            <div><img src="../assets/img/projectimg/AnimationCase05.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/animations/caseSix/index.html">
-            <div><img src="../assets/img/projectimg/AnimationCase06.gif" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/css-framework/pos/index.html">
-            <div><img src="../assets/img/projectimg/pos.png" alt="assignment"></div>
-        </a>
+        <div class="row"><img src="../assets/img/projectimg/case01.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Case One</h5>
+                <a target="_blank" href="../assignments/css/caseOne/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/case02.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Case Two</h5>
+                <a target="_blank" href="../assignments/css/caseTwo/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/case03.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Case Three</h5>
+                <a target="_blank" href="../assignments/css/caseThree/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/case04.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Case Four</h5>
+                <a target="_blank" href="../assignments/css/caseFour/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/case05.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Case Five</h5>
+                <a target="_blank" href="../assignments/css/CaseFive&Six/case5.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/case06.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Case Six</h5>
+                <a target="_blank" href="../assignments/css/CaseFive&Six/case6.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/TransitionCase01.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Transition Case One</h5>
+                <a target="_blank" href="../assignments/transitions/caseOne/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/TransitionCase02.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Transition Case Two</h5>
+                <a target="_blank" href="../assignments/transitions/caseTwo/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/AnimationCase03.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Animation Case Three</h5>
+                <a target="_blank" href="../assignments/animations/caseThree/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/AnimationCase04.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Animation Case Four</h5>
+                <a target="_blank" href="../assignments/animations/caseFour/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/AnimationCase05.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Animation Case Five</h5>
+                <a target="_blank" href="../assignments/animations/caseFive/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/AnimationCase06.gif" alt="assignment">
+            <div class="layer">
+                <h5>CSS Animation Case Six</h5>
+                <a target="_blank" href="../assignments/animations/caseSix/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/pos.png" alt="assignment">
+            <div class="layer">
+                <h5>CSS FrameWork POS</h5>
+                <a target="_blank" href="../assignments/css-framework/pos/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
     </div>
     <p>JS Assignments</p>
     <div>
-        <a target="_blank" href="../assignments/js/queue/index.html">
-            <div><img src="../assets/img/projectimg/que.png" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/js/knight/index.html">
-            <div><img src="../assets/img/projectimg/knight.png" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/js/spa/index.html">
-            <div><img src="../assets/img/projectimg/pos.png" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/js/inMemory-POS/index.html">
-            <div><img src="../assets/img/projectimg/pos.png" alt="assignment"></div>
-        </a>
-        <a target="_blank" href="../assignments/js/cal/index.html">
-            <div><img src="../assets/img/projectimg/cal.png" alt="assignment"></div>
-        </a>
+        <div class="row"><img src="../assets/img/projectimg/que.png" alt="assignment">
+            <div class="layer">
+                <h5>JS Queue</h5>
+                <a target="_blank" href="../assignments/js/queue/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/knight.png" alt="assignment">
+            <div class="layer">
+                <h5>JS Knight</h5>
+                <a target="_blank" href="../assignments/js/knight/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/pos.png" alt="assignment">
+            <div class="layer">
+                <h5>JS SPA</h5>
+                <a target="_blank" href="../assignments/js/spa/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/pos.png" alt="assignment">
+            <div class="layer">
+                <h5>JS Queue</h5>
+                <a target="_blank" href="../assignments/js/inMemory-POS/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="row"><img src="../assets/img/projectimg/cal.png" alt="assignment">
+            <div class="layer">
+                <h5>JS Calculator</h5>
+                <a target="_blank" href="../assignments/js/cal/index.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+
     </div>
 </section>
 </body>
