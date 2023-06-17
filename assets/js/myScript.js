@@ -38,7 +38,6 @@ const slideWidth = slides[0].offsetWidth;
 let currentSlide = 0;
 let intervalId;
 
-// Show the initial slide
 slides[currentSlide].classList.add('active');
 
 function goToSlide(slideIndex) {
@@ -83,3 +82,46 @@ startSlideshow();
 document.getElementById('slideshow').addEventListener('mouseover', stopSlideshow);
 
 document.getElementById('slideshow').addEventListener('mouseout', startSlideshow);
+
+
+
+const slidesContainer1 = document.querySelector('.slides-container1');
+const slides1 = document.querySelectorAll('.slide1');
+const slideWidth1 = slides1[0].offsetWidth;
+let currentSlide1 = 0;
+let intervalId1;
+
+slides1[currentSlide1].classList.add('active');
+
+function goToSlide1(slideIndex) {
+    slides1[currentSlide1].classList.remove('active');
+    currentSlide1 = slideIndex;
+    slides1[currentSlide1].classList.add('active');
+
+    const transformValue = -slideWidth1 * currentSlide1;
+    slidesContainer1.style.transform = `translateX(${transformValue}px)`;
+}
+
+function previousSlide1() {
+    const newIndex = (currentSlide1 === 0) ? slides1.length - 1 : currentSlide1 - 1;
+    goToSlide1(newIndex);
+}
+
+function nextSlide1() {
+    const newIndex = (currentSlide1 === slides1.length - 1) ? 0 : currentSlide1 + 1;
+    goToSlide1(newIndex);
+}
+
+function startSlideshow1() {
+    intervalId1 = setInterval(nextSlide1, 5000);
+}
+
+function stopSlideshow1() {
+    clearInterval(intervalId1);
+}
+
+startSlideshow1();
+
+document.getElementById('slideshow1').addEventListener('mouseover', stopSlideshow1);
+
+document.getElementById('slideshow1').addEventListener('mouseout', startSlideshow1);

@@ -798,6 +798,26 @@ main > section:nth-child(6) > h3 {
     font-weight: bold;
     font-size: 42px;
 }
+#slideshow1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 35em;
+    overflow: hidden;
+}
+.slides-container1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide1 {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
 
 #slideshow {
     position: absolute;
@@ -848,6 +868,24 @@ main > section:nth-child(6) > h3 {
     cursor: pointer;
 }
 
+.skills{
+    height: 35em;
+}
+#skill1{
+    position:absolute;
+    left: 12vw;
+}
+
+#skill2{
+    position:absolute;
+    left: 112vw;
+}
+
+#skill3{
+    position:absolute;
+    left: 212vw;
+}
+
 .certificates{
     height: 35em;
 }
@@ -865,6 +903,7 @@ main > section:nth-child(6) > h3 {
 #certificate3{
     position:absolute;
     left: 225vw;
+    margin-right: 0;
 }
 
 
@@ -2234,6 +2273,27 @@ main > div > a > img {
         position:absolute;
         left: 218vw;
     }
+
+    #slideshow1 {
+        height: 30em;
+    }
+    .skills{
+        height: 30em;
+    }
+    #skill1{
+        position:absolute;
+        left: 5vw;
+    }
+
+    #skill2{
+        position:absolute;
+        left: 105vw;
+    }
+
+    #skill3{
+        position:absolute;
+        left: 205vw;
+    }
 }
 
 @media (max-width: 980px) {
@@ -2302,6 +2362,27 @@ main > div > a > img {
     #certificate3{
         position:absolute;
         left: 224vw;
+    }
+
+    #slideshow1 {
+        height: 30em;
+    }
+    .skills{
+        height: 30em;
+    }
+    #skill1{
+        position:absolute;
+        left: 2vw;
+    }
+
+    #skill2{
+        position:absolute;
+        left: 103vw;
+    }
+
+    #skill3{
+        position:absolute;
+        left: 203vw;
     }
 }
 
@@ -3041,6 +3122,27 @@ main > div > a > img {
         position:absolute;
         left: 280vw;
     }
+
+    #slideshow1 {
+        height: 20em;
+    }
+    .skills{
+        height: 20em;
+    }
+    #skill1{
+        position:absolute;
+        left: 5vw;
+    }
+
+    #skill2{
+        position:absolute;
+        left: 110vw;
+    }
+
+    #skill3{
+        position:absolute;
+        left: 210vw;
+    }
 }
 
 @media all and (max-width: 426px) {
@@ -3500,6 +3602,26 @@ main > div > a > img {
         left: 725vw;
     }
 
+    #slideshow1 {
+        height: 12em;
+    }
+    .skills{
+        height: 12em;
+    }
+    #skill1{
+        position:absolute;
+        left: 5vw;
+    }
+
+    #skill2{
+        position:absolute;
+        left: 110vw;
+    }
+
+    #skill3{
+        position:absolute;
+        left: 210vw;
+    }
 }
 
 @media all and (max-width: 376px) {
@@ -3629,6 +3751,27 @@ main > div > a > img {
         position:absolute;
         left: 815vw;
     }
+
+    #slideshow1 {
+        height: 10em;
+    }
+    .skills{
+        height: 10em;
+    }
+    #skill1{
+        position:absolute;
+        left: 5vw;
+    }
+
+    #skill2{
+        position:absolute;
+        left: 110vw;
+    }
+
+    #skill3{
+        position:absolute;
+        left: 210vw;
+    }
 }
 
 @media all and (max-width: 320px) {
@@ -3735,5 +3878,26 @@ main > div > a > img {
     #certificate3{
         position:absolute;
         left: 965vw;
+    }
+
+    #slideshow1 {
+        height: 8em;
+    }
+    .skills{
+        height: 8em;
+    }
+    #skill1{
+        position:absolute;
+        left: 10vw;
+    }
+
+    #skill2{
+        position:absolute;
+        left: 110vw;
+    }
+
+    #skill3{
+        position:absolute;
+        left: 210vw;
     }
 }
