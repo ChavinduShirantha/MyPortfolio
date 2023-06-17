@@ -125,3 +125,11 @@ startSlideshow1();
 document.getElementById('slideshow1').addEventListener('mouseover', stopSlideshow1);
 
 document.getElementById('slideshow1').addEventListener('mouseout', startSlideshow1);
+
+
+let loader = document.getElementById("loader");
+window.addEventListener("load", function () {
+    console.log("This message will print just after fully loading the website")
+
+    loader.style.display = 'none';
+});

@@ -44,6 +44,30 @@ header > h1 {
     animation-timing-function: linear;
 }
 
+#loader {
+    transition: opacity 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f9f5f1;
+}
+
+#loader > div {
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: url("assets/img/loading.gif");
+    background-size: cover;
+    background-position: center;
+}
+
 @keyframes headerName {
     from {
         transform: rotateY(0) rotateX(0) rotateZ(0);
