@@ -1357,7 +1357,7 @@ main > section:nth-child(10) > div > div:nth-child(4) {
 }
 
 main > section:nth-child(10) > div > div:nth-child(5) {
-    background: url("/assets/img/gallery4.jpg");
+    background: url("/assets/img/gallery5.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 2/3;
@@ -1365,7 +1365,7 @@ main > section:nth-child(10) > div > div:nth-child(5) {
 }
 
 main > section:nth-child(10) > div > div:nth-child(6) {
-    background: url("/assets/img/gallery5.jpg");
+    background: url("/assets/img/gallery4.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 2/4;

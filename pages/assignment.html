@@ -174,6 +174,28 @@
                 width: 290px !important;
             }
         }
+
+        #loader {
+            transition: opacity 1s;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: #f9f5f1;
+            z-index: 6;
+        }
+
+        #loader > div {
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
     </style>
 
 </head>
@@ -296,5 +318,18 @@
 
     </div>
 </section>
+<div id="loader">
+    <div><img src="../assets/img/loading.gif" alt="" srcset=""></div>
+</div>
+
+<script>
+    let loader = document.getElementById("loader");
+    window.addEventListener("load", function () {
+        console.log("This message will print just after fully loading the website")
+
+        loader.style.display = 'none';
+    });
+</script>
+
 </body>
 </html>
