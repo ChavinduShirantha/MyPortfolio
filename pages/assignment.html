@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1">
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assignments/css/caseTwo/assets/fontAwesome/css/all.css">
     <style>
         ::-webkit-scrollbar {
             background-color: rgba(49, 45, 45, 0.91);
@@ -52,10 +53,12 @@
 
         section > div:nth-child(3) {
             top: 10em;
-            left: 16em;
+            left: 0 !important;
+            right: 0 !important;
+            margin: auto;
             position: relative;
             height: 40em;
-            width: 60em;
+            width: 1400px;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -86,27 +89,64 @@
 
         section > div:nth-child(5) {
             top: 15em;
-            left: 16em;
+            left: 0 !important;
+            right: 0 !important;
+            margin: auto;
             position: relative;
             height: 20em;
-            width: 60em;
+            width: 1400px;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(2, 1fr);
             grid-column-gap: 2em;
             grid-row-gap: 1em;
         }
+        @media all and (max-width: 1440px) {
+            section > p:nth-child(4) {
+                top: 28em !important;
+            }
+            section > div:nth-child(3) {
+                top: 8%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 1400px !important;
+                height: 800px;
+            }
+            section > div:nth-child(5) {
+                top: 18%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 1400px !important;
+                height: 420px;
+            }
+        }
 
         @media all and (max-width: 1024px) {
             section > div:nth-child(3) {
-                width: 45em;
+                top: 8%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 1000px !important;
+                height: 650px;
             }
             section > div:nth-child(5) {
-                width: 45em;
+                top: 14%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 1000px !important;
+                height: 300px;
             }
+
             section > div > a > div > img {
                 width: 10em;
                 margin-bottom: 2em;
+            }
+            section > p:nth-child(4) {
+                top: 26em !important;
             }
 
             section > div {
@@ -114,26 +154,60 @@
             }
         }
 
-        @media all and (max-width: 768px) {
-            section > div:nth-child(3) {
-                height: 20em;
+        @media all and (max-width: 980px) {
+            section > p:nth-child(4) {
+                top: 28em !important;
             }
+            section > div:nth-child(3) {
+                top: 8%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 950px !important;
+                height: 650px;
+            }
+            section > div:nth-child(5) {
+                top: 18%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 950px !important;
+                height: 300px;
+            }
+        }
+
+        @media all and (max-width: 768px) {
             section > div:nth-child(5) {
                 top: 18em;
                 height: 10em;
             }
             section > p:nth-child(4) {
-                top: 17em;
+                top: 28em !important;
             }
-            section > div {
-                top: 20%;
+            section > div:nth-child(3) {
+                top: 8%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
-                width: 500px !important;
-                height: 500px;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(2, 1fr);
+                width: 700px !important;
+                height: 700px;
+                grid-template-columns: repeat(3, 1fr)!important;
+                grid-template-rows: repeat(4, 1fr)!important;
+                grid-column-gap: 20px;
+                grid-row-gap: 0;
+                justify-items: center;
+                align-items: center;
+            }
+
+            section > div:nth-child(5) {
+                top: 15%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 700px !important;
+                height: 300px;
+                grid-template-columns: repeat(3, 1fr)!important;
+                grid-template-rows: repeat(2, 1fr)!important;
                 grid-column-gap: 20px;
                 grid-row-gap: 0;
                 justify-items: center;
@@ -147,12 +221,25 @@
         }
 
         @media all and (max-width: 426px) {
-            section > div {
-                top: 20%;
+            section > div:nth-child(3) {
+                top: 8%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
-                width: 360px !important;
+                width: 400px !important;
+                height: 400px;
+            }
+            section > div:nth-child(5) {
+                top: 12%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 400px !important;
+                height: 250px;
+            }
+
+            section > p:nth-child(4) {
+                top: 18em !important;
             }
 
             section > div > a > div > img {
@@ -161,17 +248,45 @@
 
         }
 
+        @media all and (max-width: 376px) {
+            section > div:nth-child(3) {
+                top: 8%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 360px !important;
+                height: 400px;
+            }
+            section > div:nth-child(5) {
+                top: 12%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 360px !important;
+                height: 200px;
+            }
+        }
+
         @media all and (max-width: 320px) {
             section > div > a > div > img {
                 width: 3em;
             }
 
-            section > div {
-                top: 20%;
+            section > div:nth-child(3) {
+                top: 8%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
-                width: 290px !important;
+                width: 315px !important;
+                height: 400px;
+            }
+            section > div:nth-child(5) {
+                top: 12%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: auto;
+                width: 315px !important;
+                height: 200px;
             }
         }
 
