@@ -17,7 +17,7 @@ $("#addToCart").click(function () {
     let qty = $("#orderedQty").val();
     let tot = price * qty;
 
-    let newOrder = Object.assign({}, );
+    let newOrder = Object.assign({},);
     newOrder.code = code;
     newOrder.description = productName;
     newOrder.unitPrice = price;
@@ -30,7 +30,8 @@ $("#addToCart").click(function () {
     getAllOrders();
     calcTotal(tot);
     countingDownQty(qty)
-
+    calcSubTotal();
+    updateItem();
 
 });
 
@@ -66,6 +67,43 @@ let totalOrder = 0;
 function calcTotal(number) {
     totalOrder += number;
     $("#total").val(totalOrder);
+}
+
+$("#discount").keyup(function () {
+    calcSubTotal();
+});
+
+function calcSubTotal() {
+
+    let discount = $("#discount").val();
+
+    let tot = totalOrder;
+
+    if (discount === '0') {
+        let val = $("#total").val();
+        $("#subtotal").val(val);
+    } else {
+        let dis = parseInt(discount);
+        let value = tot * dis / 100;
+        let subTot = tot - value;
+        $("#subtotal").val(subTot);
+    }
+}
+
+$("#cash").keyup(function () {
+    calcBalance();
+});
+
+function calcBalance() {
+    let cash = $("#cash").val();
+    let subTot = $("#subtotal").val();
+
+    let val1 = parseInt(cash);
+    let val2 = parseInt(subTot);
+
+    let balance = val1 - val2;
+
+    $("#balance").val(balance);
 }
 
 function countingDownQty(orderQty) {
@@ -137,9 +175,11 @@ $("#placeOrder").click(function () {
     loadAllOrders();
     loadAllOrderDetails();
     clearAllOrderTextFieldsDetails();
-
+    cartDB = [];
     $("#tblPlaceOrder").empty();
     $("#orderId").val(generateOrderID());
+
+    alert("Order Placed Successfully !");
 });
 
 function loadAllOrders() {
@@ -163,6 +203,29 @@ function loadAllOrders() {
 
     }
 }
+
+function updateItem() {
+    let code = $("#itemCodes").val();
+
+
+    let item = searchItem(code);
+
+    let itemName = $("#item_Name").val();
+    let itemPrice = $("#unitPrice").val();
+    let itemQty = $("#qtyOnHand").val();
+
+    item.iName = itemName;
+    item.iPrice = itemPrice;
+    item.iQty = itemQty;
+
+    item.description = itemName;
+    item.qtyOnHand = itemQty;
+    item.unitPrice = itemPrice;
+
+    getAllItems();
+
+}
+
 
 function loadAllOrderDetails() {
     $("#tblOrderDetails").empty();
