@@ -42,6 +42,10 @@
                         <a class="nav-link" href="#"><i class="fa-solid fa-cart-plus"></i>
                             Place Orders</a>
                     </li>
+                    <li class="nav-item" id="OrderBtn">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-cart-plus"></i>
+                            Order Details</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav me-6 mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -131,8 +135,10 @@
                             <th scope="col">Customer Salary</th>
                         </tr>
                         </thead>
-                        <tbody id="tblCustomer" class="text-center" data-bs-toggle="modal" data-bs-target="#updateCustomer">
-                        </tbody></button>
+                        <tbody id="tblCustomer" class="text-center" data-bs-toggle="modal"
+                               data-bs-target="#updateCustomer">
+                        </tbody>
+                        </button>
                     </table>
                 </div>
             </div>
@@ -270,7 +276,8 @@
                             <th scope="col">Item Qyt</th>
                         </tr>
                         </thead>
-                        <tbody id="tblItem" class="text-center" data-bs-toggle="modal" data-bs-target="#updateItem"></tbody>
+                        <tbody id="tblItem" class="text-center" data-bs-toggle="modal"
+                               data-bs-target="#updateItem"></tbody>
                     </table>
                 </div>
             </div>
@@ -415,7 +422,7 @@
                         </select>
                     </div>
                     <div class="col-12 col-md-8 col-lg-6">
-                        <label class="fw-bold" for="itemName">Item Name :</label>
+                        <label class="fw-bold" for="item_Name">Item Name :</label>
                         <input class="form-control border-dark" id="item_Name" type="text">
                     </div>
                 </div>
@@ -441,9 +448,13 @@
                 <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Payment
                     Details</h4>
                 <div class="row mt-1">
-                    <div class="col-12 col-md-8 col-lg-6">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <label class="fw-bold" for="total">Total :</label>
                         <input class="form-control border-dark" id="total" type="number">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <label class="fw-bold" for="subtotal">Sub Total :</label>
+                        <input class="form-control border-dark" id="subtotal" type="number">
                     </div>
                     <div class="col-12 col-md-8 col-lg-6">
                         <label class="fw-bold" for="discount">Discount :</label>
@@ -464,7 +475,8 @@
                     <div class="d-grid gap-4 d-md-flex mt-lg-3 justify-content-md-center">
                         <button class="btn btn-outline-warning rounded-2" type="submit" id="addToCart">Add To Cart
                         </button>
-                        <button class="btn btn-outline-success rounded-2" type="submit">Place Order</button>
+                        <button class="btn btn-outline-success rounded-2" type="submit" id="placeOrder">Place Order
+                        </button>
                     </div>
                 </div>
             </div>
@@ -493,6 +505,49 @@
 
 </main>
 
+<main class="container-fluid" id="orderDetailsSection">
+    <div class="row justify-content-evenly h-50">
+        <div class="col-12 col-md-10 col-lg-10 p-3 mt-3 rounded-5" style="background-color: white">
+            <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Orders</h4>
+            <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                <table class="table table-bordered border-info table-primary">
+                    <thead class="table-info text-primary text-center ">
+                    <tr>
+                        <th scope="col">Order ID</th>
+                        <th scope="col">Customer ID</th>
+                        <th scope="col">Order Date</th>
+                        <th scope="col">Sub Total</th>
+                        <th scope="col">Discount</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tblOrders" class="text-center"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-10 col-lg-10 p-3 mt-3 rounded-5" style="background-color: white">
+            <h4 class="text-center p-2 text-light rounded-3" style="background: rgba(38,131,255,0.8)">Order
+                Details</h4>
+            <div class="customerTableDiv overflow-auto" style="height: 200px;">
+                <table class="table table-bordered border-info table-primary">
+                    <thead class="table-info text-primary text-center ">
+                    <tr>
+                        <th scope="col">Order ID</th>
+                        <th scope="col">Customer ID</th>
+                        <th scope="col">Item Code</th>
+                        <th scope="col">Qty</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tblOrderDetails" class="text-center"></tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+</main>
+
 <script src="assets/js/jquery-3.7.0.min.js"></script>
 
 <script src="assets/js/bootstrap.js"></script>
@@ -504,6 +559,9 @@
 <script src="controller/validations/ItemValidations.js"></script>
 <script src="model/Customer.js"></script>
 <script src="model/Item.js"></script>
+<script src="model/Order.js"></script>
+<script src="model/OrderDetails.js"></script>
+<script src="model/CartDetails.js"></script>
 <script src="db/DB.js"></script>
 
 

@@ -1,3 +1,4 @@
+$("#saveItem").attr('disabled', true);
 $("#saveItem").click(function () {
     let code = $("#item-ID").val();
     if (searchItem(code.trim()) == undefined) {

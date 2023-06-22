@@ -1,3 +1,5 @@
+$("#saveCustomer").attr('disabled', true);
+
 $("#saveCustomer").click(function () {
     let id = $("#customer-id").val();
     if (searchCustomer(id.trim()) == undefined) {
