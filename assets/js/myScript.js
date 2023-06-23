@@ -133,3 +133,9 @@ window.addEventListener("load", function () {
 
     loader.style.display = 'none';
 });
+
+$(document).ready(function() {
+    $('#hamburger').click(function() {
+        $('#navPanel').slideToggle();
+    });
+});

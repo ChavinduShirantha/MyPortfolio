@@ -30,6 +30,35 @@ header > div {
     display: none;
 }
 
+#navPanel{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    color: black;
+    background: white;
+    width: 200px;
+    height: 200px;
+}
+
+#navPanel>menu{
+    list-style: none;
+}
+
+#navPanel>menu>li>a{
+    padding: 2px;
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: left;
+    color: #2626a4;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    border-bottom: 1px solid #0c336c;
+}
+
 header > h1 {
     position: absolute;
     z-index: 1;
