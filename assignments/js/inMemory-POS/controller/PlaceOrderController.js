@@ -17,7 +17,7 @@ $("#addToCart").click(function () {
     let qty = $("#orderedQty").val();
     let tot = price * qty;
 
-    let newOrder = Object.assign({},);
+    let newOrder = Object.assign({}, cartDetails);
     newOrder.code = code;
     newOrder.description = productName;
     newOrder.unitPrice = price;
@@ -26,12 +26,12 @@ $("#addToCart").click(function () {
 
     cartDB.push(newOrder);
 
-
     getAllOrders();
     calcTotal(tot);
     countingDownQty(qty)
     calcSubTotal();
     updateItem();
+
 
 });
 

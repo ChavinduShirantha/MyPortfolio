@@ -14,6 +14,8 @@ $("#saveItem").click(function () {
 
         itemDB.push(newItem);
 
+        alert("Item saved successfully.!");
+
         clearSaveItemFormFields();
         getAllItems();
 

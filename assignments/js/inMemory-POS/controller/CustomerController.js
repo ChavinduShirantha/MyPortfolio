@@ -15,6 +15,8 @@ $("#saveCustomer").click(function () {
 
         customerDB.push(newCustomer);
 
+        alert("Customer saved successfully.!");
+
         clearSaveFormFields();
         getAllCustomers();
 
