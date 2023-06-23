@@ -39,7 +39,7 @@ header > div {
     z-index: 2;
     color: black;
     background: white;
-    width: 200px;
+    width: 150px;
     height: 200px;
 }
 
@@ -48,15 +48,16 @@ header > div {
 }
 
 #navPanel>menu>li>a{
-    padding: 2px;
-    font-size: 24px;
+    /*padding: 10px;*/
+    font-size: 16px;
     font-weight: bolder;
     text-decoration: none;
     text-align: left;
     color: #2626a4;
     transition: all 0.3s ease-in-out;
+    line-height: 32px;
     position: relative;
-    border-bottom: 1px solid #0c336c;
+    /*border-bottom: 1px solid #0c336c;*/
 }
 
 header > h1 {
@@ -958,8 +959,7 @@ main > section:nth-child(6) > h3 {
 
 #certificate3{
     position:absolute;
-    left: 225vw;
-    margin-right: 0;
+    left: 222vw;
 }
 
 
@@ -1879,17 +1879,17 @@ main > div > a > img {
 
     #certificate1{
         position:absolute;
-        left: 25vw;
+        left: 24vw;
     }
 
     #certificate2{
         position:absolute;
-        left: 125vw;
+        left: 124vw;
     }
 
     #certificate3{
         position:absolute;
-        left: 225vw;
+        left: 222vw;
     }
 }
 
@@ -2317,17 +2317,17 @@ main > div > a > img {
 
     #certificate1{
         position:absolute;
-        left: 18vw;
+        left: 19vw;
     }
 
     #certificate2{
         position:absolute;
-        left: 118vw;
+        left: 119vw;
     }
 
     #certificate3{
         position:absolute;
-        left: 218vw;
+        left: 216vw;
     }
 
     #slideshow1 {
@@ -2407,17 +2407,17 @@ main > div > a > img {
 
     #certificate1{
         position:absolute;
-        left: 18vw;
+        left: 17vw;
     }
 
     #certificate2{
         position:absolute;
-        left: 122vw;
+        left: 117vw;
     }
 
     #certificate3{
         position:absolute;
-        left: 224vw;
+        left: 215vw;
     }
 
     #slideshow1 {
@@ -3166,17 +3166,17 @@ main > div > a > img {
 
     #certificate1{
         position:absolute;
-        left: 18vw;
+        left: 15vw;
     }
 
     #certificate2{
         position:absolute;
-        left: 150vw;
+        left: 115vw;
     }
 
     #certificate3{
         position:absolute;
-        left: 280vw;
+        left: 215vw;
     }
 
     #slideshow1 {
@@ -3199,6 +3199,7 @@ main > div > a > img {
         position:absolute;
         left: 210vw;
     }
+
     .layer {
         width: 100%;
         height: 0;
@@ -3703,17 +3704,17 @@ main > div > a > img {
 
     #certificate1{
         position:absolute;
-        left: 16vw;
+        left: 12vw;
     }
 
     #certificate2{
         position:absolute;
-        left: 370vw;
+        left: 112vw;
     }
 
     #certificate3{
         position:absolute;
-        left: 725vw;
+        left: 212vw;
     }
 
     #slideshow1 {
@@ -3859,26 +3860,26 @@ main > div > a > img {
     }
 
     #slideshow {
-        height: 15em;
+        height: 12em;
     }
 
     .certificates{
-        height: 15em;
+        height: 12em;
     }
 
     #certificate1{
         position:absolute;
-        left: 9vw;
+        left: 16vw;
     }
 
     #certificate2{
         position:absolute;
-        left: 415vw;
+        left: 116vw;
     }
 
     #certificate3{
         position:absolute;
-        left: 815vw;
+        left: 216vw;
     }
 
     #slideshow1 {
@@ -4001,12 +4002,12 @@ main > div > a > img {
 
     #certificate2{
         position:absolute;
-        left: 490vw;
+        left: 118vw;
     }
 
     #certificate3{
         position:absolute;
-        left: 965vw;
+        left: 218vw;
     }
 
     #slideshow1 {
