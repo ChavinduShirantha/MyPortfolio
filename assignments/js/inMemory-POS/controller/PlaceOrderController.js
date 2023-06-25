@@ -1,3 +1,8 @@
+$("#addToCart").attr('disabled', true);
+$("#placeOrder").attr('disabled', true);
+$("#subtotal").attr('disabled', true);
+$("#balance").attr('disabled', true);
+
 function generateOrderID() {
     if (orderDB.length > 0) {
         let lastId = orderDB[orderDB.length - 1].oId;
@@ -17,14 +22,32 @@ $("#addToCart").click(function () {
     let qty = $("#orderedQty").val();
     let tot = price * qty;
 
-    let newOrder = Object.assign({}, cartDetails);
-    newOrder.code = code;
-    newOrder.description = productName;
-    newOrder.unitPrice = price;
-    newOrder.qty = qty;
-    newOrder.total = tot;
+    if (cartDB.length == 0) {
+        let newOrder = Object.assign({}, cartDetails);
+        newOrder.code = code;
+        newOrder.description = productName;
+        newOrder.unitPrice = price;
+        newOrder.qty = qty;
+        newOrder.total = tot;
 
-    cartDB.push(newOrder);
+        cartDB.push(newOrder);
+    }else if (cartDB.length>0) {
+
+        if (cartDB.code = code) {
+            let cart = searchCart(code);
+
+            let itemName = $("#item_Name").val();
+            let itemPrice = $("#unitPrice").val();
+            let fullQty = parseInt(qty) + parseInt(cart.qty);
+            let fullTot = parseInt($("#total").val());
+
+            cart.description = itemName;
+            cart.unitPrice = itemPrice;
+            cart.qty = fullQty;
+            cart.total = fullTot;
+
+        }
+    }
 
     getAllOrders();
     calcTotal(tot);
@@ -32,8 +55,22 @@ $("#addToCart").click(function () {
     calcSubTotal();
     updateItem();
 
-
 });
+
+function searchCart(code) {
+    return cartDB.find(function (cart) {
+        return cart.code == code;
+    });
+}
+
+
+$("#orderedQty").keyup(function () {
+    $("#addToCart").attr('disabled', false);
+});
+$("#cash").keyup(function () {
+    $("#placeOrder").attr('disabled', false);
+});
+
 
 $("#tblPlaceOrder").empty();
 
@@ -249,6 +286,7 @@ function loadAllOrderDetails() {
 
     }
 }
+
 
 function pushOrderDetails() {
     for (let i = 0; i < $("#tblPlaceOrder tr").length; i++) {

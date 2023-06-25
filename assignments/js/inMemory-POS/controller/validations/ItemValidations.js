@@ -1,7 +1,7 @@
 let regItemCode = /^(I00-)[0-9]{3,4}$/;
 let regItemName = /^[A-z ]{3,20}$/;
 let regItemPrice = /^[0-9]{1,10}$/;
-let regItemQtyOnHand = /^[0-9]{1,3}$/;
+let regItemQtyOnHand = /^[0-9]{1,5}$/;
 
 let itemValidations = [];
 let updateItemValidations = [];
