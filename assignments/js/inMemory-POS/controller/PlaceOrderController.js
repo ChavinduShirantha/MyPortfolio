@@ -16,25 +16,26 @@ function generateOrderID() {
 
 
 $("#addToCart").click(function () {
-    let code = $("#itemCodes").val();
+    let codes = $("#itemCodes").val();
     let productName = $("#item_Name").val();
     let price = $("#unitPrice").val();
     let qty = $("#orderedQty").val();
     let tot = price * qty;
 
-    if (cartDB.length == 0) {
-        let newOrder = Object.assign({}, cartDetails);
-        newOrder.code = code;
-        newOrder.description = productName;
-        newOrder.unitPrice = price;
-        newOrder.qty = qty;
-        newOrder.total = tot;
+    let newOrder = Object.assign({}, cartDetails);
+    newOrder.code = codes;
+    newOrder.description = productName;
+    newOrder.unitPrice = price;
+    newOrder.qty = qty;
+    newOrder.total = tot;
 
+    if (cartDB.length == 0) {
         cartDB.push(newOrder);
     }else if (cartDB.length>0) {
 
-        if (cartDB.code = code) {
-            let cart = searchCart(code);
+        let cart = searchCart(codes);
+
+        if (cart.code = codes) {
 
             let itemName = $("#item_Name").val();
             let itemPrice = $("#unitPrice").val();
@@ -46,6 +47,8 @@ $("#addToCart").click(function () {
             cart.qty = fullQty;
             cart.total = fullTot;
 
+        }else{
+            cartDB.push(newOrder);
         }
     }
 
