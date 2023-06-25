@@ -24,7 +24,7 @@
             position: relative;
             background: rgb(163, 200, 255);
             width: 100%;
-            height: 160vh;
+            height: 200vh;
         }
 
         section > h3 {
@@ -101,12 +101,37 @@
             grid-column-gap: 2em;
             grid-row-gap: 1em;
         }
+        #loader {
+            transition: opacity 1s;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: #f9f5f1;
+            z-index: 6;
+        }
+
+        #loader > div {
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        #loader > div>img{
+            width: 500px;
+            height: 500px;
+        }
         @media all and (max-width: 1440px) {
             section > p:nth-child(4) {
-                top: 28em !important;
+                top: 32em !important;
             }
             section > div:nth-child(3) {
-                top: 8%;
+                top: 10%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -114,7 +139,7 @@
                 height: 800px;
             }
             section > div:nth-child(5) {
-                top: 18%;
+                top: 20%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -125,7 +150,7 @@
 
         @media all and (max-width: 1024px) {
             section > div:nth-child(3) {
-                top: 8%;
+                top: 14%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -133,7 +158,7 @@
                 height: 650px;
             }
             section > div:nth-child(5) {
-                top: 14%;
+                top: 22%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -156,10 +181,10 @@
 
         @media all and (max-width: 980px) {
             section > p:nth-child(4) {
-                top: 28em !important;
+                top: 26em !important;
             }
             section > div:nth-child(3) {
-                top: 8%;
+                top: 12%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -167,7 +192,7 @@
                 height: 650px;
             }
             section > div:nth-child(5) {
-                top: 18%;
+                top: 21%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -185,7 +210,7 @@
                 top: 28em !important;
             }
             section > div:nth-child(3) {
-                top: 8%;
+                top: 14%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -200,7 +225,7 @@
             }
 
             section > div:nth-child(5) {
-                top: 15%;
+                top: 18%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -222,7 +247,7 @@
 
         @media all and (max-width: 426px) {
             section > div:nth-child(3) {
-                top: 8%;
+                top: 14%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -230,7 +255,7 @@
                 height: 400px;
             }
             section > div:nth-child(5) {
-                top: 12%;
+                top: 21%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -246,11 +271,36 @@
                 width: 4em;
             }
 
+            #loader {
+                transition: opacity 1s;
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background: #f9f5f1;
+                z-index: 6;
+            }
+
+            #loader > div {
+                width: 400px;
+                height: 400px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+            }
+            #loader > div>img{
+                width: 400px;
+                height: 400px;
+            }
         }
 
         @media all and (max-width: 376px) {
             section > div:nth-child(3) {
-                top: 8%;
+                top: 14%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -258,12 +308,37 @@
                 height: 400px;
             }
             section > div:nth-child(5) {
-                top: 12%;
+                top: 21%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
                 width: 360px !important;
                 height: 200px;
+            }
+            #loader {
+                transition: opacity 1s;
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background: #f9f5f1;
+                z-index: 6;
+            }
+
+            #loader > div {
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+            }
+            #loader > div>img{
+                width: 300px;
+                height: 300px;
             }
         }
 
@@ -273,7 +348,7 @@
             }
 
             section > div:nth-child(3) {
-                top: 8%;
+                top: 14%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
@@ -281,36 +356,40 @@
                 height: 400px;
             }
             section > div:nth-child(5) {
-                top: 12%;
+                top: 21%;
                 left: 0 !important;
                 right: 0 !important;
                 margin: auto;
                 width: 315px !important;
                 height: 200px;
             }
+            #loader {
+                transition: opacity 1s;
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background: #f9f5f1;
+                z-index: 6;
+            }
+
+            #loader > div {
+                width: 250px;
+                height: 250px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+            }
+            #loader > div>img{
+                width: 250px;
+                height: 250px;
+            }
         }
 
-        #loader {
-            transition: opacity 1s;
-            position: fixed;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            background: #f9f5f1;
-            z-index: 6;
-        }
-
-        #loader > div {
-            width: 500px;
-            height: 500px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            margin: auto;
-        }
     </style>
 
 </head>
