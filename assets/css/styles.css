@@ -1362,20 +1362,20 @@ main > section:nth-child(10) > div > div:hover {
 }
 
 main > section:nth-child(10) > div > div:nth-child(1) {
-    background: url("/assets/img/gallery1.jpg");
+    background: url("/assets/img/gallery/gallery1.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 1/3;
 }
 
 main > section:nth-child(10) > div > div:nth-child(2) {
-    background: url("/assets/img/gallery6.jpg");
+    background: url("/assets/img/gallery/gallery6.jpg");
     background-size: cover;
     background-position: center;
 }
 
 main > section:nth-child(10) > div > div:nth-child(3) {
-    background: url("/assets/img/gallery3.jpg");
+    background: url("/assets/img/gallery/gallery3.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 3/4;
@@ -1383,7 +1383,7 @@ main > section:nth-child(10) > div > div:nth-child(3) {
 }
 
 main > section:nth-child(10) > div > div:nth-child(4) {
-    background: url("/assets/img/gallery7.jpg");
+    background: url("/assets/img/gallery/gallery7.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 3/4;
@@ -1391,7 +1391,7 @@ main > section:nth-child(10) > div > div:nth-child(4) {
 }
 
 main > section:nth-child(10) > div > div:nth-child(5) {
-    background: url("/assets/img/gallery5.jpg");
+    background: url("/assets/img/gallery/gallery5.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 2/3;
@@ -1399,7 +1399,7 @@ main > section:nth-child(10) > div > div:nth-child(5) {
 }
 
 main > section:nth-child(10) > div > div:nth-child(6) {
-    background: url("/assets/img/gallery4.jpg");
+    background: url("/assets/img/gallery/gallery4.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 2/4;
@@ -1408,7 +1408,7 @@ main > section:nth-child(10) > div > div:nth-child(6) {
 }
 
 main > section:nth-child(10) > div > div:nth-child(7) {
-    background: url("/assets/img/gallery8.jpg");
+    background: url("/assets/img/gallery/gallery8.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 1/2;
@@ -1416,7 +1416,7 @@ main > section:nth-child(10) > div > div:nth-child(7) {
 }
 
 main > section:nth-child(10) > div > div:nth-child(8) {
-    background: url("/assets/img/gallery9.jpg");
+    background: url("/assets/img/gallery/gallery9.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 3/4;
