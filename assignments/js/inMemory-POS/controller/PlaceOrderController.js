@@ -29,9 +29,9 @@ $("#addToCart").click(function () {
     newOrder.qty = qty;
     newOrder.total = tot;
 
-    if (cartDB.length == 0) {
+    // if (cartDB.length == 0) {
         cartDB.push(newOrder);
-    }else if (cartDB.length>0) {
+    /*}else if (cartDB.length>0) {
 
         let cart = searchCart(codes);
 
@@ -50,7 +50,7 @@ $("#addToCart").click(function () {
         }else{
             cartDB.push(newOrder);
         }
-    }
+    }*/
 
     getAllOrders();
     calcTotal(tot);
