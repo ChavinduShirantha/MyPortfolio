@@ -56,6 +56,7 @@ https://github.com/ChavinduShirantha/MyPortfolio
 
 <div align="center">
 
+![repo license](https://img.shields.io/github/license/ChavinduShirantha/MyPortfolio?&labelColor=black&color=3867d6&style=for-the-badge)
 ![repo size](https://img.shields.io/github/repo-size/ChavinduShirantha/MyPortfolio?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b)
 ![GitHub forks](https://img.shields.io/github/forks/ChavinduShirantha/MyPortfolio?&labelColor=black&color=0fb9b1&style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/ChavinduShirantha/MyPortfolio?&labelColor=black&color=f7b731&style=for-the-badge)
